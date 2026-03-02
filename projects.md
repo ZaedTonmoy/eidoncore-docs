@@ -1,0 +1,160 @@
+# Projects
+
+Projects are the central way to organize work for your clients. Each project can contain tasks, milestones, documents, files, and time entries.
+
+---
+
+## Creating a Project
+
+To create a project, navigate to **Projects** in the sidebar and click **"New Project"**.
+
+### Project Details
+
+| Field | Description |
+|-------|-------------|
+| **Name** | A descriptive project name (a URL-friendly slug is auto-generated) |
+| **Description** | Rich text description of the project scope |
+| **Client** | The client organization this project belongs to |
+| **Status** | Current phase (defaults to Not Started) |
+| **Priority** | Low, Medium, High, or Urgent |
+| **Start Date / Due Date** | Planned timeline |
+| **Service** | Optionally link to a service from your catalog |
+| **Internal Notes** | Agency-only notes (not visible to client users) |
+
+### Project Statuses
+
+Projects follow a standard lifecycle:
+
+```
+Not Started → In Progress → In Review → Completed
+                  ↓                         ↑
+               On Hold ─────────────────────┘
+                  ↓
+              Cancelled
+```
+
+---
+
+## Project Budget
+
+Each project can have a budget to track spending:
+
+| Budget Type | How It Works |
+|------------|-------------|
+| **Fixed** | A set total budget amount |
+| **Hourly** | Budget based on total hours × rate |
+| **Retainer** | Recurring budget arrangement |
+
+When budget utilization reaches **80% or more**, the agency Owner is automatically notified.
+
+> **See also:** [Reports](./reports.md) for budget tracking across all projects
+
+---
+
+## Project Health
+
+Project health is calculated automatically based on task progress, overdue items, and deadline proximity:
+
+| Health | Meaning |
+|--------|---------|
+| 🟢 **On Track** | Tasks are on pace, no red flags |
+| 🟡 **At Risk** | More than 20% overdue tasks, or deadline approaching with low completion |
+| 🔴 **Off Track** | More than 40% overdue tasks, or project is past deadline |
+
+Health status appears on the project list page and the executive dashboard.
+
+---
+
+## Project Team Members
+
+Add team members to a project under the **Members** tab. Each member has a specific role:
+
+| Role | What They Can Do |
+|------|-----------------|
+| **Lead** | Full project management — edit project details, manage members, all task operations |
+| **Member** | Work on tasks, log time, upload files, add comments |
+| **Viewer** | Read-only access to project data |
+
+Each user can have only one role per project. When members are added or removed, they receive a notification.
+
+---
+
+## Milestones
+
+Milestones mark key deliverables or checkpoints within a project. You can:
+
+- Create milestones with names and target dates
+- Assign tasks to specific milestones
+- Track milestone completion
+
+When a milestone is completed, all project members are notified.
+
+> **See also:** [Notifications](./notifications.md) for milestone and project notifications
+
+---
+
+## Project Documents
+
+Create rich text documents directly within a project (e.g., briefs, meeting notes, specifications).
+
+- Documents can be **pinned** to appear at the top of the list
+- Requires the **Manage Docs** permission
+
+---
+
+## Project Files
+
+Upload files to a project for easy sharing with the team. Files can also be attached to specific tasks.
+
+- Drag and drop upload supported
+- Files are stored securely and scoped to the project
+- **Pinned files** appear on the project overview
+- Project members are notified when files are uploaded
+
+> **See also:** [File Management](./files.md) for the agency-wide file browser and storage limits
+
+---
+
+## Time Tracking
+
+Log time directly on a project or on individual tasks within it.
+
+| Feature | Description |
+|---------|-------------|
+| **Duration** | Time in minutes |
+| **Time range** | Optional start/end timestamps |
+| **Description** | What you worked on |
+| **Billable flag** | Mark time entries as billable or non-billable |
+| **Task link** | Optionally link to a specific task |
+| **Client service link** | Link to a client's service assignment for balance tracking |
+
+When time is logged on a task by someone other than the assignee, the assignee is notified.
+
+> **See also:** [Tasks](./tasks.md) for the task-level timer · [Services](./services.md#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports.md) for time tracking reports
+
+---
+
+## Activity Log
+
+Every significant action on a project is recorded in an activity log, including:
+
+- Project creation and updates
+- Member additions and removals
+- Milestone changes
+- File uploads
+- Task changes
+
+This provides a full history of what happened and who did it.
+
+---
+
+## Auto-Created Projects
+
+Projects can be automatically created when a client purchases a service through the catalog checkout. These projects:
+
+- Are named after the purchased service
+- Have the agency Owner assigned as project Lead
+- Are linked to the client's service assignment
+- Show a source badge indicating they were created from a service purchase
+
+> **See also:** [Services](./services.md#cart--checkout-flow) for the purchase flow · [Client Portal](./client-portal.md) for what clients see after purchasing
