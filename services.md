@@ -116,6 +116,23 @@ Organize your service catalog with **categories**:
 
 ---
 
+## Share Links
+
+Every service has shareable public catalog links:
+
+- **Service catalog**: Share a link to your full public catalog (`/catalog/services`)
+- **Individual service**: Share a link to any published, public service's detail page (`/catalog/services/{slug}`)
+
+Share links are available on the service list page and each service's detail page via the **Copy Link** button.
+
+---
+
+## Default Assignees
+
+Set **default team members** on a service who will be automatically assigned as project members when the service is assigned or purchased by a client. This ensures the right people are on every project from day one.
+
+---
+
 ## Assigning Services to Clients
 
 Assign a published service directly to a client organization:
@@ -169,6 +186,17 @@ For services with included hours (Hourly Block):
 - When all hours are depleted, the agency owner and client contacts are notified
 - If a recurring subscription's auto-renewal payment fails, the service status changes to **Past Due** — the agency owner and client contacts are notified to update payment details
 
+### Service Assignment Statuses
+
+| Status | Meaning |
+|--------|---------|
+| **Pending** | Just purchased, awaiting setup |
+| **Active** | Currently in use |
+| **Paused** | Temporarily suspended |
+| **Past Due** | Auto-renewal payment failed — payment method needs updating |
+| **Cancelled** | Terminated by the client or agency |
+| **Completed** | One-time service delivered |
+
 ### Credits Tracking
 
 For credit-based services (Credit Pack):
@@ -184,9 +212,32 @@ For credit-based services (Credit Pack):
 
 Services can have an optional **intake form** that clients fill out after purchase. This is great for collecting project requirements, preferences, or onboarding information.
 
-- Forms are built with a drag-and-drop form builder
-- Clients see the form on the purchase success page
-- Responses are saved as a pinned project document
+### How It Works
+
+1. **Create a form** — Go to the **Intake Forms** page (in the sidebar under Tools) and build a form with the drag-and-drop form builder
+2. **Add fields** — Supported field types:
+   - **Text** — Short text input
+   - **Textarea** — Multi-line text
+   - **Email** — Email address
+   - **Phone** — Phone number
+   - **URL** — Web link
+   - **Number** — Numeric input
+   - **Select** — Dropdown with custom options
+   - **Checkbox** — Yes/no toggle
+3. **Assign to services** — Link one form to one or more services
+4. **Client fills it out** — After purchasing a service, clients see the intake form on the confirmation page
+5. **Responses saved** — Submissions are automatically saved as a **pinned project document** in the auto-created project
+
+The agency owner is notified when a client submits an intake form.
+
+### Managing Intake Forms
+
+The Intake Forms page is accessible to **Owners**, **Admins**, and **Project Managers**. From there you can:
+
+- View all forms with field counts and submission counts
+- Create, edit, and delete forms
+- See which services each form is assigned to
+- Review past submissions
 
 > **See also:** [Settings](./settings.md) for managing intake form templates
 

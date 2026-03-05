@@ -8,6 +8,7 @@ Welcome to the Eidoncore platform documentation. This guide covers everything yo
 
 ### Getting Started
 - [**Getting Started**](./getting-started.md) — Create your workspace, first login, dashboard overview
+- [**Dashboard**](./dashboard.md) — Executive, team member, and client dashboards with alerts and KPIs
 
 ### Core Features
 - [**Projects**](./projects.md) — Create and manage projects, budgets, milestones, and team members
@@ -26,6 +27,7 @@ Welcome to the Eidoncore platform documentation. This guide covers everything yo
 - [**Settings & Customization**](./settings.md) — Account, agency branding, email, domains, integrations, plans & billing
 - [**Client Portal**](./client-portal.md) — What your clients see, portal roles, catalog purchases
 - [**File Management**](./files.md) — Upload, organize, and manage files across your workspace
+- [**Intake Forms**](./intake-forms.md) — Build custom forms, collect client requirements after purchase
 - [**Security**](./security.md) — Two-factor authentication, session management, encryption, audit logs
 
 ---

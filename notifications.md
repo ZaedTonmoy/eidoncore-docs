@@ -83,14 +83,15 @@ Notifications are grouped into categories that you can manage individually:
 | Category | Example Events |
 |----------|---------------|
 | **Task Assigned** | Task assigned or reassigned to you |
-| **Task Status Changed** | Task completed, subtask done, checklist completed |
+| **Task Status Changed** | Task completed, subtask done, checklist completed, file uploaded |
 | **Comments & Mentions** | New comment, reply, reaction, @mention |
-| **Invoice Created** | Invoice sent, updated, or voided |
-| **Invoice Paid** | Payment recorded |
+| **Invoice Created** | Invoice sent or updated |
+| **Invoice Paid** | Payment recorded (partial or full) |
 | **Invoice Overdue** | Invoice past due |
+| **Invoice Viewed** | Client opened the invoice |
 | **Payment Failed** | Payment processing failure |
 | **Deadline Approaching** | Task or project due soon |
-| **Project Lifecycle** | Project completed, status changed, service assigned |
+| **Project Lifecycle** | Project completed, status changed, delayed |
 | **Milestone Completed** | Project milestone reached |
 | **Project Membership** | Added or removed from a project |
 | **Budget Alert** | Project budget at ≥80% utilization |
@@ -98,13 +99,29 @@ Notifications are grouped into categories that you can manage individually:
 | **Contract Expiring** | Client contract approaching expiry |
 | **Client Health Changed** | Client health score changed significantly |
 | **Team Updates** | Role changed, member removed |
-| **Service Purchased** | Client purchased, cancelled, or reviewed a service |
+| **Service Purchased** | Client purchased, reviewed, or activated a service. Hours/credits depleted |
+| **Service Cancelled** | Client cancelled a subscription |
 | **Recurring Generated** | Recurring invoice auto-generated |
 | **Automation Failed** | Automation rule execution failed |
 | **Time Tracking** | Time logged on your tasks by others |
 | **Project Docs** | Documents created or updated |
+| **Plan Updates** | Subscription plan changes (trial ending, payment issues) |
 
 Not every role sees every category — only relevant categories appear in your settings.
+
+---
+
+## Smart Grouping
+
+To prevent notification overload, similar events are automatically grouped:
+
+| Pattern | Instead of... | You see... |
+|---------|--------------|------------|
+| Same type + same item + same day | 5 separate "time logged" on Task A | "5 time entries logged on Task A today" |
+| Batch events | 3 separate "task due tomorrow" alerts | "3 tasks due tomorrow" |
+| Multiple updates on one project | Member added + File uploaded + Status changed | "Project Alpha updated (3 changes today)" |
+
+Additionally, a **24-hour cooldown** prevents duplicate notifications of the same type for the same item.
 
 ---
 

@@ -14,7 +14,20 @@ Navigate to **Team** in the sidebar and click **"Invite Member"**.
 2. Select a **role** (Owner, Admin, Project Manager, Accountant, or Team Member — or a custom role)
 3. Click **Send Invite**
 
-The invited user receives an email with a link to join your workspace. Until they accept, they appear as a **Pending** member.
+The invited user receives a branded email with a link to set their password and join your workspace. Until they accept, they appear as a **Pending** member.
+
+> If the invited user already has an account with another workspace, they can log in with their existing password.
+
+### Member Details
+
+When inviting or editing a team member, you can optionally set:
+
+| Field | Purpose |
+|-------|---------|
+| **Department** | Categorize by team (e.g., Design, Engineering, Marketing) |
+| **Employment Type** | Full-time, Contractor, or Intern |
+
+These are displayed on member profiles and can be used for filtering on the team page.
 
 ### Invite Management
 
@@ -39,17 +52,17 @@ The invited user receives an email with a link to join your workspace. Until the
 
 | Capability | Owner | Admin | PM | Accountant | Team Member |
 |-----------|:-----:|:-----:|:--:|:----------:|:-----------:|
-| View Dashboard (Executive) | ✅ | ✅ | ✅ | ❌ | ❌ |
+| View Dashboard (Executive) | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Manage Projects | ✅ | ✅ | ✅ | ❌ | ❌ |
 | Manage Tasks | ✅ | ✅ | ✅ | ❌ | Own only |
-| View/Create Invoices | ✅ | ✅ | ✅ | ✅ | ❌ |
+| View/Create Invoices | ✅ | ✅ | ✅ | ✅ | Create only |
 | Manage Billing & Plans | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Manage Team | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Manage Team | ✅ | ✅ | ✅ | ❌ | ❌ |
 | Manage Settings | ✅ | ✅ | Partial | ❌ | ❌ |
 | Manage Branding | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Manage Roles & Permissions | ✅ | ✅ | ❌ | ❌ | ❌ |
-| View Reports | ✅ | ✅ | ✅ | ✅ | Limited |
-| Manage Automations | ✅ | ✅ | ✅ | ❌ | ❌ |
+| View Reports | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Manage Automations | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Manage Services | ✅ | ✅ | ✅ | ❌ | ❌ |
 | View Clients | ✅ | ✅ | ✅ | ✅ | ❌ |
 
@@ -111,12 +124,34 @@ Team members can request their own account deletion:
 
 The workload view gives managers visibility into how tasks are distributed:
 
-- See each team member's task count and status breakdown
-- Identify overloaded or underutilized team members
-- Drag tasks between team members to rebalance workload
+- See each team member's active task count and status breakdown (To Do, In Progress, In Review)
+- Members with **10 or more active tasks** are automatically flagged as overloaded
+- View completion rate percentages per team member
+- Track overdue tasks per member
 - Filter by project, status, and date range
 
-> **See also:** [Tasks](./tasks.md) for task management · [Reports](./reports.md) for team performance analytics
+### Member Profiles
+
+Click on any team member to see their detailed profile:
+
+| Section | What It Shows |
+|---------|--------------|
+| **Identity** | Name, email, avatar, role, department, employment type |
+| **Status** | Active, Invited, or Suspended — with join date and last active |
+| **Work Metrics** | Total tasks assigned, completed, overdue, and completion rate |
+| **Billable Hours** | Total time logged across all projects |
+| **Active Projects** | Projects where the member is currently assigned |
+| **Recent Activity** | Last 20 actions taken by this member |
+
+### Member Status Lifecycle
+
+| Status | Meaning |
+|--------|---------|
+| **Invited** | Invite sent, waiting for the member to log in |
+| **Active** | Member has logged in and is actively working |
+| **Suspended** | Temporarily deactivated — can be re-activated |
+
+> Suspended members cannot log in but their data (tasks, time entries, etc.) is preserved.
 
 ---
 

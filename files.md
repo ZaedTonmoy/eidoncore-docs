@@ -30,9 +30,8 @@ Most common file types are supported:
 
 ### Size Limits
 
-File size limits vary based on the file type:
-- **Images** (used in branding/logos): Up to **5 MB**
-- **General files**: Up to **50 MB**
+- **Maximum file size**: 10 MB per file
+- **Branding images** (logos, favicons): Up to **5 MB**
 
 > Total storage is limited by your plan. See [Settings](./settings.md#plans--billing) for storage limits per plan.
 
@@ -42,26 +41,56 @@ File size limits vary based on the file type:
 
 The **Files** page (accessible from the sidebar) provides an agency-wide file browser.
 
+### Stats Dashboard
+
+At the top of the page, four stat cards show:
+
+| Stat | What It Shows |
+|------|--------------|
+| **Total Files** | Count of all files across the workspace |
+| **Total Size** | Combined storage used |
+| **Images** | Number of image files |
+| **Documents** | Number of PDF, DOC, and spreadsheet files |
+
+### View Modes
+
+Toggle between three view modes at the top right:
+
+| Mode | Best For |
+|------|----------|
+| **List** | Compact view — file name, type, size, date, context |
+| **Detail** | Thumbnail previews with uploader info |
+| **Grid** | Large thumbnail grid for visual browsing |
+
 ### Features
 
 | Feature | Description |
 |---------|-------------|
 | **File list** | All files across projects and tasks |
+| **Context breadcrumb** | Shows where each file lives: `Client › Project › Task` or *Direct upload* |
 | **Owner info** | Who uploaded each file |
-| **File details** | Name, type, size, and upload date |
-| **Preview** | Click to preview images and documents |
-| **Download** | Download individual files |
-| **Delete** | Remove files (with confirmation) |
+| **File details** | Name, type badge, size, and upload date |
+| **Image thumbnails** | Real previews for image files |
+| **Download** | Download individual files via signed URLs |
+| **Delete** | Remove files (with confirmation dialog) |
+| **Bulk delete** | Select multiple files with checkboxes and delete at once |
+| **Select all** | Checkbox to select all visible files |
 
-### Filtering & Sorting
+### Filter Sidebar
 
-- Search by file name
-- Sort by name, size, date uploaded, or file type
-- Filter by project
+The left sidebar provides three filter dimensions:
+
+| Filter | Options |
+|--------|---------|
+| **Source** | All, Project files, Task attachments, Direct uploads |
+| **Type** | All, Images, PDFs, Documents |
+| **Client** | All, or filter by specific client |
+
+Combine filters with the **search bar** to find files by name.
 
 ### Permissions
 
-The Files page is available to agency staff with appropriate permissions. The **Owner** role has full access to manage all files.
+The Files page is **Owner-only** — accessible through the Tools section of the sidebar.
 
 ---
 

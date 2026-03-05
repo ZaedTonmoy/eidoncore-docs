@@ -11,8 +11,8 @@ Tasks can be viewed in multiple ways:
 | View | Best For |
 |------|----------|
 | **Kanban Board** | Visual workflow — drag and drop tasks between status columns |
-| **List View** | Detailed table with sorting and filtering |
-| **Workload View** | See task distribution across your team |
+| **List View** | Detailed table with sorting, filtering, and drag-and-drop between status groups |
+| **Workload View** | See task distribution, capacity levels, and overdue counts per team member |
 
 Switch between views using the view toggle at the top of the tasks page.
 
@@ -43,7 +43,7 @@ Click any task to open the **Task Drawer** — a slide-out panel for editing all
 
 ## Task Statuses
 
-Tasks flow through the following statuses:
+By default, tasks flow through four statuses:
 
 | Status | Meaning |
 |--------|---------|
@@ -52,7 +52,19 @@ Tasks flow through the following statuses:
 | **In Review** | Completed work awaiting review |
 | **Done** | Finished |
 
-Drag tasks between the four columns on the Kanban board, or change the status dropdown in the task drawer.
+Drag tasks between columns on the Kanban board, or change the status dropdown in the task drawer.
+
+### Custom Statuses
+
+Each project can define its own task statuses to match your workflow. Click the **gear icon** on the project's task board to open the Status Manager, where you can:
+
+- **Create** new statuses with a custom name and color
+- **Rename** existing statuses
+- **Reorder** statuses via drag-and-drop (this changes the column order on the Kanban board)
+- **Delete** statuses — you'll be prompted to reassign any tasks using that status
+- **Mark as closed** — closed statuses (like "Done") indicate completed work
+
+New projects are automatically seeded with the four default statuses. Custom statuses are scoped per project — they don't affect other projects.
 
 ---
 
@@ -90,6 +102,8 @@ Break large tasks into smaller **subtasks**. Subtasks are full tasks linked to a
 Add a checklist to any task for a quick to-do list:
 
 - Check off items as they're completed
+- Checklist items support **nesting** — add sub-items under any checklist item for multi-level checklists
+- A **checklist progress bar** shows the completion percentage on every task card
 - When **all items** are checked, the task assignee and creator are notified
 - Great for multi-step processes that don't need full subtasks
 
@@ -105,6 +119,8 @@ Link related tasks with dependencies to define the order of work:
 | **Blocked By** | This task is waiting on another task |
 
 Dependencies help visualize the flow of work and identify bottlenecks.
+
+> **Note:** A task cannot be marked as Done if it has unfinished dependencies. Complete the blocking tasks first.
 
 ---
 

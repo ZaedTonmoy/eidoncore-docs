@@ -18,8 +18,8 @@ Clients access the portal via your workspace URL (`yourslug.eidoncore.com`) or y
 
 | Role | Display Name | What They Can Do |
 |------|-------------|-----------------|
-| **Organization Owner** | Client admin | View projects, tasks, invoices, and services. Can comment on tasks and change task statuses |
-| **Organization Member** | Client viewer | Same views as Organization Owner, but **read-only** — cannot modify tasks or add comments |
+| **Organization Owner** | Client admin | View projects, tasks, invoices, and services. Can comment on tasks, create tasks, and change task statuses. Can view reports |
+| **Organization Member** | Client viewer | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
 ---
 
@@ -46,7 +46,9 @@ Clients see a simplified sidebar:
 | Projects | ✅ | ✅ |
 | Tasks | ✅ | ✅ |
 | Services | ✅ | ✅ |
+| Cart | ✅ | ✅ |
 | Invoices | ✅ | ✅ |
+| My Account | ✅ | ✅ |
 | Reports | ✅ | ❌ |
 | Settings (Account) | ✅ | ✅ |
 
@@ -102,6 +104,18 @@ Clients can access files across all their projects:
 - View files uploaded to their projects
 - Download files
 
+### My Account
+
+Clients have a dedicated **My Account** page (in the Finance section of the sidebar) for managing their account:
+
+| Tab | What It Shows |
+|-----|--------------|
+| **Subscriptions** | Active, paused, and past service subscriptions with status, pricing, billing period, remaining hours/credits, and project links. Cancel subscriptions directly from here |
+| **Payments** | Combined spending summary (total spent, invoice payments, service purchases), service purchase history, and invoice payment history |
+| **Billing Info** | Organization billing details and saved payment methods (card brand, last 4 digits, expiry) |
+
+When cancelling a subscription, clients select a reason and can add additional details. The agency is notified immediately.
+
 ---
 
 ## Service Catalog & Purchases
@@ -129,6 +143,28 @@ At `/catalog/services`, clients see:
    - Intake form (if the service has one)
 
 After purchase, a project is automatically created and immediately visible in the client's project list.
+
+### Saved Payment Methods
+
+During checkout, clients can opt to **save their card** for future purchases. Saved cards are:
+- Displayed at checkout for one-click payments
+- Visible in **My Account → Billing Info** (card brand, last 4 digits, expiry)
+- Used for **automatic recurring billing** on subscription services
+
+Clients can uncheck the "Save card" option during checkout if they prefer a one-time payment.
+
+### Public Catalog (Guest Checkout)
+
+Your service catalog is also accessible to **visitors who don't have an account**:
+
+1. Visitor browses the public catalog at your workspace URL
+2. Clicks **"Purchase This Service"** on a service detail page
+3. Fills in registration details (company name, name, email, password)
+4. Completes payment through Stripe
+5. An account, project, and service assignment are **automatically created after payment**
+6. Visitor can log in immediately to access their new project
+
+Guest checkout creates the full client setup in one step — no pre-registration needed.
 
 > **See also:** [Services](./services.md#cart--checkout-flow) for the full purchase flow from the agency perspective
 
@@ -158,7 +194,11 @@ If clients have active service subscriptions, they can:
 
 ### Billing Information
 
-Clients can manage their payment methods and view their billing history.
+Clients can view their saved payment methods and billing details:
+
+- **Saved cards** — Card brand, last 4 digits, and expiry date
+- **Organization billing fields** — Read-only view of billing email, address, and tax ID
+- Cards are saved automatically when completing a purchase with the "Save card" option enabled
 
 ---
 

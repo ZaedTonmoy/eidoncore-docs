@@ -21,6 +21,17 @@ Navigate to **Clients** in the sidebar and click **"New Client"**.
 | **Account Manager** | Assign an agency team member to manage this account |
 | **Notes** | Internal notes about the client |
 
+### Financial Profile
+
+| Field | Description |
+|-------|-------------|
+| **Billing Email** | Email address for invoices and billing communications |
+| **Tax ID** | Client's tax identification number |
+| **Default Payment Terms** | Net-X days applied to new invoices for this client |
+| **Default Tax Rate** | Tax rate automatically applied to new invoices |
+| **Payment Reliability** | Tracked payment behavior score |
+| **Currency** | Client's preferred currency |
+
 ### Client Status Pipeline
 
 Clients move through a lifecycle pipeline:
@@ -61,8 +72,8 @@ Portal users are assigned one of two roles:
 
 | Role | Capabilities |
 |------|-------------|
-| **Organization Owner** | View projects, tasks, invoices, services. Can comment and update tasks |
-| **Organization Member** | Same views, read-only. Cannot modify tasks or add comments |
+| **Organization Owner** | View projects, tasks, invoices, services. Can comment, create tasks, and update task statuses. Can view reports |
+| **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
 > **See also:** [Client Portal](./client-portal.md) for a detailed guide on what clients see and can do
 
@@ -137,6 +148,20 @@ Client health is automatically calculated based on:
 Health changes from At Risk → Churn Risk trigger **critical notifications** to agency owners.
 
 > **See also:** [Reports](./reports.md) for client analytics · [Notifications](./notifications.md) for health change alerts
+
+---
+
+## Upsell & Expansion Tracking
+
+Track expansion opportunities for each client:
+
+| Field | Description |
+|-------|-------------|
+| **Upsell Probability** | Likelihood of expanding the account |
+| **Estimated Expansion Value** | Projected additional revenue |
+| **Upsell Notes** | Context and strategy notes for expansion |
+
+These fields are visible on the client detail page and help your account managers identify growth opportunities.
 
 ---
 

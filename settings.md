@@ -19,7 +19,7 @@ Accessible to all users under **Settings → Account**.
 
 ### Password & Security
 
-- **Change Password** — Requires your current password. New password must meet strength requirements (minimum 8 characters, including uppercase, number, and special character)
+- **Change Password** — Requires your current password. New password must meet strength requirements (minimum 8 characters, including uppercase, lowercase, and digit)
 - **Two-Factor Authentication (2FA)** — Add an extra layer of security using an authenticator app
   - Scan the QR code with your authenticator app (Google Authenticator, Authy, etc.)
   - Enter the 6-digit code to verify
@@ -242,19 +242,31 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 
 ### Plan Comparison
 
-| Feature | Free | Pro | Enterprise |
+| Feature | Free | Pro ($29/mo) | Enterprise ($79/mo) |
 |---------|:----:|:---:|:----------:|
-| Projects | 5 | 50 | Unlimited |
-| Tasks | 50 | Unlimited | Unlimited |
-| Team Members | 3 | 25 | Unlimited |
-| Clients | 5 | 50 | Unlimited |
-| Invoices | 10 | Unlimited | Unlimited |
-| Services | 3 | 25 | Unlimited |
-| Automations | 3 | 25 | Unlimited |
+| Team Members | 2 | 15 | Unlimited |
+| Client Organizations | 3 | 50 | Unlimited |
+| Active Projects | 5 | 100 | Unlimited |
+| Services | 3 | 30 | Unlimited |
+| Automations | 0 | 20 | Unlimited |
+| Recurring Invoices | 0 | 20 | Unlimited |
+| Intake Forms | 1 | 10 | Unlimited |
+| Custom Roles | 0 | 5 | Unlimited |
 | File Storage | 500 MB | 10 GB | 100 GB |
-| Custom Domain | ❌ | ✅ | ✅ |
+| Invoice Reminders (in-app) | ✅ | ✅ | ✅ |
+| Invoice Reminders (email) | ❌ | ✅ | ✅ |
+| Recurring Invoices | ❌ | ✅ | ✅ |
+| Automations | ❌ | ✅ | ✅ |
+| Branded Emails | ❌ | ✅ | ✅ |
+| Full Branding & Portal Customization | ❌ | ✅ | ✅ |
+| Audit Log | ❌ | ✅ | ✅ |
+| Health Scoring | ❌ | ✅ | ✅ |
+| Custom SMTP | ❌ | ❌ | ✅ |
+| Custom Domains | ❌ | ❌ | ✅ |
 | White Label | ❌ | ❌ | ✅ |
-| Custom Roles | ❌ | ✅ | ✅ |
+| Security Policies | ❌ | ❌ | ✅ |
+
+> Annual billing discounts available: Pro at $23/mo, Enterprise at $63/mo.
 
 ### Managing Your Plan
 
@@ -271,10 +283,11 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 | Status | Meaning |
 |--------|---------|
 | **Active** | Subscription is current and paid |
-| **Past Due** | Payment failed — update your payment method |
-| **Frozen** | Access restricted due to prolonged payment failure |
+| **Trialing** | Free 14-day Pro trial — no credit card required |
+| **Past Due** | Payment failed — update your payment method (you still have access) |
+| **Frozen** | 3+ payment failures — read-only access until payment is resolved |
 
-A global status banner appears when your plan needs attention.
+A global status banner appears (visible to the Owner only) when your plan needs attention.
 
 ---
 

@@ -12,16 +12,43 @@ Get your agency workspace up and running in minutes. This guide walks you throug
 2. Enter your **agency name** and choose a **workspace URL** (e.g., `myagency.eidoncore.com`)
    - URLs must be 3–63 characters, lowercase letters, numbers, and hyphens only
    - Availability is checked in real time as you type
-3. Enter your **name**, **email**, and **password** (minimum 8 characters with at least one uppercase letter, one number, and one special character)
+3. Enter your **name**, **email**, and **password** (minimum 8 characters with at least one uppercase letter, one lowercase letter, and one digit)
 4. Click **Create Account**
 
 Your workspace subdomain is provisioned automatically — no DNS setup required.
 
+### Email Verification
+
+After registering, you'll need to verify your email before logging in:
+
+1. A confirmation email is sent to your registration address
+2. Click the verification link in the email (valid for 24 hours)
+3. You'll be redirected to your workspace login page
+4. Sign in with the email and password you chose during registration
+
+Didn't receive the email? Click **"Resend verification email"** on the confirmation screen.
+
+> **Note:** Accounts that are not verified within 7 days of registration are automatically removed.
+
 ### Onboarding Questionnaire
 
-After registration, you'll be guided through a quick 5-step onboarding questionnaire. This helps tailor your workspace to your agency's needs.
+After registration (before email verification), you'll complete a quick 5-step questionnaire:
 
-Once complete, you'll be redirected to your dashboard at `yourslug.eidoncore.com/dashboard`.
+| Step | Question |
+|------|----------|
+| 1 | How large is your team? |
+| 2 | What type of agency are you? |
+| 3 | Have you used similar tools? |
+| 4 | Which tools? *(only if you answered yes)* |
+| 5 | How did you hear about us? |
+
+All steps include a "Prefer not to say" option. Your answers help us tailor the platform to your needs.
+
+### Free Trial
+
+Every new workspace starts with a **14-day free trial** of the Pro plan. You'll get full access to Pro features — no credit card required. When the trial ends, your workspace downgrades to the Free plan unless you subscribe.
+
+> **See also:** [Settings](./settings.md#plans--billing) for plan details and pricing
 
 ---
 
@@ -39,7 +66,9 @@ If you can't remember your workspace URL, visit the login page and use the **"Fi
 
 ### Forgot Password
 
-Click **"Forgot password?"** on the login page. You'll receive a branded email with a password reset link (valid for 1 hour).
+Click **"Forgot password?"** on the login page. You'll receive a branded email with a password reset link (valid for 1 hour). For security, you can only request 3 resets per 10 minutes.
+
+Password requirements: minimum 8 characters with at least one uppercase letter, one lowercase letter, and one digit.
 
 ---
 
@@ -99,8 +128,8 @@ Eidoncore has two categories of users:
 
 | Role | What They Can Do |
 |------|-----------------|
-| **Organization Owner** | Views their projects, tasks, invoices, and services. Can comment and update tasks |
-| **Organization Member** | Same views, but read-only. Cannot modify tasks or add comments |
+| **Organization Owner** | Views their projects, tasks, invoices, and services. Can comment, create tasks, and update task statuses. Can view reports |
+| **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
 > **See also:** [Team Management](./team.md) for inviting staff · [Clients](./clients.md) for setting up client portal access · [Client Portal](./client-portal.md) for what clients see
 

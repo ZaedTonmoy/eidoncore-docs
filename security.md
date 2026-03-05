@@ -112,8 +112,8 @@ All passwords must meet these minimum requirements:
 
 - At least **8 characters** long
 - At least **1 uppercase letter**
-- At least **1 number**
-- At least **1 special character**
+- At least **1 lowercase letter**
+- At least **1 digit**
 
 These requirements apply to registration, password changes, and password resets.
 
@@ -139,13 +139,18 @@ Access the audit log under **Settings → Agency → Audit Log**. Filter by acti
 
 Your security event history tracks authentication-related actions:
 
-- Password changed
-- Two-factor authentication enabled/disabled
-- Successful re-authentication
-- Recovery codes regenerated
-- Organization security policy changed
+| Event | When It's Logged |
+|-------|------------------|
+| **Login successful** | Each time you log in |
+| **Login failed** | Failed login attempt |
+| **Password changed** | Password updated |
+| **2FA enabled** | Two-factor authentication turned on |
+| **2FA disabled** | Two-factor authentication turned off |
+| **Re-authentication passed** | Sensitive action password re-entry successful |
+| **Recovery codes regenerated** | New backup codes generated |
+| **Security policy changed** | Org-wide security settings updated |
 
-View your security events under **Settings → Account → Security**.
+Each event records the **IP address** and **browser/device** used. View your security events under **Settings → Account → Security**.
 
 ---
 
@@ -165,12 +170,14 @@ The platform includes built-in protection against:
 
 | Threat | Protection |
 |--------|-----------|
-| **Brute Force Attacks** | Rate limiting on login attempts |
-| **Cross-Site Scripting (XSS)** | Content Security Policy (CSP) headers |
-| **Cross-Site Request Forgery (CSRF)** | CSRF token validation |
-| **Session Hijacking** | Secure, HTTP-only cookies with domain scoping |
-| **Man-in-the-Middle** | HSTS headers enforcing HTTPS |
+| **Brute Force Attacks** | Rate limiting: 5 login attempts per minute per email, 3 password resets per 10 minutes |
+| **Cross-Site Scripting (XSS)** | Server-side HTML sanitization + Content Security Policy (CSP) headers |
+| **Cross-Site Request Forgery (CSRF)** | Origin header validation with fail-closed policy |
+| **Session Hijacking** | Secure, HTTP-only cookies with hostname scoping (no cross-subdomain leaking) |
+| **Man-in-the-Middle** | HSTS headers enforcing HTTPS (1-year max-age) |
 | **DNS Spoofing** | DNS-over-HTTPS verification for custom domains |
+| **Clickjacking** | X-Frame-Options: DENY |
+| **Content Injection** | All user-generated HTML sanitized at save-time |
 
 ---
 

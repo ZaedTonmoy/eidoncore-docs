@@ -6,7 +6,7 @@ Monitor your agency's performance with real-time dashboards and detailed reports
 
 ## Executive Dashboard
 
-Available to **Owners**, **Admins**, and **Project Managers**, the executive dashboard is your command center.
+Available to **Owners**, **Admins**, **Project Managers**, **Accountants**, and **Team Members**, the executive dashboard is your command center.
 
 ### Revenue KPIs
 
@@ -78,12 +78,14 @@ A focused view for individual contributors showing:
 
 For client portal users (Organization Owner/Organization Member):
 
-- Project progress bars
-- Task breakdown by status
-- Recent invoices and payment status
-- Assigned services and their statuses
+- Project progress bars and health scores
+- Task breakdown by status (To Do, In Progress, In Review, Done)
+- Recent invoices with status, total, and amount due — plus summary of total billed, paid, and outstanding
+- Active services with pricing details
+- Upcoming milestones and task deadlines in the next 7 days
+- Recent activity scoped to your organization
 
-> **See also:** [Client Portal](./client-portal.md) for the full client experience
+> **See also:** [Client Portal](./client-portal.md) for the full client experience · [Dashboard](./dashboard.md) for detailed dashboard documentation
 
 ---
 
@@ -144,21 +146,53 @@ Navigate to **Reports** in the sidebar to access detailed analytics.
 ### Date Range Filtering
 
 All reports support date range filtering:
-- Preset ranges: This week, This month, This quarter, This year
-- Custom date range picker
+- Preset ranges: **7 days**, **30 days**, **90 days**, **12 months**, **All time** (default: 30 days)
 - Period-over-period comparisons
 
 ---
 
-## Agency vs. Client Report Views
+## Client Reports (Organization Owner)
 
-| Report | Agency Staff See | Client Users See |
-|--------|-----------------|-----------------|
-| Revenue | Full agency revenue across all clients | Not available |
-| Clients | All client analytics | Not available |
-| Projects | All projects | Only their organization's projects |
-| Tasks | All tasks (filtered by permissions) | Only tasks in their projects |
-| Time Tracking | All time entries | Not available |
+Organization Owners see a separate set of 3 report tabs, automatically scoped to their organization:
+
+### Overview Tab
+
+| Element | Type |
+|---------|------|
+| Active Projects | KPI — count of active projects |
+| Task Completion | KPI — completion percentage |
+| Overdue Tasks | KPI — count of overdue tasks |
+| Avg Turnaround | KPI — average days from task creation to completion |
+| Hours Invested | KPI — total hours logged by agency team |
+| Outstanding | KPI — outstanding invoice amount |
+| Total Spent | KPI — combined invoice payments + service purchases |
+| Project Health | Donut chart — On Track, At Risk, Off Track |
+| Task Status | Donut chart — Done, In Progress, To Do, In Review |
+
+### Projects & Tasks Tab
+
+| Element | Type |
+|---------|------|
+| Total / Active / Completed Projects | KPIs |
+| Total Tasks / Completion Rate / In Progress | KPIs |
+| Project Status | Donut chart — Not Started, In Progress, Completed |
+| Task Priority | Donut chart — High, Medium, Low, Urgent |
+| Task Completion Trend | Bar chart — monthly completed tasks |
+| Project Health | Donut chart |
+| Tasks by Agency Member | Table — member, total, done, in progress, overdue, completion % |
+
+### Team Activity Tab
+
+| Element | Type |
+|---------|------|
+| Team Members | KPI — count of agency members on your projects |
+| Total Hours | KPI — hours logged by agency team |
+| Avg Turnaround | KPI — average task completion time |
+| Hours by Team Member | Bar chart |
+| Task Priority Distribution | Donut chart |
+| Agency Team Performance | Table — member, tasks, completed, in progress, overdue, completion % |
+
+> **Note:** Organization Members do not have access to Reports. Only Organization Owners can view the report tabs scoped to their organization.
 
 ---
 
