@@ -106,6 +106,7 @@ Notifications are grouped into categories that you can manage individually:
 | **Time Tracking** | Time logged on your tasks by others |
 | **Project Docs** | Documents created or updated |
 | **Plan Updates** | Subscription plan changes (trial ending, payment issues) |
+| **Chat & Messaging** | @mentions in chat, replies to your messages, reactions to your messages |
 
 Not every role sees every category — only relevant categories appear in your settings.
 
@@ -200,5 +201,11 @@ Some emails are sent outside the notification bell system:
 | **Invitation Email** | When you're invited to join a workspace |
 
 These are direct emails and don't appear in the notification panel.
+
+### Hourly Chat Digest
+
+If you've been away from the platform for more than 10 minutes, an **hourly chat digest** email summarizes any unread messages across your channels. This runs in addition to your regular notification digest settings.
+
+> **See also:** [Messaging](./messaging.md) for full messaging and notification details
 
 > **See also:** [Settings](./settings.md#notification-preferences) for configuring your notification preferences

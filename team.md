@@ -65,6 +65,7 @@ These are displayed on member profiles and can be used for filtering on the team
 | Manage Automations | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Manage Services | ✅ | ✅ | ✅ | ❌ | ❌ |
 | View Clients | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Messaging | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ---
 
@@ -93,6 +94,7 @@ Permissions are organized by feature area:
 | **Settings** | Manage Organization Settings, Manage Branding, Manage Roles, Manage Domains, Manage Plan |
 | **Files** | Upload, Delete, Manage |
 | **Time Tracking** | Log Time, Manage All Entries |
+| **Messaging** | View, Send, Delete Any, Manage Channels, Browse All Channels |
 
 Custom roles cannot be deleted if any team members are currently assigned to them.
 

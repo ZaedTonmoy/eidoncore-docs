@@ -2,6 +2,12 @@
 
 Your dashboard is the first thing you see when you log in. It provides an at-a-glance overview tailored to your role in the agency.
 
+### Onboarding Checklist
+
+The first time you log in, a **personalized setup checklist** appears at the top of your dashboard. It guides you through the most important first steps based on your role — with a progress ring and auto-detection of completed tasks. The checklist collapses once you complete all steps or dismiss it.
+
+> **See also:** [Onboarding](./onboarding.md) for full details on the checklist and role-specific steps
+
 ---
 
 ## Executive Dashboard
@@ -74,6 +80,9 @@ A chart showing your revenue over the last 6 months, making it easy to spot grow
 
 - **Upcoming invoices** — next 10 invoices due
 - **Recent activity** — last 8 actions across the workspace
+- **Messaging unread badge** — the Messages nav item in the sidebar shows a count of channels with unread messages. A branded dot also appears on the browser favicon when you have unread messages
+
+> **See also:** [Messaging](./messaging.md) for real-time chat features
 
 ### Daily Quote
 
@@ -123,4 +132,4 @@ If your agency has configured a **welcome message** in portal branding, it appea
 | Organization Owner | Client | Org-scoped projects, tasks, invoices, services |
 | Organization Member | Client | Same as Org Owner |
 
-> **See also:** [Reports](./reports.md) for in-depth analytics · [Notifications](./notifications.md) for alert notifications · [Getting Started](./getting-started.md) for first login
+> **See also:** [Reports](./reports.md) for in-depth analytics · [Notifications](./notifications.md) for alert notifications · [Getting Started](./getting-started.md) for first login · [Onboarding](./onboarding.md) for the setup checklist

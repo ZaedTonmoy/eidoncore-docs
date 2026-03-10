@@ -52,6 +52,16 @@ Every new workspace starts with a **14-day free trial** of the Pro plan. You'll 
 
 ---
 
+## Onboarding Checklist
+
+After your first login, a **personalized setup checklist** appears at the top of your dashboard. It's tailored to your role and guides you through the most important first steps — like setting up branding, inviting your team, or creating your first project.
+
+Steps are **auto-detected**: when you complete an action (e.g., add a team member), the corresponding step is automatically checked off. You can skip the checklist at any time, or re-show it later from your profile settings.
+
+> **See also:** [Onboarding](./onboarding.md) for the full checklist details by role
+
+---
+
 ## Your First Login
 
 ### Logging In
@@ -144,3 +154,4 @@ Now that you're set up, explore these key features:
 3. **[Create your first project](./projects.md#creating-a-project)** — Start managing work
 4. **[Add a client](./clients.md#adding-a-client)** — Set up your first client organization
 5. **[Set up email](./settings.md#email-smtp-setup)** — Configure email delivery for notifications and invoices
+6. **[Start a conversation](./messaging.md)** — Chat with your team or clients in real time

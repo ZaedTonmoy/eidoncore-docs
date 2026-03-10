@@ -4,6 +4,19 @@ Configure your account, brand your workspace, set up email delivery, connect int
 
 ---
 
+## Settings Search
+
+The settings sidebar includes a **keyword-based search** to help you find any setting quickly:
+
+1. Type in the search bar at the top of the settings sidebar
+2. Results match both page titles and deep content keywords (form labels, toggle names, feature names)
+3. Click a result to navigate directly to that setting — the matching section is **highlighted with a flash animation** so you can spot it immediately
+4. For pages with tabs (e.g., Branding → Email, Invoice, Portal), search results link directly to the correct tab
+
+Search results are scoped to your role — you'll only see settings you have permission to access.
+
+---
+
 ## Account Settings
 
 Accessible to all users under **Settings → Account**.
@@ -253,7 +266,14 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 | Intake Forms | 1 | 10 | Unlimited |
 | Custom Roles | 0 | 5 | Unlimited |
 | File Storage | 500 MB | 10 GB | 100 GB |
+| **Communication** | | | |
+| Chat Channels | 10 | 50 | Unlimited |
+| Members per Channel | 10 | 30 | Unlimited |
+| Message Retention | 30 days | 90 days | Unlimited |
+| Max Attachment Size | 5 MB | 10 MB | 25 MB |
+| **Features** | | | |
 | Invoice Reminders (in-app) | ✅ | ✅ | ✅ |
+| Messaging | ✅ | ✅ | ✅ |
 | Invoice Reminders (email) | ❌ | ✅ | ✅ |
 | Recurring Invoices | ❌ | ✅ | ✅ |
 | Automations | ❌ | ✅ | ✅ |

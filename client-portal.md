@@ -45,6 +45,7 @@ Clients see a simplified sidebar:
 | Dashboard | ✅ | ✅ |
 | Projects | ✅ | ✅ |
 | Tasks | ✅ | ✅ |
+| Messages | ✅ | ✅ |
 | Services | ✅ | ✅ |
 | Cart | ✅ | ✅ |
 | Invoices | ✅ | ✅ |
@@ -69,6 +70,18 @@ Clients can view all projects assigned to their organization:
 - Comments and discussions
 
 Organization Owners can **add comments** on projects — these are always visible to the agency team (never internal-only).
+
+### Messages
+
+Clients can participate in real-time messaging:
+
+- **Organization channel** — A shared channel for all organization members to communicate with the agency
+- **Project channels** — Chat within each project they're a member of
+- **Direct Messages** — Private conversations with agency staff members
+
+Clients can see standard messages but **not internal messages** — agency staff can discuss work privately within shared channels.
+
+> **See also:** [Messaging](./messaging.md) for full messaging features
 
 ### Tasks
 
@@ -211,6 +224,9 @@ Clients receive notifications for events relevant to their organization:
 | Task assigned | ✅ | ✅ |
 | Task status changed | ✅ | ✅ |
 | Comments & mentions | ✅ | ✅ |
+| Chat @mention | ✅ | ✅ |
+| Chat reply | ✅ | ✅ |
+| Chat reaction | ✅ | ✅ |
 | Invoice sent/updated | ✅ | ✅ |
 | Invoice paid | ✅ | ✅ |
 | Invoice overdue | ✅ | ❌ |
