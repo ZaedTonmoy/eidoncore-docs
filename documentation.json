@@ -143,7 +143,13 @@
       },
       {
         "tab": "Changelog",
-        "pages": [],
+        "pages": [
+          {
+            "title": "Changelog",
+            "path": "changelog",
+            "icon": "list"
+          }
+        ],
         "icon": "activity-square"
       }
     ]
