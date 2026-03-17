@@ -1,5 +1,5 @@
 {
-  "name": "Starter Kit",
+  "name": "Eidoncore",
   "colors": {
     "light": {
       "brand": "#F97316"
@@ -31,7 +31,7 @@
               {
                 "title": "Onboarding",
                 "path": "onboarding",
-                "icon": "rocket"
+                "icon": "clipboard"
               },
               {
                 "title": "Dashboard",
@@ -47,12 +47,12 @@
               {
                 "title": "Projects",
                 "path": "projects",
-                "icon": "file-text"
+                "icon": "briefcase"
               },
               {
                 "title": "Tasks",
                 "path": "tasks",
-                "icon": "file-text"
+                "icon": "check-square"
               },
               {
                 "title": "Services",
@@ -67,7 +67,7 @@
               {
                 "title": "Reports",
                 "path": "reports",
-                "icon": "clock"
+                "icon": "bar-chart"
               }
             ]
           },
@@ -93,7 +93,7 @@
               {
                 "title": "Intake Forms",
                 "path": "intake-forms",
-                "icon": "file-text"
+                "icon": "edit"
               }
             ]
           },
@@ -104,12 +104,12 @@
               {
                 "title": "Files",
                 "path": "files",
-                "icon": "file-text"
+                "icon": "folder"
               },
               {
                 "title": "Messaging",
                 "path": "messaging",
-                "icon": "help-circle"
+                "icon": "message-circle"
               },
               {
                 "title": "Notifications",
@@ -125,7 +125,7 @@
               {
                 "title": "Invoicing",
                 "path": "invoicing",
-                "icon": "file-text"
+                "icon": "credit-card"
               },
               {
                 "title": "Settings",
