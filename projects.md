@@ -47,6 +47,18 @@ Each project can have a budget to track spending:
 
 When budget utilization reaches **80% or more**, the agency Owner is automatically notified.
 
+### Generate Invoice from Time Entries
+
+On the **Budget & Time** tab of any project, agency staff with invoicing permissions can manually generate an invoice from unbilled time entries:
+
+1. Click **\"Generate Invoice\"** to open the invoice generation modal
+2. Select a **date range** to filter time entries
+3. Choose a **grouping style** (by task, by team member, or flat list) and set the hourly rate
+4. Review the line items and total
+5. Click **Generate** to create a **draft invoice** and be redirected to the invoice detail page
+
+Only billable, completed time entries that haven't already been invoiced are included. Written-off entries are excluded.
+
 > **See also:** [Reports](./reports.md) for budget tracking across all projects
 
 ---

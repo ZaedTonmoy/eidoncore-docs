@@ -48,6 +48,7 @@ Clients see a simplified sidebar:
 | Messages | ✓ | ✓ |
 | Services | ✓ | ✓ |
 | Cart | ✓ | ✓ |
+| Digital Assets | ✓ | ✓ |
 | Invoices | ✓ | ✓ |
 | My Account | ✓ | ✓ |
 | Reports | ✓ | ✗ |
@@ -116,6 +117,20 @@ Clients can access files across all their projects:
 
 - View files uploaded to their projects
 - Download files
+
+### Digital Assets
+
+If a client has purchased any **digital products**, a **Digital Assets** page appears in their sidebar. This page shows all purchased products in a table with status, pricing, purchase date, and renewal information.
+
+Clicking a product opens a detail panel where clients can:
+
+- **Download** the product file (when fulfilled and a delivery URL is set)
+- **View delivery instructions**
+- **Submit an intake form** (if the product has one assigned)
+- **Cancel a recurring subscription** with a cancellation reason
+- View purchase timeline and cancellation details
+
+> **See also:** [Services](./services.md#digital-products) for the full digital products feature
 
 ### My Account
 

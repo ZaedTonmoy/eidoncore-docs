@@ -1,6 +1,85 @@
 # Services
 
-Build a service catalog for your agency, assign services to clients, and let clients purchase directly through an integrated cart and checkout experience.
+Build a service catalog for your agency, assign services to clients, and let clients purchase directly through an integrated cart and checkout experience. Eidoncore supports two types of offerings: **project-based services** (collaborative workspaces) and **digital products** (downloadable deliverables).
+
+---
+
+## Fulfillment Types
+
+Every offering in your catalog is one of two types:
+
+| Type | Sidebar Location | Delivery | Use Case |
+|------|-----------------|----------|----------|
+| **Services** (Project-Based) | Offerings --> Services | Creates a collaborative project workspace | Retainers, custom work, consulting |
+| **Digital Products** | Offerings --> Products | Downloadable files + delivery instructions | Templates, design assets, guides, toolkits |
+
+Both types are created through the same multi-step **Service Builder** and share pricing models, categories, and catalog features. The fulfillment type is selected at creation and **cannot be changed** after the offering is created.
+
+---
+
+## Digital Products
+
+Digital products are offerings delivered as files or instructions rather than collaborative projects.
+
+### Creating a Digital Product
+
+Navigate to **Products** (under Offerings in the sidebar) and click **"New Digital Product"**. The builder is the same as for services, with an additional **Digital Delivery** section on Step 2:
+
+| Field | Description |
+|-------|-------------|
+| **Delivery File URL** | The download URL for the product file |
+| **Delivery Instructions** | Instructions shown to the buyer after purchase |
+| **Requires Manual Fulfillment** | If enabled, the agency must manually mark the product as delivered |
+
+### Products Listing
+
+The Products page shows all digital products in a grid layout with cover images, pricing, and category labels. Use category filter pills and search to find products quickly.
+
+### Sales Tracker
+
+Track all digital product sales in one place via **Products --> Sales Tracker**:
+
+- **Stats cards** at the top showing Monthly Recurring Revenue, Total Revenue, Active Sales, and Churn
+- **Filter by status** — All, Active, Pending, or Cancelled (with counts)
+- **Search** by product name or client company
+- **Sortable table** with 7 columns (Product, Client, Price, Type, Status, Fulfillment, Date) — click any column header to toggle A-Z / Z-A sorting
+
+Click any row to open the **Sale Detail Panel** (slide-out drawer) where you can:
+
+| Section | What You Can Do |
+|---------|----------------|
+| **Status** | Change to Active, Pending, Cancelled, Paused, or Expired |
+| **Fulfillment** | Mark as Delivered or Pending |
+| **Dates** | Set start date and end date |
+| **Recurring Settings** | Set next renewal date, toggle auto-renew, view billing interval |
+| **Notes** | Add internal notes about this sale |
+| **Intake Form** | View linked intake form name and submission status |
+| **Timeline** | See created, started, and cancelled dates |
+
+### Digital Assets (Client View)
+
+Clients who purchase digital products see a **Digital Assets** page in their sidebar. This page shows all their purchased digital products in a table with:
+
+- Product name with delivery instructions preview
+- Status, billing type, and price
+- Purchase date and next renewal date (for recurring products)
+
+Clicking a row opens a detail panel where clients can:
+
+- **Download** the product file (if fulfilled and a delivery URL exists)
+- **Submit an intake form** (if the product has one assigned)
+- **Cancel a recurring subscription** — with a reason selection (6 predefined options + custom text)
+- View delivery instructions, timeline, and cancellation details
+
+### File Security
+
+Digital product downloads are protected with:
+
+- **Authentication** — Only verified purchasers can download
+- **Rate limiting** — 10 downloads per hour per user
+- **Signed URLs** — Temporary download links that expire after 60 minutes
+- **Fulfillment check** — Files are only served when the product is marked as Delivered
+- **Virus scanning** — All uploaded files are scanned before being made available
 
 ---
 
@@ -63,14 +142,21 @@ For Hourly Block and Credit Pack services:
 
 ### Quota Top-Ups
 
-When a client's included hours or credits run out, they can purchase **top-ups** directly from their account:
+When a client's included hours or credits are running low, additional quota can be added:
 
-- Navigate to **My Account → Subscriptions** and click **"Top Up"** on the relevant subscription
-- Choose from pre-configured top-up packages or enter a custom amount
-- Payment is processed via Stripe
-- The balance is updated immediately
+**Agency-Side (Immediate):**
+- On the project's quota section, click **"+ Add Quota"** to add hours, credits, or tasks directly
+- Top-ups are added to a separate top-up balance that carries over indefinitely (regular renewals only reset the base balance)
+- Not available for Usage-Based services
 
-The agency owner is notified when a client purchases a top-up.
+**Client-Side (Request & Approve Flow):**
+1. On their project page, clients click **"Request Top-Up"** and enter the desired amount
+2. The request appears as **Pending** in the top-up history
+3. The agency owner sees the request and can **Approve** or **Reject** it
+4. If approved, the client sees a **"Pay"** button that redirects to Stripe checkout
+5. After payment, the top-up balance is updated immediately
+
+Both agency and client can view the full **top-up history** on the project, showing each entry's amount, status (Pending, Approved, Paid, Rejected), and date.
 
 ---
 
