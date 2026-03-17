@@ -14,13 +14,40 @@
     }
   },
   "name": "EidonCore Docs",
+  "logo-light": "https://eidoncore.com/images/logo.png",
+  "logo-dark": "https://eidoncore.com/images/logo.png",
+  "logo-small-light": "https://eidoncore.com/images/favicon-32.png",
+  "logo-small-dark": "https://eidoncore.com/images/favicon-32.png",
+  "header": {
+    "showGitHubCard": false
+  },
+  "anchors": [
+    {
+      "title": "Website",
+      "icon": "globe",
+      "link": "https://eidoncore.com"
+    },
+    {
+      "title": "Support",
+      "icon": "mail",
+      "link": "mailto:support@eidoncore.com"
+    }
+  ],
   "colors": {
     "light": {
-      "brand": "#F97316"
+      "brand": "#F97316",
+      "heading": "#1a1a1a",
+      "text": "#374151"
     },
     "dark": {
-      "brand": "#FDBA74"
+      "brand": "#FDBA74",
+      "heading": "#f2f2f2",
+      "text": "#c1c1c1"
     }
+  },
+  "seo": {
+    "robots:index": true,
+    "robots:follow": true
   },
   "navigation": {
     "tabs": [
@@ -71,7 +98,25 @@
               {
                 "title": "Services",
                 "path": "services",
-                "icon": "box"
+                "icon": "box",
+                "pages": [
+                  {
+                    "title": "Overview",
+                    "path": "services/overview"
+                  },
+                  {
+                    "title": "Service Builder",
+                    "path": "services/builder"
+                  },
+                  {
+                    "title": "Pricing & Quotas",
+                    "path": "services/pricing"
+                  },
+                  {
+                    "title": "Client Catalog",
+                    "path": "services/catalog"
+                  }
+                ]
               },
               {
                 "title": "Automations",
