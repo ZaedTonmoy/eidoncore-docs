@@ -157,6 +157,10 @@ Time entry statistics are aggregated per project and per task, showing:
 - Billable vs. non-billable split
 - Remaining hours against estimated effort
 
+### Start Timer from Project
+
+You can start a live timer directly from the project page header using the **Start Timer** button. This works the same as the task-level timer — you can pause, resume, and stop it at any time. When stopped, the elapsed time is saved as a time entry on the project. If a timer is already running on a task within the project, the button shows the active timer instead.
+
 When time is logged on a task by someone other than the assignee, the assignee is notified.
 
 > **See also:** [Tasks](./tasks.md) for the task-level timer · [Services](./services.md#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports.md) for time tracking reports
