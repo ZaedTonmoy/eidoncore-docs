@@ -47,7 +47,7 @@ All notification emails are branded with your agency's logo, colors, signature, 
 - A "View in Dashboard" button linking directly to the item
 - A one-click **unsubscribe** link at the bottom (CAN-SPAM compliant)
 
-> Email notifications require SMTP to be configured. See [Settings](./settings.md#email-smtp-setup).
+> Email notifications require SMTP to be configured. See [Settings](./settings#email-smtp-setup).
 
 ---
 
@@ -180,7 +180,7 @@ Send notifications to a Slack channel via webhook:
 
 Slack notifications are delivered in addition to bell and email notifications.
 
-> **See also:** [Settings](./settings.md#integrations) for Slack setup
+> **See also:** [Settings](./settings#integrations) for Slack setup
 
 ---
 
@@ -206,6 +206,6 @@ These are direct emails and don't appear in the notification panel.
 
 If you've been away from the platform for more than 10 minutes, an **hourly chat digest** email summarizes any unread messages across your channels. This runs in addition to your regular notification digest settings.
 
-> **See also:** [Messaging](./messaging.md) for full messaging and notification details
+> **See also:** [Messaging](./messaging) for full messaging and notification details
 
-> **See also:** [Settings](./settings.md#notification-preferences) for configuring your notification preferences
+> **See also:** [Settings](./settings#notification-preferences) for configuring your notification preferences

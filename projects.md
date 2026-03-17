@@ -59,7 +59,7 @@ On the **Budget & Time** tab of any project, agency staff with invoicing permiss
 
 Only billable, completed time entries that haven't already been invoiced are included. Written-off entries are excluded.
 
-> **See also:** [Reports](./reports.md) for budget tracking across all projects
+> **See also:** [Reports](./reports) for budget tracking across all projects
 
 ---
 
@@ -101,7 +101,7 @@ Milestones mark key deliverables or checkpoints within a project. You can:
 
 When a milestone is completed, all project members are notified.
 
-> **See also:** [Notifications](./notifications.md) for milestone and project notifications
+> **See also:** [Notifications](./notifications) for milestone and project notifications
 
 ---
 
@@ -135,7 +135,7 @@ Upload files to a project for easy sharing with the team. Files can also be atta
 - **Pinned files** appear on the project overview
 - Project members are notified when files are uploaded
 
-> **See also:** [File Management](./files.md) for the agency-wide file browser and storage limits
+> **See also:** [File Management](./files) for the agency-wide file browser and storage limits
 
 ---
 
@@ -163,7 +163,7 @@ You can start a live timer directly from the project page header using the **Sta
 
 When time is logged on a task by someone other than the assignee, the assignee is notified.
 
-> **See also:** [Tasks](./tasks.md) for the task-level timer · [Services](./services.md#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports.md) for time tracking reports
+> **See also:** [Tasks](./tasks) for the task-level timer · [Services](./services#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports) for time tracking reports
 
 ---
 
@@ -205,4 +205,4 @@ Projects can be automatically created when a client purchases a service through 
 - Are linked to the client's service assignment
 - Show a source badge indicating they were created from a service purchase
 
-> **See also:** [Services](./services.md#cart--checkout-flow) for the purchase flow · [Client Portal](./client-portal.md) for what clients see after purchasing
+> **See also:** [Services](./services#cart--checkout-flow) for the purchase flow · [Client Portal](./client-portal) for what clients see after purchasing

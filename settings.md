@@ -53,7 +53,7 @@ Accessible to all users under **Settings → Account**.
 | **Scope** | All, Only Mine, or My Projects |
 | **Per-Category Toggles** | Enable/disable email for each notification category |
 
-> **See also:** [Notifications](./notifications.md) for how notifications work
+> **See also:** [Notifications](./notifications) for how notifications work
 
 ### Account Deletion
 
@@ -118,7 +118,7 @@ Customize the look and feel of your entire workspace under **Settings → Agency
 | **Signature Image** | Authorized signature on invoices |
 | **Print Settings** | Paper size, show/hide logo, payments, bank details, notes in print |
 
-> **See also:** [Invoicing](./invoicing.md#invoice-branding) for invoice branding details
+> **See also:** [Invoicing](./invoicing#invoice-branding) for invoice branding details
 
 ### Portal Branding
 
@@ -206,7 +206,7 @@ Send notifications to a Slack channel:
 2. Enter your Slack **Incoming Webhook URL**
 3. Choose which notification categories to send to Slack
 
-> **See also:** [Notifications](./notifications.md#slack-integration) for more on Slack notifications
+> **See also:** [Notifications](./notifications#slack-integration) for more on Slack notifications
 
 ---
 
@@ -219,7 +219,7 @@ Manage roles under **Settings → Agency → Roles & Permissions**.
 - Edit permissions for existing custom roles
 - See how many team members are assigned to each role
 
-> **See also:** [Team](./team.md) for detailed role descriptions and permissions
+> **See also:** [Team](./team) for detailed role descriptions and permissions
 
 ---
 
@@ -235,7 +235,7 @@ Agency-wide security settings under **Settings → Agency → Security**:
 | **Re-Authentication for Sensitive Actions** | Require password re-entry for account deletion, MFA changes |
 | **Email Domain Allowlist** | Restrict team invites to specific email domains |
 
-> **See also:** [Security](./security.md) for full security details
+> **See also:** [Security](./security) for full security details
 
 ---
 

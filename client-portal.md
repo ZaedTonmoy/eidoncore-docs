@@ -10,7 +10,7 @@ When you grant a client contact **portal access**, they can log in to your agenc
 
 Clients access the portal via your workspace URL (`yourslug.eidoncore.com`) or your custom domain (`app.youragency.com`).
 
-> **See also:** [Clients](./clients.md#portal-access) for how to grant portal access to contacts
+> **See also:** [Clients](./clients#portal-access) for how to grant portal access to contacts
 
 ---
 
@@ -82,7 +82,7 @@ Clients can participate in real-time messaging:
 
 Clients can see standard messages but **not internal messages** — agency staff can discuss work privately within shared channels.
 
-> **See also:** [Messaging](./messaging.md) for full messaging features
+> **See also:** [Messaging](./messaging) for full messaging features
 
 ### Tasks
 
@@ -130,7 +130,7 @@ Clicking a product opens a detail panel where clients can:
 - **Cancel a recurring subscription** with a cancellation reason
 - View purchase timeline and cancellation details
 
-> **See also:** [Services](./services.md#digital-products) for the full digital products feature
+> **See also:** [Services](./services#digital-products) for the full digital products feature
 
 ### My Account
 
@@ -194,7 +194,7 @@ Your service catalog is also accessible to **visitors who don't have an account*
 
 Guest checkout creates the full client setup in one step — no pre-registration needed.
 
-> **See also:** [Services](./services.md#cart--checkout-flow) for the full purchase flow from the agency perspective
+> **See also:** [Services](./services#cart--checkout-flow) for the full purchase flow from the agency perspective
 
 ---
 
@@ -256,4 +256,4 @@ Default notification delivery:
 - **Organization Owner** — Instant delivery
 - **Organization Member** — Daily digest
 
-> **See also:** [Notifications](./notifications.md) for full notification details · [Settings](./settings.md#notification-preferences) for preference management
+> **See also:** [Notifications](./notifications) for full notification details · [Settings](./settings#notification-preferences) for preference management

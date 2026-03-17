@@ -179,4 +179,4 @@ Click on any team member to see their detailed profile:
 | Role changed | Affected user |
 | Member removed | Removed user + agency owners |
 
-> **See also:** [Settings](./settings.md) for notification preferences · [Projects](./projects.md#project-team-members) for project-level team management
+> **See also:** [Settings](./settings) for notification preferences · [Projects](./projects#project-team-members) for project-level team management

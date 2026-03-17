@@ -176,7 +176,7 @@ Messaging features scale with your subscription plan:
 
 Messages older than the retention period are **permanently deleted** by an automated cleanup process. This runs weekly to ensure your workspace stays within plan limits.
 
-> **See also:** [Settings](./settings.md#plans--billing) for plan details
+> **See also:** [Settings](./settings#plans--billing) for plan details
 
 ---
 
@@ -194,7 +194,7 @@ You'll receive notifications for key messaging events:
 
 If you've been away for more than 10 minutes, an **hourly chat digest email** summarizes any unread messages across your channels. This runs in addition to your regular notification digest.
 
-> **See also:** [Notifications](./notifications.md) for notification preferences · [Settings](./settings.md#notification-preferences) for digest settings
+> **See also:** [Notifications](./notifications) for notification preferences · [Settings](./settings#notification-preferences) for digest settings
 
 ---
 
@@ -208,4 +208,4 @@ If you've been away for more than 10 minutes, an **hourly chat digest email** su
 | **Manage Channels** | Create and configure channels | Owner, Admin |
 | **Browse All Channels** | See all channels in the workspace | Owner, Admin |
 
-> **See also:** [Team](./team.md) for configuring role permissions · [Projects](./projects.md) for project channel membership · [Client Portal](./client-portal.md) for client messaging access
+> **See also:** [Team](./team) for configuring role permissions · [Projects](./projects) for project channel membership · [Client Portal](./client-portal) for client messaging access

@@ -36,9 +36,9 @@ Files that don't match an allowed MIME type are rejected.
 
 - **Maximum file size**: 10 MB per file
 - **Branding images** (logos, favicons): Up to **5 MB**
-- **Message attachments**: Varies by plan (see [Messaging](./messaging.md#file-attachments))
+- **Message attachments**: Varies by plan (see [Messaging](./messaging#file-attachments))
 
-> Total storage is limited by your plan. See [Settings](./settings.md#plans--billing) for storage limits per plan.
+> Total storage is limited by your plan. See [Settings](./settings#plans--billing) for storage limits per plan.
 
 ---
 
@@ -107,7 +107,7 @@ Files uploaded within a project are accessible in the project's **Files** tab:
 - **Pinned files** appear on the project overview page for quick access
 - When a file is uploaded, all project members (except the uploader) receive a notification
 
-> **See also:** [Projects](./projects.md#project-files) for project file management
+> **See also:** [Projects](./projects#project-files) for project file management
 
 ---
 
@@ -130,4 +130,4 @@ Attach files directly to tasks via the task drawer:
 
 When approaching your storage limit, consider archiving old files or upgrading your plan.
 
-> **See also:** [Settings](./settings.md#plans--billing) for plan details and upgrading
+> **See also:** [Settings](./settings#plans--billing) for plan details and upgrading

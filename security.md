@@ -190,4 +190,4 @@ If you use a custom domain, sessions are automatically scoped to prevent cross-d
 
 DNS verification uses secure DNS-over-HTTPS to prevent spoofing.
 
-> **See also:** [Settings](./settings.md#custom-domains) for setting up custom domains · [Settings](./settings.md#security-policies) for configuring security policies
+> **See also:** [Settings](./settings#custom-domains) for setting up custom domains · [Settings](./settings#security-policies) for configuring security policies

@@ -75,7 +75,7 @@ Portal users are assigned one of two roles:
 | **Organization Owner** | View projects, tasks, invoices, services. Can comment, create tasks, and update task statuses. Can view reports |
 | **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
-> **See also:** [Client Portal](./client-portal.md) for a detailed guide on what clients see and can do
+> **See also:** [Client Portal](./client-portal) for a detailed guide on what clients see and can do
 
 ---
 
@@ -174,7 +174,7 @@ Client health is automatically calculated based on:
 
 Health changes from At Risk → Churn Risk trigger **critical notifications** to agency owners.
 
-> **See also:** [Reports](./reports.md) for client analytics · [Notifications](./notifications.md) for health change alerts
+> **See also:** [Reports](./reports) for client analytics · [Notifications](./notifications) for health change alerts
 
 ---
 
@@ -228,7 +228,7 @@ View and manage services assigned to each client under the **Services** tab. Thi
 - Remaining hours and credits
 - Billing period tracking
 
-> **See also:** [Services](./services.md) for managing your service catalog · [Invoicing](./invoicing.md) for billing clients
+> **See also:** [Services](./services) for managing your service catalog · [Invoicing](./invoicing) for billing clients
 
 ---
 
@@ -259,4 +259,4 @@ Sort by name, status, revenue, unpaid amount, health, last activity, creation da
 | Contract expiring within 30 days | Agency owners |
 | Client health state changed | Agency owners |
 
-> **See also:** [Settings](./settings.md) for notification preferences
+> **See also:** [Settings](./settings) for notification preferences

@@ -48,7 +48,7 @@ All steps include a "Prefer not to say" option. Your answers help us tailor the 
 
 Every new workspace starts with a **14-day free trial** of the Pro plan. You'll get full access to Pro features — no credit card required. When the trial ends, your workspace downgrades to the Free plan unless you subscribe.
 
-> **See also:** [Settings](./settings.md#plans--billing) for plan details and pricing
+> **See also:** [Settings](./settings#plans--billing) for plan details and pricing
 
 ---
 
@@ -58,7 +58,7 @@ After your first login, a **personalized setup checklist** appears at the top of
 
 Steps are **auto-detected**: when you complete an action (e.g., add a team member), the corresponding step is automatically checked off. You can skip the checklist at any time, or re-show it later from your profile settings.
 
-> **See also:** [Onboarding](./onboarding.md) for the full checklist details by role
+> **See also:** [Onboarding](./onboarding) for the full checklist details by role
 
 ---
 
@@ -141,7 +141,7 @@ Eidoncore has two categories of users:
 | **Organization Owner** | Views their projects, tasks, invoices, and services. Can comment, create tasks, and update task statuses. Can view reports |
 | **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
-> **See also:** [Team Management](./team.md) for inviting staff · [Clients](./clients.md) for setting up client portal access · [Client Portal](./client-portal.md) for what clients see
+> **See also:** [Team Management](./team) for inviting staff · [Clients](./clients) for setting up client portal access · [Client Portal](./client-portal) for what clients see
 
 ---
 
@@ -149,9 +149,9 @@ Eidoncore has two categories of users:
 
 Now that you're set up, explore these key features:
 
-1. **[Customize your branding](./settings.md#agency-branding)** — Add your logo, colors, and fonts
-2. **[Invite your team](./team.md#inviting-team-members)** — Bring your colleagues on board
-3. **[Create your first project](./projects.md#creating-a-project)** — Start managing work
-4. **[Add a client](./clients.md#adding-a-client)** — Set up your first client organization
-5. **[Set up email](./settings.md#email-smtp-setup)** — Configure email delivery for notifications and invoices
-6. **[Start a conversation](./messaging.md)** — Chat with your team or clients in real time
+1. **[Customize your branding](./settings#agency-branding)** — Add your logo, colors, and fonts
+2. **[Invite your team](./team#inviting-team-members)** — Bring your colleagues on board
+3. **[Create your first project](./projects#creating-a-project)** — Start managing work
+4. **[Add a client](./clients#adding-a-client)** — Set up your first client organization
+5. **[Set up email](./settings#email-smtp-setup)** — Configure email delivery for notifications and invoices
+6. **[Start a conversation](./messaging)** — Chat with your team or clients in real time

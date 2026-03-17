@@ -269,7 +269,7 @@ Behind the scenes:
 - The **agency owner** receives a "Service Purchased" notification
 - The **client contacts** receive a "Service Activated" notification with a link to their new project
 
-> **See also:** [Client Portal](./client-portal.md) for the full client experience
+> **See also:** [Client Portal](./client-portal) for the full client experience
 
 ---
 
@@ -450,7 +450,7 @@ The Intake Forms page is accessible to **Owners**, **Admins**, and **Project Man
 - See which services each form is assigned to
 - Review past submissions
 
-> **See also:** [Settings](./settings.md) for managing intake form templates
+> **See also:** [Settings](./settings) for managing intake form templates
 
 ---
 
@@ -486,4 +486,4 @@ Control which agency staff members can view or manage each service:
 
 This is useful for large teams where certain services should only be visible to specific team members.
 
-> **See also:** [Team](./team.md) for role-based permissions · [Projects](./projects.md) for auto-created project details · [Invoicing](./invoicing.md) for service-linked billing
+> **See also:** [Team](./team) for role-based permissions · [Projects](./projects) for auto-created project details · [Invoicing](./invoicing) for service-linked billing

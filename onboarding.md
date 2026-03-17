@@ -87,4 +87,4 @@ Changed your mind? You can bring the checklist back:
 - Each user gets their own independent checklist — completing steps on one user's checklist doesn't affect anyone else's
 - Steps auto-detect completion server-side, so your progress is always accurate even if you completed an action before seeing the checklist
 
-> **See also:** [Getting Started](./getting-started.md) for registration and first login · [Dashboard](./dashboard.md) for your dashboard overview · [Settings](./settings.md#account-settings) for profile customization
+> **See also:** [Getting Started](./getting-started) for registration and first login · [Dashboard](./dashboard) for your dashboard overview · [Settings](./settings#account-settings) for profile customization

@@ -167,7 +167,7 @@ Log time manually by entering the duration, description, and optionally marking 
 
 Time logged on a task by someone other than the assignee triggers a notification to the assignee.
 
-> **See also:** [Projects](./projects.md#time-tracking) for project-level time tracking · [Services](./services.md#hours--credits-tracking) for service hour deductions · [Reports](./reports.md) for time reports
+> **See also:** [Projects](./projects#time-tracking) for project-level time tracking · [Services](./services#hours--credits-tracking) for service hour deductions · [Reports](./reports) for time reports
 
 ---
 
@@ -194,7 +194,7 @@ React to comments with emojis for quick feedback — 👍, ❤️, 😂, 🎉, �
 
 The comment author is notified when someone reacts to their comment.
 
-> **See also:** [Notifications](./notifications.md) for comment and mention notifications
+> **See also:** [Notifications](./notifications) for comment and mention notifications
 
 ---
 
@@ -252,4 +252,4 @@ You'll receive automatic notifications for key task events:
 | Sub-task completed | Parent task assignee + creator |
 | All checklist items completed | Task assignee + creator |
 
-> **See also:** [Notifications](./notifications.md) for setting up preferences and digest frequency · [Automations](./automations.md) for automating task actions
+> **See also:** [Notifications](./notifications) for setting up preferences and digest frequency · [Automations](./automations) for automating task actions

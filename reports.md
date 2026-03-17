@@ -2,7 +2,7 @@
 
 Monitor your agency's performance with real-time dashboards and detailed reports across revenue, clients, projects, tasks, and time tracking.
 
-> **See also:** [Dashboard](./dashboard.md) for full details on executive, team member, and client dashboards — including KPIs, alerts, and role-specific views
+> **See also:** [Dashboard](./dashboard) for full details on executive, team member, and client dashboards — including KPIs, alerts, and role-specific views
 
 ---
 
@@ -142,4 +142,4 @@ Organization Owners see a separate set of 3 report tabs, automatically scoped to
 
 Available to: Owner, Admin, Project Manager, and Accountant by default. Team Members have limited access.
 
-> **See also:** [Invoicing](./invoicing.md#finance-analytics-dashboard) for the detailed finance dashboard · [Projects](./projects.md#project-health) for health scoring · [Clients](./clients.md#client-health-scoring) for client health analytics
+> **See also:** [Invoicing](./invoicing#finance-analytics-dashboard) for the detailed finance dashboard · [Projects](./projects#project-health) for health scoring · [Clients](./clients#client-health-scoring) for client health analytics
