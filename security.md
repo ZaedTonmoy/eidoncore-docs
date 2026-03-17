@@ -1,4 +1,6 @@
-# Security
+---
+title: "Security"
+---
 
 Eidoncore is built with security at every layer. This guide covers the security features available to you and your team.
 

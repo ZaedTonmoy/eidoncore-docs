@@ -1,4 +1,6 @@
-# Settings & Customization
+---
+title: "Settings & Customization"
+---
 
 Configure your account, brand your workspace, set up email delivery, connect integrations, and manage your subscription plan.
 

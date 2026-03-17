@@ -1,4 +1,6 @@
-# Team Management
+---
+title: "Team Management"
+---
 
 Invite colleagues to your agency workspace, assign roles with specific permissions, and monitor your team's workload.
 

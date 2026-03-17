@@ -1,4 +1,6 @@
-# Notifications
+---
+title: "Notifications"
+---
 
 Stay informed about what's happening in your workspace through bell notifications, email alerts, digest summaries, and Slack integration.
 

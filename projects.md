@@ -1,4 +1,6 @@
-# Projects
+---
+title: "Projects"
+---
 
 Projects are the central way to organize work for your clients. Each project can contain tasks, milestones, documents, files, and time entries.
 

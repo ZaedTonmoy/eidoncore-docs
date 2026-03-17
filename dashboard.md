@@ -1,4 +1,6 @@
-# Dashboard
+---
+title: "Dashboard"
+---
 
 Your dashboard is the first thing you see when you log in. It provides an at-a-glance overview tailored to your role in the agency.
 

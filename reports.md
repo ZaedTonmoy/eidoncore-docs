@@ -1,4 +1,6 @@
-# Reports & Dashboards
+---
+title: "Reports & Dashboards"
+---
 
 Monitor your agency's performance with real-time dashboards and detailed reports across revenue, clients, projects, tasks, and time tracking.
 

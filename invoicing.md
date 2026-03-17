@@ -1,4 +1,6 @@
-# Invoicing & Billing
+---
+title: "Invoicing & Billing"
+---
 
 Create professional invoices, track payments, set up recurring billing, issue credit notes, and monitor your agency's financial health.
 

@@ -1,4 +1,6 @@
-# Eidoncore Platform — Documentation
+---
+title: "Eidoncore Platform — Documentation"
+---
 
 Welcome to the Eidoncore platform documentation. This guide covers everything you need to manage your agency, serve your clients, and grow your business.
 

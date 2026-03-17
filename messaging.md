@@ -1,4 +1,6 @@
-# Messaging
+---
+title: "Messaging"
+---
 
 Real-time chat for your agency team and client contacts. Communicate within project channels, organization-wide channels, and direct messages — all built into your workspace.
 

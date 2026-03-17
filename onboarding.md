@@ -1,4 +1,6 @@
-# Onboarding Checklist
+---
+title: "Onboarding Checklist"
+---
 
 When you first log in, a personalized **setup checklist** appears at the top of your dashboard. It guides you through the most important first steps based on your role, helping you get the most out of the platform quickly.
 

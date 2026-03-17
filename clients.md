@@ -1,4 +1,6 @@
-# Clients (CRM)
+---
+title: "Clients (CRM)"
+---
 
 The Clients section is your built-in CRM for managing client organizations, contacts, and relationships. Track the full client lifecycle from lead to active account.
 

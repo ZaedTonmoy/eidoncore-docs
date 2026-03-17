@@ -1,4 +1,6 @@
-# Client Portal
+---
+title: "Client Portal"
+---
 
 The client portal gives your clients a dedicated space to view their projects, tasks, invoices, services, and files — all branded with your agency's identity.
 

@@ -1,4 +1,6 @@
-# Getting Started
+---
+title: "Getting Started"
+---
 
 Get your agency workspace up and running in minutes. This guide walks you through account creation, your first login, and understanding your dashboard.
 

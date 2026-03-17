@@ -1,4 +1,6 @@
-# File Management
+---
+title: "File Management"
+---
 
 Upload, organize, and manage files across your agency workspace. Files can be attached to projects, tasks, or stored in the agency-wide file browser.
 

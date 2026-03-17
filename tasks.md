@@ -1,4 +1,6 @@
-# Tasks
+---
+title: "Tasks"
+---
 
 Tasks are the building blocks of project work. Assign them to team members, organize them with labels and checklists, track time, and collaborate through comments.
 

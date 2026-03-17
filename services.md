@@ -1,4 +1,6 @@
-# Services
+---
+title: "Services"
+---
 
 Build a service catalog for your agency, assign services to clients, and let clients purchase directly through an integrated cart and checkout experience. Eidoncore supports two types of offerings: **project-based services** (collaborative workspaces) and **digital products** (downloadable deliverables).
 

@@ -1,4 +1,6 @@
-# Automations
+---
+title: "Automations"
+---
 
 Automate repetitive tasks and workflows in your agency. Set up rules that trigger automatically when specific events happen — no coding required.
 
