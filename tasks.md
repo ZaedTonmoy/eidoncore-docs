@@ -16,6 +16,20 @@ Tasks can be viewed in multiple ways:
 
 Switch between views using the view toggle at the top of the tasks page.
 
+### Task Analytics Strip
+
+Above the task list, a quick-reference analytics strip shows:
+
+| Metric | What It Shows |
+|--------|--------------|
+| **Active** | Total active tasks (not Done) |
+| **Overdue** | Tasks past their due date |
+| **Due Today** | Tasks due today |
+| **Due This Week** | Tasks due within 7 days |
+| **Completed This Week** | Tasks marked Done in the last 7 days |
+| **Avg. Completion Time** | Average time from created to Done |
+| **Completion Rate** | Percentage of all-time tasks that are Done |
+
 ---
 
 ## Creating & Editing Tasks
@@ -41,6 +55,10 @@ Switch between views using the view toggle at the top of the tasks page.
 ### Task Drawer
 
 Click any task to open the **Task Drawer** — a slide-out panel for editing all task details, viewing comments, attachments, checklists, time entries, and the activity log.
+
+### Activity Log
+
+Every task keeps a detailed **activity log** showing all changes: creation, status changes, comments, time entries, reassignments, and more. Each entry records who made the change and when. View the log in the Activity tab of the task drawer.
 
 ---
 

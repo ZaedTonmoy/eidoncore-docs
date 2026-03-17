@@ -292,7 +292,7 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 
 - **Upgrade** — Click the upgrade button on any plan to start a Stripe checkout
 - **Downgrade** — Changes take effect at the end of your current billing period
-- **Cancel** — Schedule cancellation with a reason; you keep access until period end
+- **Cancel** — Schedule cancellation with a reason (e.g., "Too expensive", "Not using it", "Switching provider"); you keep access until period end
 - **Reactivate** — Reverse a pending cancellation before the period ends
 - **Billing Portal** — Manage payment methods, view invoices, and update billing details via Stripe's billing portal
 - **Usage Dashboard** — See your current resource usage vs. plan limits
@@ -308,6 +308,20 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 | **Frozen** | 3+ payment failures — read-only access until payment is resolved |
 
 A global status banner appears (visible to the Owner only) when your plan needs attention.
+
+### Downgrade Behavior
+
+When your plan downgrades (e.g., from Pro to Free):
+
+- **Your data is never deleted** — all existing projects, tasks, invoices, and files remain accessible
+- New creation is blocked when you exceed Free plan limits (e.g., can't add a 3rd team member on Free)
+- **Automations** and **recurring invoices** that exceed limits are paused automatically
+- When you upgrade again, paused automations and recurring invoices are **automatically reactivated**
+- Existing team members keep access — only new invites are blocked beyond the limit
+
+### Trial
+
+Every new workspace starts with a **14-day free trial** of the Pro plan. You'll receive email reminders at **7 days** and **1 day** before your trial expires. When the trial ends, your workspace downgrades to the Free plan unless you subscribe.
 
 ---
 

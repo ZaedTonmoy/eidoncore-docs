@@ -233,21 +233,69 @@ For credit-based services (Credit Pack):
 
 Services can have an optional **intake form** that clients fill out after purchase. This is great for collecting project requirements, preferences, or onboarding information.
 
+### Form Statuses
+
+| Status | Meaning |
+|--------|---------|
+| **Draft** | Form is being built — not available to clients |
+| **Published** | Active and linked to services — clients can fill it out |
+| **Archived** | Retired — no longer available for new submissions |
+
 ### How It Works
 
 1. **Create a form** — Go to the **Intake Forms** page (in the sidebar under Tools) and build a form with the drag-and-drop form builder
-2. **Add fields** — Supported field types:
- - **Text** — Short text input
- - **Textarea** — Multi-line text
- - **Email** — Email address
- - **Phone** — Phone number
- - **URL** — Web link
- - **Number** — Numeric input
- - **Select** — Dropdown with custom options
- - **Checkbox** — Yes/no toggle
-3. **Assign to services** — Link one form to one or more services
-4. **Client fills it out** — After purchasing a service, clients see the intake form on the confirmation page
-5. **Responses saved** — Submissions are automatically saved as a **pinned project document** in the auto-created project
+2. **Add fields** — Drag fields from the palette onto the canvas, or click to add. Supported field types:
+
+| Category | Field Type | What It Collects |
+|----------|-----------|-----------------|
+| **Text** | Text | Short text input |
+| | Textarea | Multi-line text |
+| | Email | Email address |
+| | Phone | Phone number |
+| | URL | Web link |
+| | Number | Numeric input |
+| | Address | Structured address input |
+| | Currency | Formatted money input with $ prefix |
+| **Selection** | Select | Single dropdown with custom options |
+| | Multi-Select | Checkbox group for multiple choices |
+| | Checkbox | Single yes/no toggle |
+| | Radio | Radio button group |
+| | Toggle | Yes/No pill buttons |
+| **Date & Time** | Date | Date picker |
+| | Time | Time input |
+| | DateTime | Combined date and time picker |
+| **Rich** | File Upload | File upload zone with drag-and-drop |
+| | Image Upload | Image upload with preview |
+| | Rating | Configurable star rating (3–10 stars) |
+| | Signature | Signature drawing canvas |
+| | Color Picker | Color picker with hex input |
+| | Slider | Range slider with configurable min/max |
+| **Layout** | Heading | Section heading (no input — for structure) |
+| | Paragraph | Description text block |
+| | Divider | Visual separator |
+| | Hidden | Pre-filled hidden field |
+| **Advanced** | Repeater | Dynamic row group — add/remove rows with configurable sub-fields |
+
+3. **Configure fields** — Each field supports:
+   - **Required** toggle — must be filled to submit
+   - **Placeholder** and **Help Text** — guide the client
+   - **Width** — Full or Half width for side-by-side layout
+   - **Validation** rules — min/max length, pattern matching, file types, max file size, max rating
+   - **Conditional visibility** — show/hide based on another field's value (e.g., "Show this only if 'Budget Range' equals 'Custom'")
+
+4. **Multi-page forms** — Organize fields across multiple pages for longer forms:
+   - Add pages using the page tab bar
+   - Clients see a **step wizard** with numbered progress indicators
+   - Per-page validation — required fields must be filled before advancing
+   - The Submit button only appears on the last page
+
+5. **Preview** — Click "Preview" to see exactly what clients will see, including multi-page navigation and field rendering
+
+6. **Assign to services** — Link one form to one or more services
+
+7. **Client fills it out** — After purchasing a service, clients see the intake form on the confirmation page
+
+8. **Responses saved** — Submissions are automatically saved as a **pinned project document** in the auto-created project
 
 The agency owner is notified when a client submits an intake form.
 
@@ -256,7 +304,9 @@ The agency owner is notified when a client submits an intake form.
 The Intake Forms page is accessible to **Owners**, **Admins**, and **Project Managers**. From there you can:
 
 - View all forms with field counts and submission counts
-- Create, edit, and delete forms
+- Filter by status (Draft, Published, Archived)
+- Search by form name
+- Create, edit, duplicate, and delete forms
 - See which services each form is assigned to
 - Review past submissions
 
