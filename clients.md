@@ -79,6 +79,24 @@ Portal users are assigned one of two roles:
 
 ---
 
+## Client Detail Page
+
+Each client's detail page is organized into tabs:
+
+| Tab | What It Contains |
+|-----|-----------------|
+| **Overview** | Company details, financial profile, health score, lead pipeline, contract tracking |
+| **Contacts** | Contact list, portal access management, send invite |
+| **Projects** | Projects assigned to this client |
+| **Invoices** | Invoices billed to this client |
+| **Notes** | Internal team notes (General, Call, Meeting, Warning, Opportunity) |
+| **Communications** | Interaction logs (calls, meetings, emails, decisions, issues, change requests) |
+| **Documents** | Uploaded files (contracts, NDAs, SOWs, proposals, brand assets) |
+| **Activity** | Full activity timeline for all client-related events |
+| **Settings** | Client-specific settings (follow-ups, tags, account management) |
+
+---
+
 ## CRM Features
 
 ### Follow-Ups

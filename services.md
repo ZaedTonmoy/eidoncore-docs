@@ -241,6 +241,48 @@ For credit-based services (Credit Pack):
 
 ---
 
+## Quota Management on Projects
+
+When a project is linked to a service, the project page shows real-time quota information:
+
+### Quota Progress Bar
+
+| Display | Meaning |
+|---------|---------|
+| **Green** | Normal usage — plenty of balance remaining |
+| **Amber** | Over 75% consumed |
+| **Red** | Over 90% consumed or fully exhausted |
+
+The progress bar shows remaining allocation (e.g., "15 / 20 hours remaining"). Top-up balances are displayed as a separate segment.
+
+### Quota Exhaustion Guard
+
+When a service's quota is fully consumed, the **"+ New Task"** button on the project is **disabled**. A tooltip explains that the quota is exhausted. Agency owners can bypass this restriction.
+
+### Complete & Invoice (One-Time Projects)
+
+For one-time service projects, a **"Complete & Invoice"** button appears in the project header. Clicking it:
+
+1. Automatically stops all running timers on the project
+2. Sweeps all unbilled time entries into a **draft invoice**
+3. Marks the project as **Completed**
+
+This is a one-click way to close out a project and generate the final invoice.
+
+### Time Entry Behaviors
+
+When time is logged against a service with included hours:
+
+- Time is split into **regular** (within balance) and **overtime** (beyond balance) minutes
+- The hourly rate and overtime rate are **snapshotted** at the time of logging — changes to the service rate don't retroactively affect past entries
+- Once a time entry is **billed** (linked to an invoice), it becomes **immutable** and cannot be edited or deleted
+- **Written-off** entries (agency comp) are excluded from invoice totals
+- If a timer is stopped while the service is paused or cancelled, it is automatically stopped
+
+When a time entry is deleted (before being billed), the consumed balance is automatically restored.
+
+---
+
 ## Intake Forms
 
 Services can have an optional **intake form** that clients fill out after purchase. This is great for collecting project requirements, preferences, or onboarding information.
@@ -330,9 +372,14 @@ The Intake Forms page is accessible to **Owners**, **Admins**, and **Project Man
 
 Clients who are active subscribers can leave **reviews** on services:
 
-- Star rating (1-5) with title and rich text comment
-- Reviews are visible on the catalog detail page (when approved)
-- Moderation support for agency review management
+- **Star rating** (1-5) with an optional title and rich text comment
+- **One review per organization** per service — clients cannot submit multiple reviews for the same service
+- Reviews require **moderation** before appearing publicly:
+  - Newly submitted reviews are marked as **pending**
+  - Agency owners can **approve** reviews to make them visible in the catalog
+  - Agency owners can **reject** (delete) reviews
+- Approved reviews appear on the catalog detail page with star ratings and comment cards
+- The best review quote (highest rated with a comment) is featured on the service hero section
 - The agency owner is notified when a review is submitted
 
 ---
@@ -342,6 +389,15 @@ Clients who are active subscribers can leave **reviews** on services:
 Control which agency staff members can view or manage each service:
 
 - By default, services follow your role permission settings
-- Add per-service access rules for more granular control
+- Users with the **View All Services** permission can see all services
+- For users without that permission, add **per-service access rules**:
+
+| Access Level | What It Grants |
+|-------------|---------------|
+| **Can View** | See the service in listings |
+| **Can Edit** | Modify the service details |
+| **Can Assign** | Assign the service to clients |
+
+This is useful for large teams where certain services should only be visible to specific team members.
 
 > **See also:** [Team](./team.md) for role-based permissions · [Projects](./projects.md) for auto-created project details · [Invoicing](./invoicing.md) for service-linked billing

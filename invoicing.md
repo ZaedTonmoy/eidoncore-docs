@@ -40,6 +40,16 @@ Line totals are calculated automatically: `(Quantity × Unit Price − Discount)
 
 Invoice-level discounts and tax rates can also be applied to the entire invoice.
 
+### Live Preview
+
+As you fill in the invoice form, a **real-time preview** panel shows exactly what the final invoice will look like. The preview uses an **A4 aspect ratio** and updates instantly as you type — including line items, totals, discounts, tax, and your agency branding (logo, accent color, footer).
+
+The same split-panel layout is used for both creating and editing invoices.
+
+### Frozen Billing Snapshot
+
+When an invoice is sent, the client's billing details (name, email, company, address) are **frozen** onto the invoice. This ensures the invoice always reflects the correct billing info at the time it was issued — even if the client's details are updated later.
+
 ---
 
 ## Invoice Statuses
@@ -186,6 +196,42 @@ Invoices are automatically branded with your agency's settings:
 | **Paper Size** | A4 or Letter |
 
 > **See also:** [Settings](./settings.md#agency-branding) for configuring invoice branding
+
+---
+
+## Invoice Timeline
+
+Every invoice has a unified **timeline** that shows all activity in chronological order:
+
+- Audit events (created, edited, sent, voided)
+- Payment recordings and deletions
+- Refund events
+- Reminder sends (with delivery status)
+
+View the timeline from the invoice detail page to see a complete history of the invoice's lifecycle.
+
+---
+
+## Usage Breakdown (Time-Based Invoices)
+
+For invoices linked to hourly or usage-based services, the invoice detail page shows a **per-entry breakdown** table:
+
+| Column | What It Shows |
+|--------|--------------|
+| **Date** | When the time was logged |
+| **Task** | Which task the entry relates to (linked) |
+| **Regular Minutes** | Time within the included hours balance |
+| **Overtime Minutes** | Time beyond the included hours |
+| **Regular Rate** | The regular hourly rate at the time of logging |
+| **Overtime Rate** | The overtime rate at the time of logging |
+
+Rates are **snapshotted** when time is logged — the invoice reflects the exact rate that applied at that moment, not the current service rate. Written-off entries (agency comp) are excluded from the breakdown.
+
+---
+
+## Edit Lock
+
+Once an invoice is **fully paid**, it becomes read-only — you cannot edit invoice details or line items. Internal notes can still be updated. To modify a paid invoice, issue a credit note or refund instead.
 
 ---
 
