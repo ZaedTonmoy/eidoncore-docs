@@ -33,9 +33,9 @@ Every active project is automatically scored based on task progress and deadline
 
 | Health | Condition |
 |--------|-----------|
-| 🟢 **On Track** | ≥50% of tasks completed, no overdue milestones |
-| 🟡 **At Risk** | <50% tasks done, some overdue, or project due within 7 days |
-| 🔴 **Off Track** | <25% tasks done and past due, or >50% tasks/milestones overdue |
+| ● **On Track** | ≥50% of tasks completed, no overdue milestones |
+| ● **At Risk** | <50% tasks done, some overdue, or project due within 7 days |
+| ● **Off Track** | <25% tasks done and past due, or >50% tasks/milestones overdue |
 
 ### Team Workload
 
@@ -69,8 +69,9 @@ Real-time alert banners appear at the top of the dashboard when action is needed
 |-------|---------|
 | **Inactive Clients** | Clients with no activity for more than 30 days |
 | **Unassigned Tasks** | More than 5 active tasks with no assignee |
+| **Draft Invoices Pending** | Auto-generated draft invoices from recurring billing awaiting your review |
 
-Click any alert to navigate directly to the relevant page. Dismiss alerts with the ✕ button — they'll reappear on your next visit if the underlying condition persists.
+Click any alert to navigate directly to the relevant page. Dismiss alerts with the × button — they'll reappear on your next visit if the underlying condition persists.
 
 ### Monthly Revenue Trend
 
@@ -84,9 +85,17 @@ A chart showing your revenue over the last 6 months, making it easy to spot grow
 
 > **See also:** [Messaging](./messaging.md) for real-time chat features
 
-### Daily Quote
+### Greeting & Daily Quote
 
-A motivational quote is displayed in the dashboard header, rotating daily from a curated collection of 345 quotes covering leadership, creativity, resilience, and more. The same date shows a different quote each year.
+The dashboard header shows a **time-aware greeting** that changes throughout the day:
+
+| Time of Day | Greeting |
+|------------|----------|
+| Before 12:00 | Good Morning |
+| 12:00 – 16:59 | Good Afternoon |
+| 17:00+ | Good Evening |
+
+Below the greeting, a **motivational quote** rotates daily from a curated collection of 345 quotes covering leadership, creativity, resilience, and more. The same date shows a different quote each year.
 
 ---
 

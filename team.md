@@ -52,20 +52,20 @@ These are displayed on member profiles and can be used for filtering on the team
 
 | Capability | Owner | Admin | PM | Accountant | Team Member |
 |-----------|:-----:|:-----:|:--:|:----------:|:-----------:|
-| View Dashboard (Executive) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Manage Projects | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Manage Tasks | ✅ | ✅ | ✅ | ❌ | Own only |
-| View/Create Invoices | ✅ | ✅ | ✅ | ✅ | Create only |
-| Manage Billing & Plans | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Manage Team | ✅ | ✅ | ✅ | ❌ | ❌ |
-| Manage Settings | ✅ | ✅ | Partial | ❌ | ❌ |
-| Manage Branding | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Manage Roles & Permissions | ✅ | ✅ | ❌ | ❌ | ❌ |
-| View Reports | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Manage Automations | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Manage Services | ✅ | ✅ | ✅ | ❌ | ❌ |
-| View Clients | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Messaging | ✅ | ✅ | ✅ | ✅ | ✅ |
+| View Dashboard (Executive) | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Manage Projects | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Manage Tasks | ✓ | ✓ | ✓ | ✗ | Own only |
+| View/Create Invoices | ✓ | ✓ | ✓ | ✓ | Create only |
+| Manage Billing & Plans | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Manage Team | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Manage Settings | ✓ | ✓ | Partial | ✗ | ✗ |
+| Manage Branding | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Manage Roles & Permissions | ✓ | ✓ | ✗ | ✗ | ✗ |
+| View Reports | ✓ | ✓ | ✓ | ✓ | ✗ |
+| Manage Automations | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Manage Services | ✓ | ✓ | ✓ | ✗ | ✗ |
+| View Clients | ✓ | ✓ | ✓ | ✓ | ✗ |
+| Messaging | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ---
 
@@ -127,9 +127,17 @@ Team members can request their own account deletion:
 The workload view gives managers visibility into how tasks are distributed:
 
 - See each team member's active task count and status breakdown (To Do, In Progress, In Review)
-- Members with **10 or more active tasks** are automatically flagged as overloaded
+- **Capacity status** is automatically calculated:
+
+| Capacity | Condition |
+|---------|-----------|
+| **Normal** | Manageable task load |
+| **High** | Approaching capacity |
+| **Overloaded** | 10 or more active tasks — flagged with a visual indicator |
+
 - View completion rate percentages per team member
 - Track overdue tasks per member
+- See estimated vs. logged hours per member
 - Filter by project, status, and date range
 
 ### Member Profiles

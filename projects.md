@@ -27,10 +27,10 @@ Projects follow a standard lifecycle:
 
 ```
 Not Started → In Progress → In Review → Completed
-                  ↓                         ↑
-               On Hold ─────────────────────┘
-                  ↓
-              Cancelled
+ ↓ ↑
+ On Hold ─────────────────────┘
+ ↓
+ Cancelled
 ```
 
 ---
@@ -57,9 +57,9 @@ Project health is calculated automatically based on task progress, overdue items
 
 | Health | Meaning |
 |--------|---------|
-| 🟢 **On Track** | Tasks are on pace, no red flags |
-| 🟡 **At Risk** | More than 20% overdue tasks, or deadline approaching with low completion |
-| 🔴 **Off Track** | More than 40% overdue tasks, or project is past deadline |
+| ● **On Track** | Tasks are on pace, no red flags |
+| ● **At Risk** | More than 20% overdue tasks, or deadline approaching with low completion |
+| ● **Off Track** | More than 40% overdue tasks, or project is past deadline |
 
 Health status appears on the project list page and the executive dashboard.
 
@@ -99,6 +99,18 @@ Create rich text documents directly within a project (e.g., briefs, meeting note
 
 - Documents can be **pinned** to appear at the top of the list
 - Requires the **Manage Docs** permission
+- Intake form submissions are automatically saved as pinned documents in the project
+
+---
+
+## Comments
+
+Leave comments directly on a project to discuss scope, share updates, or ask questions.
+
+- **Internal comments** are only visible to agency staff — not visible to client portal users
+- **Standard comments** are visible to everyone with access to the project
+- Comment threads support replies and @mentions
+- React to comments with emojis for quick feedback
 
 ---
 
@@ -127,6 +139,11 @@ Log time directly on a project or on individual tasks within it.
 | **Billable flag** | Mark time entries as billable or non-billable |
 | **Task link** | Optionally link to a specific task |
 | **Client service link** | Link to a client's service assignment for balance tracking |
+
+Time entry statistics are aggregated per project and per task, showing:
+- Total logged hours
+- Billable vs. non-billable split
+- Remaining hours against estimated effort
 
 When time is logged on a task by someone other than the assignee, the assignee is notified.
 

@@ -34,6 +34,9 @@ Switch between views using the view toggle at the top of the tasks page.
 | **Due Date** | When the task is due |
 | **Estimated Hours** | Planned effort |
 | **Labels** | Color-coded tags for categorization |
+| **Tags** | Free-form text tags for flexible categorization beyond labels |
+| **Complexity** | Optional complexity score for estimation and prioritization |
+| **Billable** | Whether time logged on this task counts as billable (default: yes) |
 
 ### Task Drawer
 
@@ -74,12 +77,12 @@ Each task is automatically assessed for health based on its due date, dependenci
 
 | Indicator | Condition |
 |-----------|-----------|
-| 🟢 **On Track** | On schedule, no issues |
-| 🟡 **At Risk** | Due within 2 days and still in To Do |
-| 🔴 **Overdue** | Past due date and not completed |
-| 🟠 **Blocked** | Waiting on a dependency that isn't done |
-| ⚪ **Stale** | No updates for 3+ days while still active |
-| ✅ **Completed** | Task is Done |
+| ● **On Track** | On schedule, no issues |
+| ● **At Risk** | Due within 2 days and still in To Do |
+| ● **Overdue** | Past due date and not completed |
+| ● **Blocked** | Waiting on a dependency that isn't done |
+| ○ **Stale** | No updates for 3+ days while still active |
+| ✓ **Completed** | Task is Done |
 
 Health is evaluated in order of severity: Completed → Overdue → Blocked → At Risk → Stale → On Track.
 
@@ -187,11 +190,18 @@ Toggle the share link on or off from the task drawer.
 
 ## Task Visibility
 
-Control which team members can see specific tasks:
+Control who can see specific tasks using four visibility levels:
 
-- By default, tasks in a project are visible to all project members
-- Additional visibility controls can be applied per task for sensitive work
-- Client users (Organization Owner/Member) see only tasks in their organization's projects
+| Visibility | Who Can See |
+|-----------|-------------|
+| **Organization** (default) | Everyone in the workspace |
+| **Project** | Only members of the task's project |
+| **Team** | Specific users you grant access to, plus project members |
+| **Private** | Only specific users you explicitly grant access to |
+
+Set the visibility level in the task drawer. For Team and Private visibility, add individual users to the access list.
+
+Client users (Organization Owner/Member) always see only tasks in their organization's projects, regardless of the visibility setting.
 
 ---
 

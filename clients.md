@@ -66,7 +66,7 @@ Contacts can be granted **portal access** to your agency's platform, allowing th
 Two ways to grant access:
 
 1. **When adding a contact** — Set a password during contact creation
-2. **Send Invite** — Click the "📧 Send Invite" button on any contact without an account. They'll receive a branded invitation email and can set their own password via the "Forgot Password" flow
+2. **Send Invite** — Click the " Send Invite" button on any contact without an account. They'll receive a branded invitation email and can set their own password via the "Forgot Password" flow
 
 Portal users are assigned one of two roles:
 
@@ -113,6 +113,15 @@ Add internal notes about a client:
 - Pin important notes to keep them at the top
 - Fully internal — not visible to client portal users
 
+### Comments
+
+Leave comments directly on a client organization for team discussion:
+
+- **Internal comments** — only visible to agency staff
+- **Standard comments** — visible to anyone with access to the client
+- Supports threaded replies, @mentions, and emoji reactions
+- Great for quick team discussions about the account without creating a formal note
+
 ### Documents
 
 Upload and manage client-related documents:
@@ -141,9 +150,9 @@ Client health is automatically calculated based on:
 
 | Health State | Meaning |
 |-------------|---------|
-| 🟢 **Healthy** | Active engagement, payments on time |
-| 🟡 **At Risk** | Some warning signs (late payments, inactivity) |
-| 🔴 **Churn Risk** | Significant issues — requires immediate attention |
+| ● **Healthy** | Active engagement, payments on time |
+| ● **At Risk** | Some warning signs (late payments, inactivity) |
+| ● **Churn Risk** | Significant issues — requires immediate attention |
 
 Health changes from At Risk → Churn Risk trigger **critical notifications** to agency owners.
 

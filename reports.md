@@ -10,6 +10,23 @@ Monitor your agency's performance with real-time dashboards and detailed reports
 
 Navigate to **Reports** in the sidebar to access detailed analytics.
 
+### Overview KPIs
+
+The overview tab provides a cross-cutting summary of all key metrics:
+
+| KPI | Description |
+|-----|-------------|
+| **Total Revenue** | Sum of all payments received |
+| **Total Invoiced** | Sum of all invoice totals |
+| **Outstanding** | Unpaid amount across all active invoices |
+| **Collection Rate** | Revenue collected as a percentage of total invoiced |
+| **Active Projects** | Count of projects currently in progress |
+| **Total Tasks** | Task count and completion rate |
+| **Total Hours** | Logged hours with billable/non-billable split |
+| **Utilization Rate** | Billable hours as a percentage of total hours |
+
+---
+
 ### Revenue Report
 
 | Metric | Description |
@@ -19,6 +36,9 @@ Navigate to **Reports** in the sidebar to access detailed analytics.
 | **Revenue by Service** | Which services are most profitable |
 | **Outstanding vs. Collected** | Revenue collection efficiency |
 | **Forecast** | Projected revenue for upcoming periods |
+| **Payment Methods** | Breakdown by payment method (Manual, Stripe, Bank Transfer, etc.) |
+| **Average Days to Payment** | Mean time from invoice issue to payment |
+| **Average Days Late** | Mean time past due for late payers |
 
 ### Client Report
 

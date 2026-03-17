@@ -109,12 +109,12 @@ The Intake Forms page lets you manage all your forms in one place:
 
 | Role | Can Access |
 |------|:----------:|
-| Owner | ✅ |
-| Admin | ✅ |
-| Project Manager | ✅ |
-| Accountant | ❌ |
-| Team Member | ❌ |
-| Organization Users | ❌ |
+| Owner | ✓ |
+| Admin | ✓ |
+| Project Manager | ✓ |
+| Accountant | ✗ |
+| Team Member | ✗ |
+| Organization Users | ✗ |
 
 Intake Forms is a **Pro plan** feature. On the Free plan, the sidebar item shows a lock badge. Clicking it shows an upgrade prompt.
 

@@ -22,41 +22,41 @@ The checklist is tailored to your role so you see only the most relevant setup t
 ### Agency Owner
 | Step | Action |
 |------|--------|
-| 🎨 **Set up branding** | Add your agency logo, colors, and brand name |
-| 👥 **Invite your team** | Add your first team member |
-| 🏢 **Add a client** | Create your first client organization |
-| 📦 **Create a service** | Set up your first service in the catalog |
-| 🧾 **Create an invoice** | Send your first invoice |
+| — **Set up branding** | Add your agency logo, colors, and brand name |
+| — **Invite your team** | Add your first team member |
+| — **Add a client** | Create your first client organization |
+| — **Create a service** | Set up your first service in the catalog |
+| — **Create an invoice** | Send your first invoice |
 
 ### Admin / Project Manager
 | Step | Action |
 |------|--------|
-| 🏢 **Add a client** | Create a client organization |
-| 📁 **Create a project** | Start your first project |
-| ✅ **Create tasks** | Add tasks to a project |
-| 👥 **Review your team** | Check team members and roles |
+| — **Add a client** | Create a client organization |
+| — **Create a project** | Start your first project |
+| ✓ **Create tasks** | Add tasks to a project |
+| — **Review your team** | Check team members and roles |
 
 ### Accountant
 | Step | Action |
 |------|--------|
-| 🧾 **Create an invoice** | Set up your first invoice |
-| 📊 **Explore reports** | Review the financial reports |
-| 👤 **Customize your profile** | Add your name and avatar |
+| — **Create an invoice** | Set up your first invoice |
+| — **Explore reports** | Review the financial reports |
+| — **Customize your profile** | Add your name and avatar |
 
 ### Team Member
 | Step | Action |
 |------|--------|
-| ✅ **Check your tasks** | View tasks assigned to you |
-| 📁 **Explore projects** | Browse projects you're a member of |
-| 👤 **Customize your profile** | Add your name and avatar |
+| ✓ **Check your tasks** | View tasks assigned to you |
+| — **Explore projects** | Browse projects you're a member of |
+| — **Customize your profile** | Add your name and avatar |
 
 ### Client Users (Organization Owner / Member)
 | Step | Action |
 |------|--------|
-| 📁 **View your projects** | See the projects assigned to your organization |
-| ✅ **Browse your tasks** | Check tasks in your projects |
-| 📦 **Explore services** | Browse available services in the catalog |
-| 🧾 **View invoices** | Review invoices billed to your organization |
+| — **View your projects** | See the projects assigned to your organization |
+| ✓ **Browse your tasks** | Check tasks in your projects |
+| — **Explore services** | Browse available services in the catalog |
+| — **View invoices** | Review invoices billed to your organization |
 
 ---
 

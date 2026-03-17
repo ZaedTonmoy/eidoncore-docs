@@ -10,8 +10,8 @@ Get your agency workspace up and running in minutes. This guide walks you throug
 
 1. Visit the registration page at `register.eidoncore.com`
 2. Enter your **agency name** and choose a **workspace URL** (e.g., `myagency.eidoncore.com`)
-   - URLs must be 3–63 characters, lowercase letters, numbers, and hyphens only
-   - Availability is checked in real time as you type
+ - URLs must be 3–63 characters, lowercase letters, numbers, and hyphens only
+ - Availability is checked in real time as you type
 3. Enter your **name**, **email**, and **password** (minimum 8 characters with at least one uppercase letter, one lowercase letter, and one digit)
 4. Click **Create Account**
 
@@ -98,7 +98,7 @@ Your command center for agency operations:
 | **Recent Activity** | Latest actions across the workspace |
 | **Alerts** | Actionable banners for overdue invoices, at-risk projects, failed automations, and more |
 
-> Alerts are computed in real time from your workspace data. Dismiss them with the ✕ button — they'll reappear on your next visit if the underlying issue hasn't been resolved.
+> Alerts are computed in real time from your workspace data. Dismiss them with the × button — they'll reappear on your next visit if the underlying issue hasn't been resolved.
 
 > The dashboard also features a **daily motivational quote** that rotates every day — drawn from a curated collection of 345 quotes across leadership, creativity, resilience, and more.
 

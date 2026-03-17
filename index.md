@@ -4,7 +4,7 @@ Welcome to the Eidoncore platform documentation. This guide covers everything yo
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 ### Getting Started
 - [**Getting Started**](./getting-started.md) — Create your workspace, first login, onboarding checklist

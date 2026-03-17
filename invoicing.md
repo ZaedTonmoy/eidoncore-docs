@@ -48,11 +48,11 @@ Invoices flow through the following lifecycle:
 
 ```
 Draft → Scheduled → Sent → Viewed → Partially Paid → Paid
-                     │                                  ↑
-                     └─→ Overdue ──→ Bad Debt           │
-                                                        │
-                              Refunded ←────────────────┘
-                     └─→ Void
+ │ ↑
+ └─→ Overdue ──→ Bad Debt │
+ │
+ Refunded ←────────────────┘
+ └─→ Void
 ```
 
 | Status | Meaning |
@@ -189,6 +189,17 @@ Invoices are automatically branded with your agency's settings:
 ## Visibility Controls
 
 Control which team members can see specific invoices. By default, invoices are visible to all authorized users. Add visibility restrictions to limit access to sensitive invoices.
+
+---
+
+## Comments
+
+Leave comments on invoices for team discussion:
+
+- **Internal comments** — only visible to agency staff, useful for discussing pricing or payment issues
+- **Standard comments** — visible to anyone with access to the invoice
+- Supports threaded replies, @mentions, and emoji reactions
+- Comments appear in the invoice detail view
 
 ---
 

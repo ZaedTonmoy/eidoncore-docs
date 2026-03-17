@@ -42,16 +42,16 @@ Clients see a simplified sidebar:
 
 | Nav Item | Organization Owner | Organization Member |
 |----------|:-----------------:|:-------------------:|
-| Dashboard | ✅ | ✅ |
-| Projects | ✅ | ✅ |
-| Tasks | ✅ | ✅ |
-| Messages | ✅ | ✅ |
-| Services | ✅ | ✅ |
-| Cart | ✅ | ✅ |
-| Invoices | ✅ | ✅ |
-| My Account | ✅ | ✅ |
-| Reports | ✅ | ❌ |
-| Settings (Account) | ✅ | ✅ |
+| Dashboard | ✓ | ✓ |
+| Projects | ✓ | ✓ |
+| Tasks | ✓ | ✓ |
+| Messages | ✓ | ✓ |
+| Services | ✓ | ✓ |
+| Cart | ✓ | ✓ |
+| Invoices | ✓ | ✓ |
+| My Account | ✓ | ✓ |
+| Reports | ✓ | ✗ |
+| Settings (Account) | ✓ | ✓ |
 
 You can further customize what clients see by **hiding nav items** in Settings → Agency → Branding → Portal.
 
@@ -150,10 +150,10 @@ At `/catalog/services`, clients see:
 3. Review cart at `/cart`
 4. **Checkout** with card, Apple Pay, or Google Pay
 5. After payment, a confirmation page shows:
-   - Project cards for each purchased service
-   - Account manager details
-   - "What happens next" steps
-   - Intake form (if the service has one)
+ - Project cards for each purchased service
+ - Account manager details
+ - "What happens next" steps
+ - Intake form (if the service has one)
 
 After purchase, a project is automatically created and immediately visible in the client's project list.
 
@@ -221,21 +221,21 @@ Clients receive notifications for events relevant to their organization:
 
 | Notification | Organization Owner | Organization Member |
 |-------------|:-----------------:|:-------------------:|
-| Task assigned | ✅ | ✅ |
-| Task status changed | ✅ | ✅ |
-| Comments & mentions | ✅ | ✅ |
-| Chat @mention | ✅ | ✅ |
-| Chat reply | ✅ | ✅ |
-| Chat reaction | ✅ | ✅ |
-| Invoice sent/updated | ✅ | ✅ |
-| Invoice paid | ✅ | ✅ |
-| Invoice overdue | ✅ | ❌ |
-| Project delayed | ✅ | ✅ |
-| Deadline approaching | ✅ | ✅ |
-| Project completed | ✅ | ✅ |
-| Milestone completed | ✅ | ✅ |
-| Contract expiring | ✅ | ❌ |
-| Service activated | ✅ | ✅ |
+| Task assigned | ✓ | ✓ |
+| Task status changed | ✓ | ✓ |
+| Comments & mentions | ✓ | ✓ |
+| Chat @mention | ✓ | ✓ |
+| Chat reply | ✓ | ✓ |
+| Chat reaction | ✓ | ✓ |
+| Invoice sent/updated | ✓ | ✓ |
+| Invoice paid | ✓ | ✓ |
+| Invoice overdue | ✓ | ✗ |
+| Project delayed | ✓ | ✓ |
+| Deadline approaching | ✓ | ✓ |
+| Project completed | ✓ | ✓ |
+| Milestone completed | ✓ | ✓ |
+| Contract expiring | ✓ | ✗ |
+| Service activated | ✓ | ✓ |
 
 Default notification delivery:
 - **Organization Owner** — Instant delivery

@@ -216,14 +216,14 @@ Services can have an optional **intake form** that clients fill out after purcha
 
 1. **Create a form** — Go to the **Intake Forms** page (in the sidebar under Tools) and build a form with the drag-and-drop form builder
 2. **Add fields** — Supported field types:
-   - **Text** — Short text input
-   - **Textarea** — Multi-line text
-   - **Email** — Email address
-   - **Phone** — Phone number
-   - **URL** — Web link
-   - **Number** — Numeric input
-   - **Select** — Dropdown with custom options
-   - **Checkbox** — Yes/no toggle
+ - **Text** — Short text input
+ - **Textarea** — Multi-line text
+ - **Email** — Email address
+ - **Phone** — Phone number
+ - **URL** — Web link
+ - **Number** — Numeric input
+ - **Select** — Dropdown with custom options
+ - **Checkbox** — Yes/no toggle
 3. **Assign to services** — Link one form to one or more services
 4. **Client fills it out** — After purchasing a service, clients see the intake form on the confirmation page
 5. **Responses saved** — Submissions are automatically saved as a **pinned project document** in the auto-created project

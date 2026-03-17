@@ -22,16 +22,21 @@ All uploads use a simple **drag-and-drop** interface — you can also click the 
 
 ### Supported Files
 
-Most common file types are supported:
+File types are validated on upload — only safe, common file types are accepted:
+
 - **Images**: JPG, PNG, GIF, SVG, WebP
 - **Documents**: PDF, DOC, DOCX, TXT
 - **Spreadsheets**: XLS, XLSX, CSV
-- **Other**: ZIP, and more
+- **Archives**: ZIP
+- **Media**: MP4, MP3, WAV, WebM
+
+Files that don't match an allowed MIME type are rejected.
 
 ### Size Limits
 
 - **Maximum file size**: 10 MB per file
 - **Branding images** (logos, favicons): Up to **5 MB**
+- **Message attachments**: Varies by plan (see [Messaging](./messaging.md#file-attachments))
 
 > Total storage is limited by your plan. See [Settings](./settings.md#plans--billing) for storage limits per plan.
 

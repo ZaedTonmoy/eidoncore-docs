@@ -6,7 +6,7 @@ Stay informed about what's happening in your workspace through bell notification
 
 ## Bell Notifications
 
-The bell icon (🔔) in the top-right of every page shows your notification count. Click it to open the notification panel.
+The bell icon () in the top-right of every page shows your notification count. Click it to open the notification panel.
 
 - **Unread badge** — Shows the number of unread notifications
 - **Mark as read** — Click a notification to mark it as read
@@ -57,10 +57,10 @@ Notifications are categorized by priority to help you focus on what matters:
 
 | Priority | Meaning | Behavior |
 |----------|---------|----------|
-| 🔴 **Critical (P1)** | Financial loss, system failure, operational breakdown | Always instant — bypasses digest and quiet hours |
-| 🟠 **Risk (P2)** | Trending toward a problem — needs attention soon | Instant for agency staff, respects quiet hours for clients |
-| 🔵 **Action Required (P3)** | You need to do something specific | Normal delivery, respects digest settings |
-| ⚪ **Informational (P4)** | Lifecycle updates and context | Collapsible, digestable, low visual weight |
+| ● **Critical (P1)** | Financial loss, system failure, operational breakdown | Always instant — bypasses digest and quiet hours |
+| ● **Risk (P2)** | Trending toward a problem — needs attention soon | Instant for agency staff, respects quiet hours for clients |
+| ● **Action Required (P3)** | You need to do something specific | Normal delivery, respects digest settings |
+| ○ **Informational (P4)** | Lifecycle updates and context | Collapsible, digestable, low visual weight |
 
 ### Critical Events (Always Instant)
 
@@ -156,7 +156,7 @@ Certain events escalate in severity over time:
 
 ### Invoice Escalation
 - Due in 3 days → Risk notification
-- Day 1 overdue → Risk notification  
+- Day 1 overdue → Risk notification 
 - Day 7 overdue → Upgraded to **Critical**
 - Day 30 overdue → Critical with optional Slack alert
 

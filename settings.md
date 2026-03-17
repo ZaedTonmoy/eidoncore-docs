@@ -34,13 +34,13 @@ Accessible to all users under **Settings → Account**.
 
 - **Change Password** — Requires your current password. New password must meet strength requirements (minimum 8 characters, including uppercase, lowercase, and digit)
 - **Two-Factor Authentication (2FA)** — Add an extra layer of security using an authenticator app
-  - Scan the QR code with your authenticator app (Google Authenticator, Authy, etc.)
-  - Enter the 6-digit code to verify
-  - Save your **8 recovery codes** in a safe place — these are your backup if you lose access to your authenticator
-  - Disable 2FA with your password and a verification code
+ - Scan the QR code with your authenticator app (Google Authenticator, Authy, etc.)
+ - Enter the 6-digit code to verify
+ - Save your **8 recovery codes** in a safe place — these are your backup if you lose access to your authenticator
+ - Disable 2FA with your password and a verification code
 - **Active Sessions** — View all devices where you're logged in
-  - See device type, browser, location, and last activity
-  - Revoke individual sessions or all other sessions at once
+ - See device type, browser, location, and last activity
+ - Revoke individual sessions or all other sessions at once
 
 ### Notification Preferences
 
@@ -272,19 +272,19 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 | Message Retention | 30 days | 90 days | Unlimited |
 | Max Attachment Size | 5 MB | 10 MB | 25 MB |
 | **Features** | | | |
-| Invoice Reminders (in-app) | ✅ | ✅ | ✅ |
-| Messaging | ✅ | ✅ | ✅ |
-| Invoice Reminders (email) | ❌ | ✅ | ✅ |
-| Recurring Invoices | ❌ | ✅ | ✅ |
-| Automations | ❌ | ✅ | ✅ |
-| Branded Emails | ❌ | ✅ | ✅ |
-| Full Branding & Portal Customization | ❌ | ✅ | ✅ |
-| Audit Log | ❌ | ✅ | ✅ |
-| Health Scoring | ❌ | ✅ | ✅ |
-| Custom SMTP | ❌ | ❌ | ✅ |
-| Custom Domains | ❌ | ❌ | ✅ |
-| White Label | ❌ | ❌ | ✅ |
-| Security Policies | ❌ | ❌ | ✅ |
+| Invoice Reminders (in-app) | ✓ | ✓ | ✓ |
+| Messaging | ✓ | ✓ | ✓ |
+| Invoice Reminders (email) | ✗ | ✓ | ✓ |
+| Recurring Invoices | ✗ | ✓ | ✓ |
+| Automations | ✗ | ✓ | ✓ |
+| Branded Emails | ✗ | ✓ | ✓ |
+| Full Branding & Portal Customization | ✗ | ✓ | ✓ |
+| Audit Log | ✗ | ✓ | ✓ |
+| Health Scoring | ✗ | ✓ | ✓ |
+| Custom SMTP | ✗ | ✗ | ✓ |
+| Custom Domains | ✗ | ✗ | ✓ |
+| White Label | ✗ | ✗ | ✓ |
+| Security Policies | ✗ | ✗ | ✓ |
 
 > Annual billing discounts available: Pro at $23/mo, Enterprise at $63/mo.
 
@@ -296,7 +296,7 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 - **Reactivate** — Reverse a pending cancellation before the period ends
 - **Billing Portal** — Manage payment methods, view invoices, and update billing details via Stripe's billing portal
 - **Usage Dashboard** — See your current resource usage vs. plan limits
-- **Data Export** — Export all agency data as a CSV/JSON bundle
+- **Data Export** — Export all agency data as a downloadable bundle. Includes projects, tasks, clients, invoices, time entries, team members, and services. Available in CSV and JSON formats. Useful for backups, compliance, or migrating to another platform
 
 ### Plan Status Indicators
 
