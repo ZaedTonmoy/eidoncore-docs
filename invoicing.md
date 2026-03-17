@@ -77,7 +77,10 @@ Once an invoice is ready, click **"Send"** to deliver it to the client's contact
 - **Schedule** an invoice for future delivery
 - **Share via public link** — generate a shareable URL for clients to view the invoice without logging in
 
-When an invoice is sent, all contacts linked to the client organization receive a notification.
+When an invoice is sent:
+- All contacts linked to the client organization receive a notification
+- A **branded PDF** of the invoice is attached to the email automatically
+- The invoice uses your agency's branding (logo, accent color, footer, signature)
 
 ---
 
@@ -229,6 +232,8 @@ The invoice analytics view provides a comprehensive financial overview:
 
 - **Duplicate** any invoice to create a copy with a new invoice number
 - **Delete** is only available for Draft invoices — once sent, invoices must be voided instead
+- **Void** requires a reason (e.g., "Duplicate", "Issued in error") — tracked in the invoice history
+- **Bad Debt** also requires a reason — marks the invoice as uncollectable for reporting purposes
 
 ---
 

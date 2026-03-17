@@ -31,6 +31,8 @@ Type your message in the input area at the bottom of the chat view. Messages sup
 
 Messages appear **instantly** in the chat (optimistic send) — the message is shown immediately while it saves in the background.
 
+Messaging is rate-limited to **10 messages per minute** per user to prevent spam.
+
 ### Editing Messages
 
 You can edit your own messages within a **5-minute window** after sending. After 5 minutes, messages become permanent.
@@ -146,6 +148,8 @@ Messaging features scale with your subscription plan:
 | Members per channel | 10 | 30 | Unlimited |
 | Message retention | 30 days | 90 days | Unlimited |
 | Max attachment size | 5 MB | 10 MB | 25 MB |
+
+Messages older than the retention period are **permanently deleted** by an automated cleanup process. This runs weekly to ensure your workspace stays within plan limits.
 
 > **See also:** [Settings](./settings.md#plans--billing) for plan details
 

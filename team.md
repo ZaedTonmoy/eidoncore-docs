@@ -98,6 +98,8 @@ Permissions are organized by feature area:
 
 Custom roles cannot be deleted if any team members are currently assigned to them.
 
+> **Note:** The Comments permission includes a special **View Internal** sub-permission. Roles with this enabled can see internal comments on projects, tasks, clients, and invoices. Client roles (Organization Owner/Member) never have this permission.
+
 ---
 
 ## Managing Members
@@ -152,6 +154,8 @@ Click on any team member to see their detailed profile:
 | **Billable Hours** | Total time logged across all projects |
 | **Active Projects** | Projects where the member is currently assigned |
 | **Recent Activity** | Last 20 actions taken by this member |
+
+> **Per-workspace profiles**: If a user belongs to multiple workspaces, they can set a different display name and avatar for each. This ensures data isolation between workspaces — e.g., a freelancer working with two agencies sees a separate identity in each.
 
 ### Member Status Lifecycle
 

@@ -197,6 +197,27 @@ For services with included hours (Hourly Block):
 | **Cancelled** | Terminated by the client or agency |
 | **Completed** | One-time service delivered |
 
+### Cancelling a Subscription
+
+When a subscription is cancelled (by the client or agency):
+
+1. Any **active timers** are automatically stopped
+2. All **unbilled time entries** are swept and added to a closing draft invoice
+3. The subscription status changes to **Cancelled**
+4. A cancellation reason is recorded (e.g., "Too expensive", "Not using it anymore", "Switching provider", "Project completed", or custom text)
+5. The agency Owner and Admin are notified
+
+The closing draft invoice ensures no billable work is lost when a subscription ends.
+
+### Auto-Renewal
+
+Recurring subscriptions automatically renew at the end of each billing period:
+
+- The saved payment method is charged off-session
+- On success, the billing period extends by one month and included hours/credits reset
+- On failure, the subscription moves to **Past Due** status and both parties are notified
+- The `autoRenew` toggle can be managed from the subscription settings
+
 ### Credits Tracking
 
 For credit-based services (Credit Pack):
