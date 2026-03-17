@@ -325,6 +325,52 @@ Every new workspace starts with a **14-day free trial** of the Pro plan. You'll 
 
 ---
 
+## Bug Reports
+
+Report issues directly from your workspace using the built-in **Bug Report** system.
+
+### Quick Report (Floating Button)
+
+A **bug report button** appears on every page in the workspace. Click it to instantly open the bug report form — the current page is auto-filled, and you can capture a **screenshot** of what you're seeing:
+
+- **Automatic screenshot** — captures the current page using the browser's rendering engine
+- **Screenshot markup** — annotate the screenshot to highlight the issue before submitting
+- **Manual image upload** — drag and drop an image (PNG, JPG, GIF, WebP — up to 5 MB) if you prefer
+
+### Filing a Report
+
+| Field | Description |
+|-------|-------------|
+| **Title** | Short summary of the issue |
+| **Description** | Detailed explanation of what went wrong |
+| **Severity** | Low, Medium, High, or Critical |
+| **Page** | Auto-filled with the current page URL |
+| **Screenshot** | Captured or uploaded image showing the issue |
+
+### Report Statuses
+
+| Status | Meaning |
+|--------|---------|
+| **Open** | Newly submitted — awaiting review |
+| **In Progress** | Being investigated |
+| **Resolved** | Fix has been applied |
+| **Closed** | Issue is resolved and closed |
+
+### Tracking Your Reports
+
+Navigate to **Bug Reports** in the sidebar (under Tools) to view all reports. You can:
+
+- Filter by **status** and **severity**
+- View a report's **comment thread** for updates from the platform team
+- Leave comments on your own reports for additional context
+- Receive **notifications** when a report's status changes or the platform team replies
+
+### Permissions
+
+Bug report access is available to **Owners**, **Admins**, and **Project Managers**.
+
+---
+
 ## About / Changelog
 
 View the platform changelog under **Settings → About** to see recent updates, new features, and improvements.
