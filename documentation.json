@@ -140,6 +140,11 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Changelog",
+        "pages": [],
+        "icon": "activity-square"
       }
     ]
   }
