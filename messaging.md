@@ -124,6 +124,31 @@ Maximum attachment size depends on your plan:
 
 ---
 
+## Channel Management
+
+### Muting Channels
+
+Mute channels to pause notifications without leaving the conversation:
+
+- Click the **mute** icon on any channel in the sidebar
+- Choose a mute duration (1 hour, 8 hours, 24 hours, 1 week, or until you unmute)
+- Muted channels won't send you email notifications
+- You can still read messages — you just won't be notified
+
+If you send a message in a channel you've muted, the mute is **automatically removed** — since you're actively participating, you'll resume receiving notifications.
+
+> **Note:** Critical notifications (@mentions) may still bypass mute in certain cases.
+
+### Mark All as Read
+
+Click **"Mark all as read"** at the top of the messaging sidebar to clear all unread badges across all your channels at once.
+
+### Channel Browsing
+
+Users with the **Browse All Channels** permission can see every channel in the workspace, even ones they're not a member of. This is useful for Owners and Admins who need to oversee all conversations.
+
+---
+
 ## Message Actions
 
 Hover over any message to see the action bar with quick buttons:

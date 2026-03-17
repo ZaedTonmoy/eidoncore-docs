@@ -116,6 +116,32 @@ Review logs to troubleshoot failed automations or verify that rules are working 
 
 ---
 
+## Deferred Triggers
+
+Some actions use **deferred triggers** to handle placeholder data:
+
+- When a **Create Task** action creates a task, the task is initially a placeholder (e.g., title might contain `{{variable}}` syntax)
+- Once the triggering event provides the full data, the task is updated with the resolved values
+- This ensures tasks created by automations always have accurate, complete information
+
+---
+
+## Plan Limits
+
+Automation counts are governed by your subscription plan:
+
+| Plan | Maximum Automations |
+|------|:------------------:|
+| **Free** | 0 (not available) |
+| **Pro** | 20 |
+| **Enterprise** | Unlimited |
+
+When a **Create Task** action fires, the system also checks your task quota. If your plan's task limit has been reached, the action will fail and the execution log will record the reason.
+
+> **See also:** [Settings](./settings.md#plans--billing) for plan limits
+
+---
+
 ## Troubleshooting
 
 ### Failed Automations

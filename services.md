@@ -59,6 +59,18 @@ For Hourly Block and Credit Pack services:
 | **Rollover Policy** | None (reset each period), Capped, or Unlimited |
 | **Expiry Days** | Number of days before unused hours/credits expire |
 | **Minimum Billable Increment** | Smallest time unit for billing (e.g., 15 minutes) |
+| **Overtime Rate** | Hourly rate charged when included hours are exceeded (for Hourly Block services) |
+
+### Quota Top-Ups
+
+When a client's included hours or credits run out, they can purchase **top-ups** directly from their account:
+
+- Navigate to **My Account → Subscriptions** and click **"Top Up"** on the relevant subscription
+- Choose from pre-configured top-up packages or enter a custom amount
+- Payment is processed via Stripe
+- The balance is updated immediately
+
+The agency owner is notified when a client purchases a top-up.
 
 ---
 

@@ -165,6 +165,21 @@ This provides a full history of what happened and who did it.
 
 ---
 
+## Project Tabs
+
+Project detail pages are organized into tabs for quick navigation:
+
+| Tab | What It Contains |
+|-----|-----------------|
+| **Overview** | Project details, health, budget progress, key metrics, and pinned files/documents |
+| **Tasks** | Full task board (Kanban, List, or Workload view) with filters and analytics |
+| **Milestones** | Milestone list with status, owner, and linked tasks |
+| **Files** | Uploaded project files with drag-and-drop upload |
+| **Comments** | Project-level discussion with internal/standard visibility |
+| **Activity** | Full activity log for all project events |
+
+---
+
 ## Auto-Created Projects
 
 Projects can be automatically created when a client purchases a service through the catalog checkout. These projects:

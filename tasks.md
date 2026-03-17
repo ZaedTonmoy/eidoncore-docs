@@ -223,6 +223,19 @@ Client users (Organization Owner/Member) always see only tasks in their organiza
 
 ---
 
+## Assignee Rules
+
+The assignee dropdown shows different people depending on context:
+
+| Context | Who Appears |
+|---------|------------|
+| Task inside a project | Project team members + Agency Owner |
+| Task without a project | All agency staff + Agency Owner |
+
+Client users (Organization Owner / Organization Member) **cannot be assigned tasks** — only agency staff appear in the assignee dropdown.
+
+---
+
 ## Notifications
 
 You'll receive automatic notifications for key task events:
