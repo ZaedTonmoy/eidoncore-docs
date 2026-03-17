@@ -3,12 +3,12 @@
     "actions": {
       "primary": {
         "title": "Get Started",
-        "link": "https://register.eidoncore.com"
+        "link": "https://register.eidoncore.com/register"
       },
       "links": [
         {
           "title": "Login",
-          "link": "https://login.eidoncore.com"
+          "link": "https://register.eidoncore.com/login"
         }
       ]
     }
