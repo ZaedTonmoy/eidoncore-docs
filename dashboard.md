@@ -34,8 +34,8 @@ Every active project is automatically scored based on task progress and deadline
 | Health | Condition |
 |--------|-----------|
 | ● **On Track** | ≥50% of tasks completed, no overdue milestones |
-| ● **At Risk** | <50% tasks done, some overdue, or project due within 7 days |
-| ● **Off Track** | <25% tasks done and past due, or >50% tasks/milestones overdue |
+| ● **At Risk** | &lt;50% tasks done, some overdue, or project due within 7 days |
+| ● **Off Track** | &lt;25% tasks done and past due, or >50% tasks/milestones overdue |
 
 ### Team Workload
 
