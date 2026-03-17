@@ -15,137 +15,129 @@
         "icon": "book",
         "groups": [
           {
-            "group": "Start Here",
-            "icon": "rocket",
+            "group": "Overview",
+            "icon": "home",
             "pages": [
               {
                 "title": "Introduction",
-                "path": "introduction",
+                "path": "index",
                 "icon": "home"
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "rocket"
               },
               {
-                "title": "Components",
-                "path": "components",
-                "icon": "code"
+                "title": "Onboarding",
+                "path": "onboarding",
+                "icon": "rocket"
+              },
+              {
+                "title": "Dashboard",
+                "path": "dashboard",
+                "icon": "layout"
               }
             ]
           },
           {
-            "group": "Components",
-            "icon": "layers",
+            "group": "Work Management",
+            "icon": "check-circle",
             "pages": [
               {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
+                "title": "Projects",
+                "path": "projects",
+                "icon": "file-text"
               },
               {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
+                "title": "Tasks",
+                "path": "tasks",
+                "icon": "file-text"
               },
               {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
+                "title": "Services",
+                "path": "services",
+                "icon": "box"
               },
               {
-                "title": "Callouts",
-                "path": "components/callouts",
-                "icon": "message-square"
+                "title": "Automations",
+                "path": "automations",
+                "icon": "refresh-cw"
               },
               {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
-              },
-              {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
+                "title": "Reports",
+                "path": "reports",
+                "icon": "clock"
               }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "code",
-        "groups": [
+          },
           {
-            "group": "Overview",
-            "icon": "file-text",
+            "group": "People & Clients",
+            "icon": "users",
             "pages": [
               {
-                "title": "Authentication",
-                "path": "authentication",
+                "title": "Clients",
+                "path": "clients",
+                "icon": "users"
+              },
+              {
+                "title": "Team",
+                "path": "team",
+                "icon": "users"
+              },
+              {
+                "title": "Client Portal",
+                "path": "client-portal",
+                "icon": "globe"
+              },
+              {
+                "title": "Intake Forms",
+                "path": "intake-forms",
+                "icon": "file-text"
+              }
+            ]
+          },
+          {
+            "group": "Collaboration & Files",
+            "icon": "folder",
+            "pages": [
+              {
+                "title": "Files",
+                "path": "files",
+                "icon": "file-text"
+              },
+              {
+                "title": "Messaging",
+                "path": "messaging",
+                "icon": "help-circle"
+              },
+              {
+                "title": "Notifications",
+                "path": "notifications",
+                "icon": "bell"
+              }
+            ]
+          },
+          {
+            "group": "Account & Security",
+            "icon": "settings",
+            "pages": [
+              {
+                "title": "Invoicing",
+                "path": "invoicing",
+                "icon": "file-text"
+              },
+              {
+                "title": "Settings",
+                "path": "settings",
+                "icon": "settings"
+              },
+              {
+                "title": "Security",
+                "path": "security",
                 "icon": "lock"
               }
             ]
-          },
-          {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
-              }
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
-          {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
           }
         ]
       }
