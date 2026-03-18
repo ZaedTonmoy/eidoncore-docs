@@ -1,11 +1,11 @@
 ---
 title: "Changelog"
+description: "All notable changes, new features, improvements, and bug fixes across every Eidoncore platform release."
 ---
 
 All notable changes to the EidonCore platform.
 
-## v8.3.0 — Performance Boost & Modular Architecture
-**2026-03-14**
+<Update label="2026-03-14" description="v8.3.0 — Performance Boost & Modular Architecture" tags={["Performance", "Billing", "Tasks"]}>
 
 > Server-side caching for branding and config data, composite database indexes for faster queries, ~300KB bundle reduction via dynamic imports, service query pagination, and modular component architecture across the organization, service, invoice, and dashboard pages.
 
@@ -20,10 +20,9 @@ All notable changes to the EidonCore platform.
 - 3 composite database indexes — Task (assignee + status), Notification (user + read state), OrgService (org + status) for faster filtered queries
 - Task status config caching — lookups now use server-side cache with tag-based invalidation instead of per-request DB queries
 
----
+</Update>
 
-## v8.2.0 — Digital Products Sales Tracker, Invoice PDF & Org Self-Service
-**2026-03-12**
+<Update label="2026-03-12" description="v8.2.0 — Digital Products Sales Tracker, Invoice PDF & Org Self-Service" tags={["Billing", "Services", "CRM"]}>
 
 > New digital products Sales Tracker with sortable table and slide-out management panel, proper PDF invoice email attachments, styled confirmation dialogs replacing browser prompts, organization self-service member management, chat member panel with auto-join, and invoice preview enhancements.
 
@@ -50,10 +49,9 @@ All notable changes to the EidonCore platform.
 - PDF logo format — WebP and SVG logos automatically converted to PNG for PDF compatibility
 - showPoweredBy toggle now respected in print invoice view
 
----
+</Update>
 
-## v8.1.0 — Live Messaging, Reactions, Read Receipts & Real-Time UX
-**2026-03-10**
+<Update label="2026-03-10" description="v8.1.0 — Live Messaging, Reactions, Read Receipts & Real-Time UX" tags={["Mobile", "Notifications", "Messaging"]}>
 
 > Complete real-time messaging system — live chat via Pusher Channels, message reactions & thread replies, Facebook-style read receipts, typing indicators, optimistic message sending, unread badges (sidebar + favicon dot), inline DM search, notification grouping, settings search, reports UX upgrade, and mobile responsive layouts.
 
@@ -93,10 +91,9 @@ All notable changes to the EidonCore platform.
 - Fix agency security page infinite loading for PM role
 - Scope settings audit log by role — team members see only their own changes
 
----
+</Update>
 
-## v8.0.0 — Service Pricing Engine, Quota System & Catalog Redesign
-**2026-03-07**
+<Update label="2026-03-07" description="v8.0.0 — Service Pricing Engine, Quota System & Catalog Redesign" tags={["Major Update", "Tasks", "Services"]}>
 
 > Major release — complete service pricing architecture overhaul with 4 quota types (Standard, Time-Based, Credit-Based, Usage-Based), dual-ledger quota engine with 105 edge cases covered, inline task creation pattern, field tooltips and conditional form logic, slug availability checking, and a premium catalog service page redesign with glass cards, animations, and gallery lightbox.
 
@@ -148,10 +145,9 @@ All notable changes to the EidonCore platform.
 - Use live DB query for SMTP plan gate instead of stale session JWT
 - Add programmatic file type validation to ImageUpload component
 
----
+</Update>
 
-## v7.6.0 — Intake Form Builder v2 — Multi-Page, Repeater & Preview
-**2026-02-19**
+<Update label="2026-02-19" description="v7.6.0 — Intake Form Builder v2 — Multi-Page, Repeater & Preview" tags={["Major Update", "Projects", "Services"]}>
 
 > Major intake form upgrade — multi-page forms with step wizard, repeater/group fields with dynamic rows, full-screen preview modal, public catalog redesign with share links and SEO, and field type expansion to 27 types.
 
@@ -175,10 +171,9 @@ All notable changes to the EidonCore platform.
 - Sidebar gap at bottom when scrolling - split into outer wrapper + inner sticky
 - Move bottom padding from flex parent to canvas only - fixes sidebar gap
 
----
+</Update>
 
-## v7.5.1 — Kanban Redesign, Task Drag-and-Drop & Custom Statuses
-**2026-02-14**
+<Update label="2026-02-14" description="v7.5.1 — Kanban Redesign, Task Drag-and-Drop & Custom Statuses" tags={["Major Update", "Billing", "Tasks"]}>
 
 > Visual Kanban board overhaul with shadow cards and priority badges, drag-and-drop task reordering in list view, project-scoped custom task statuses, guest checkout for public catalog, and invoice discount safety.
 
@@ -198,10 +193,9 @@ All notable changes to the EidonCore platform.
 - Fixed duplicate file entries and enforced storage quota limits on all upload paths
 - Fixed pricing validation blocking progression and cover image display issues in service builder
 
----
+</Update>
 
-## v7.5.0 — Typography Refactor & SF Pro Display Default Font
-**2026-02-12**
+<Update label="2026-02-12" description="v7.5.0 — Typography Refactor & SF Pro Display Default Font" tags={["Major Update", "UI/UX"]}>
 
 > Comprehensive typography standardization across the entire codebase — replaced 1,476 inline font declarations with CSS design tokens, introduced utility classes, and switched the default system font from Plus Jakarta Sans to SF Pro Display.
 
@@ -238,10 +232,9 @@ All notable changes to the EidonCore platform.
 - Duplicate file entries, storage quota enforcement, and doc updates
 - Pricing validation blocks progression + cover image display
 
----
+</Update>
 
-## v7.4.0 — Invoice Form Redesign — Live Preview, Edit Parity & Print Template
-**2026-02-02**
+<Update label="2026-02-02" description="v7.4.0 — Invoice Form Redesign — Live Preview, Edit Parity & Print Template" tags={["Major Update", "Billing", "UI/UX"]}>
 
 > Redesigned invoice creation with a 55/45 form+preview split layout, live A4-proportioned preview panel, unified edit page, aligned line-item sub-rows, and pixel-perfect print template matching the preview.
 
@@ -259,10 +252,9 @@ All notable changes to the EidonCore platform.
 - Fixed extra blank page in print — removed spacer div that pushed content past A4 boundary
 - Sidebar display name duplication, dashboard greeting uses live profile, mobile header layout
 
----
+</Update>
 
-## v7.3.0 — Dashboard Greeting Enhancements & Daily Motivational Quotes
-**2026-01-30**
+<Update label="2026-01-30" description="v7.3.0 — Dashboard Greeting Enhancements & Daily Motivational Quotes" tags={["Tasks", "Analytics", "UI/UX"]}>
 
 > Time-aware greeting with contextual icons, daily motivational quotes that rotate through 345+ curated entries, and polished header layout with quote and greeting side-by-side.
 
@@ -278,10 +270,9 @@ All notable changes to the EidonCore platform.
 - Removed tinted background color from project page summary card icons for visual consistency
 - Build error — getDashboardStats → getOverview + docs updates
 
----
+</Update>
 
-## v7.2.0 — Bug Reports Button, Tasks Filter Bar & UI Polish
-**2026-01-28**
+<Update label="2026-01-28" description="v7.2.0 — Bug Reports Button, Tasks Filter Bar & UI Polish" tags={["Security", "Tasks", "Analytics"]}>
 
 > Restored missing Report a Bug button on the bug reports page, moved the List/Board/Workload view toggle into the tasks filter bar alongside filters and New Task, and fixed several layout and overflow issues.
 
@@ -324,10 +315,9 @@ All notable changes to the EidonCore platform.
 - Add debug logging to bugReport notification catch + cleanup
 - Make invoice rows clickable on org detail page → navigates to /invoices/:id
 
----
+</Update>
 
-## v7.1.0 — Monetization Fixes, Consolidated Invoice Settings & UI Polish
-**2026-01-16**
+<Update label="2026-01-16" description="v7.1.0 — Monetization Fixes, Consolidated Invoice Settings & UI Polish" tags={["Security", "Billing", "Notifications"]}>
 
 > Aligned monetization plan data with spec, merged duplicate Invoice Settings into Branding, removed misleading email badge, and relocated team invite button to filter bar.
 
@@ -372,10 +362,9 @@ All notable changes to the EidonCore platform.
 - Scope team.ts getWorkload assignedTasks by organizationId
 - Align plan data with spec, enforce intakeForms limit, use IconLock SVG
 
----
+</Update>
 
-## v7.0.0 — Redesigned Headers, Cleaner Settings & Sidebar Polish
-**2026-01-03**
+<Update label="2026-01-03" description="v7.0.0 — Redesigned Headers, Cleaner Settings & Sidebar Polish" tags={["Major Update", "Billing", "Settings"]}>
 
 > Major UI overhaul — simplified settings page, more compact sidebar, redesigned page headers that align with the sidebar, and consistent styling across all pages.
 
@@ -408,10 +397,9 @@ All notable changes to the EidonCore platform.
 - Sidebar flex-direction column for vertical filter stacking
 - Download button now triggers real file download instead of opening in new tab
 
----
+</Update>
 
-## v6.9.0 — Platform Monetization — Subscription Billing, Plan Gating & Security Hardening
-**2025-12-26**
+<Update label="2025-12-26" description="v6.9.0 — Platform Monetization — Subscription Billing, Plan Gating & Security Hardening" tags={["Security", "Billing", "Services"]}>
 
 > Full platform monetization system with FREE/PRO/ENTERPRISE tiers, Stripe subscription billing, plan-gating middleware, quantity limits, billing lifecycle management, global status banners, and comprehensive security hardening across auth, rate limiting, and encryption.
 
@@ -442,10 +430,9 @@ All notable changes to the EidonCore platform.
 - Security hardening and domain management improvements
 - Custom domain DNS verification, routing, auth cookies, and docs
 
----
+</Update>
 
-## v6.8.0 — Task Assignment Emails, Team Invitations & Agency Name in Sidebar
-**2025-12-18**
+<Update label="2025-12-18" description="v6.8.0 — Task Assignment Emails, Team Invitations & Agency Name in Sidebar" tags={["Tasks", "Projects", "Team"]}>
 
 > Rich task assignment email on drawer close, branded team invitation email with password-setup link and workspace URL, and agency name now displays in sidebar from registration.
 
@@ -466,10 +453,9 @@ All notable changes to the EidonCore platform.
 - SignOut uses redirect:false + manual redirect to stay on agency subdomain
 - Defer task_created automation + notification for placeholder tasks, fix record payment modal overlay
 
----
+</Update>
 
-## v6.7.0 — Multi-Tenant Workspaces — Subdomains, Onboarding & Welcome Emails
-**2025-12-14**
+<Update label="2025-12-14" description="v6.7.0 — Multi-Tenant Workspaces — Subdomains, Onboarding & Welcome Emails" tags={["Tasks", "Projects", "Settings"]}>
 
 > Full subdomain-based tenant resolution with automated provisioning, post-registration onboarding questionnaire, workspace finder, welcome emails with SMTP fallback, wildcard domain support, and logout fix for agency portals.
 
@@ -520,10 +506,9 @@ All notable changes to the EidonCore platform.
 - Wrap reset-password page in Suspense for Next.js 16 build
 - Use CSS variable overrides for branding color on auth pages to prevent flash
 
----
+</Update>
 
-## v6.6.0 — Automation Engine — Full Wiring & UI Upgrade
-**2025-11-29**
+<Update label="2025-11-29" description="v6.6.0 — Automation Engine — Full Wiring & UI Upgrade" tags={["Billing", "Notifications", "Tasks"]}>
 
 > Fixed 4 critical automation engine bugs, wired executeAutomations() into all 6 routers (11 triggers), added edit modal and enhanced execution logs with expandable detail rows and filtering, and added config forms for all 7 action types.
 
@@ -592,10 +577,9 @@ All notable changes to the EidonCore platform.
 - 2FA login flow, addContact password overwrite, auth docs
 - Prevent favicon reverting to default on client-side navigation
 
----
+</Update>
 
-## v6.5.0 — Intake Forms — Client Onboarding Data Collection
-**2025-11-07**
+<Update label="2025-11-07" description="v6.5.0 — Intake Forms — Client Onboarding Data Collection" tags={["Tasks", "Projects", "Services"]}>
 
 > Custom intake forms that agency owners can create and assign to services. Clients fill them post-purchase on the success page, generating a pinned project document for the team.
 
@@ -610,10 +594,9 @@ All notable changes to the EidonCore platform.
 - Sidebar gating — Intake Forms menu item visible only to Agency Owner, Admin, and Project Manager via SERVICES_EDIT or SERVICES_VIEW_ALL permissions
 - Owner notification — agency owner receives INTAKE_FORM_SUBMITTED notification when a client completes an intake form
 
----
+</Update>
 
-## v6.4.0 — Dual Service System — Client Catalog & Review Moderation
-**2025-11-05**
+<Update label="2025-11-05" description="v6.4.0 — Dual Service System — Client Catalog & Review Moderation" tags={["Tasks", "Services", "CRM"]}>
 
 > Complete internal/external service separation with client-facing catalog, review moderation, visibility controls, slug-based routing, and per-user access grants
 
@@ -685,10 +668,9 @@ All notable changes to the EidonCore platform.
 - Pin icon visual state + truncate long file names
 - File name ellipsis now visible with proper flex layout
 
----
+</Update>
 
-## v6.3.0 — Slug URLs, Hash Tab Persistence & File UX
-**2025-10-13**
+<Update label="2025-10-13" description="v6.3.0 — Slug URLs, Hash Tab Persistence & File UX" tags={["Tasks", "Projects", "CRM"]}>
 
 > Human-readable slug URLs for projects and organizations, hash-based tab and view persistence, file list UX polish, task list column fix, and settings improvements
 
@@ -710,10 +692,9 @@ All notable changes to the EidonCore platform.
 - Fixed slug rename breaking project data — task queries and mutations now use the resolved cuid instead of the URL slug, preventing 'Project not found' errors
 - Fixed organization slug auto-sync — custom slugs no longer overwritten when saving settings without changing the company name
 
----
+</Update>
 
-## v6.2.0 — Notification Intelligence v7
-**2025-10-09**
+<Update label="2025-10-09" description="v6.2.0 — Notification Intelligence v7" tags={["Billing", "Notifications", "CRM"]}>
 
 > Priority tier system (P1-P4), notification cooldown engine, invoice escalation logic, PAYMENT_REMINDER downgrade, client-facing status filtering, and priority accent UI in the notification panel
 
@@ -728,10 +709,9 @@ All notable changes to the EidonCore platform.
 - PROJECT_STATUS_CHANGED client filtering — org users only notified on meaningful status shifts (Delayed, Completed, On Hold, Blocked, Cancelled), not internal workflow transitions
 - PriorityTier enum (P1-P4) and priorityTier field added to Notification model in schema
 
----
+</Update>
 
-## v6.1.0 — Notification System — Full Coverage
-**2025-10-07**
+<Update label="2025-10-07" description="v6.1.0 — Notification System — Full Coverage" tags={["Notifications", "Tasks", "Projects"]}>
 
 > 10 new notification types with mutation-based triggers, cron-driven time-based alerts, and 2 new preference categories (timeTracking, projectDocs)
 
@@ -745,10 +725,9 @@ All notable changes to the EidonCore platform.
 - PAYMENT_REMINDER added to critical events list — bypasses digest batching for urgent invoice reminders
 - Two new preference categories (timeTracking, projectDocs) added to all role configs and visibility arrays
 
----
+</Update>
 
-## v6.0.0 — Comprehensive Notification System Expansion
-**2025-10-05**
+<Update label="2025-10-05" description="v6.0.0 — Comprehensive Notification System Expansion" tags={["Billing", "Notifications", "Projects"]}>
 
 > 18 new notification types covering project lifecycle, CRM & client management, invoice awareness, team operations, and operational intelligence — with role-based visibility and per-type icons
 
@@ -767,10 +746,9 @@ All notable changes to the EidonCore platform.
 - 10 new notification categories with per-role visibility and default preferences configured for all 7 roles
 - 16 new SVG icons in NotificationPanel for visual distinction of each notification type
 
----
+</Update>
 
-## v5.9.0 — Grouped Task List, File Preview & Image Lightbox
-**2025-10-01**
+<Update label="2025-10-01" description="v5.9.0 — Grouped Task List, File Preview & Image Lightbox" tags={["Tasks", "Projects", "Files"]}>
 
 > ClickUp-style collapsible task list grouped by status, file preview modal for project files, image lightbox with zoom/pan across all uploaded images, and rich text editor improvements
 
@@ -791,10 +769,9 @@ All notable changes to the EidonCore platform.
 - RTE isEmpty — editor no longer considered empty when only images, file attachments, or @mentions are present
 - Quote button now toggles off properly when clicked again
 
----
+</Update>
 
-## v5.8.0 — Smart Notifications, Kanban Polish & Mobile UX
-**2025-09-27**
+<Update label="2025-09-27" description="v5.8.0 — Smart Notifications, Kanban Polish & Mobile UX" tags={["Security", "Mobile", "Notifications"]}>
 
 > Comment interaction notifications, Kanban drag-and-drop fix, mobile TaskDrawer resizable sidebar, reaction system improvements, and notification deep-linking
 
@@ -812,10 +789,9 @@ All notable changes to the EidonCore platform.
 ### 🐛 Fixed
 - Fixed Kanban board drag-and-drop snap-back — tasks no longer visually return to original position after being dropped
 
----
+</Update>
 
-## v5.7.0 — Mobile UI Polish & Team Page Upgrade
-**2025-09-24**
+<Update label="2025-09-24" description="v5.7.0 — Mobile UI Polish & Team Page Upgrade" tags={["Mobile", "Major Update", "Billing"]}>
 
 > Comprehensive mobile responsiveness fixes across Service Detail, Invoice Analytics, Team cards, and Reports pages, plus team page filter modernization
 
@@ -858,10 +834,9 @@ All notable changes to the EidonCore platform.
 - Add spacing between CHURNED badge and tags row
 - Restructure contact cards into 3 clear rows
 
----
+</Update>
 
-## v5.6.0 — Task Visibility Scoping & Assignee Improvements
-**2025-09-12**
+<Update label="2025-09-12" description="v5.6.0 — Task Visibility Scoping & Assignee Improvements" tags={["Tasks", "Projects", "Team"]}>
 
 > Role-based task visibility, project-scoped assignees, mandatory project selection, and bug fixes
 
@@ -906,10 +881,9 @@ All notable changes to the EidonCore platform.
 - Render markdown formatting in task comments
 - Link modal z-index — use position:fixed with z-index:10000
 
----
+</Update>
 
-## v5.5.0 — Multi-Layer Permission System & Public Task Sharing
-**2025-08-30**
+<Update label="2025-08-30" description="v5.5.0 — Multi-Layer Permission System & Public Task Sharing" tags={["Major Update", "Billing", "Tasks"]}>
 
 > Complete permission architecture overhaul with per-item sidebar filtering, role-based access aligned to the multi-tenant hierarchy (Agency → Team → Organization → Client), public shared task pages, and rich text editor fix
 
@@ -929,10 +903,9 @@ All notable changes to the EidonCore platform.
 - Rich text editor toolbar — fixed blur/focus conflict preventing formatting buttons from inserting markdown
 - Role label display — sidebar now shows actual role name from session instead of hardcoded 'Member'
 
----
+</Update>
 
-## v5.4.0 — Updated Task Details Panel
-**2025-08-27**
+<Update label="2025-08-27" description="v5.4.0 — Updated Task Details Panel" tags={["Major Update", "Tasks"]}>
 
 > Complete redesign of task details from a basic 520px drawer to a premium 860px two-column detail panel inspired by Asana/Linear, with rich metadata, tabbed content, and modern micro-interactions
 
@@ -964,10 +937,9 @@ All notable changes to the EidonCore platform.
 - Add display:block to print-invoice in @media print
 - Rename Organization to Agency in settings, add contact permission gating, sync tagline column to DB
 
----
+</Update>
 
-## v5.3.0 — Printable Invoices Revamp
-**2025-08-19**
+<Update label="2025-08-19" description="v5.3.0 — Printable Invoices Revamp" tags={["Major Update", "Billing", "CRM"]}>
 
 > Dedicated premium print template with agency branding, professional layout, and configurable print settings
 
@@ -980,10 +952,9 @@ All notable changes to the EidonCore platform.
 - Template-based print approach — hides all app chrome and shows only the dedicated print template, ensuring clean paper output
 - Configurable paper size — A4 and US Letter supported
 
----
+</Update>
 
-## v5.2.0 — New Printable Invoices
-**2025-08-17**
+<Update label="2025-08-17" description="v5.2.0 — New Printable Invoices" tags={["Major Update", "Billing", "Notifications"]}>
 
 > Complete overhaul of invoice print styles — clean, paper-ready layout with all app chrome hidden and professional typography
 
@@ -998,10 +969,9 @@ All notable changes to the EidonCore platform.
 - Totals section — bold amounts, clear visual hierarchy for subtotal/total/paid/due
 - Page break control — sections avoid splitting across pages
 
----
+</Update>
 
-## v5.1.0 — Organizations Rename & Contact Stakeholders
-**2025-08-15**
+<Update label="2025-08-15" description="v5.1.0 — Organizations Rename & Contact Stakeholders" tags={["Major Update", "Billing", "Team"]}>
 
 > Renamed 'Clients' to 'Organizations' across the entire UI for clarity, and upgraded contacts into operational stakeholders with billing, approver, and status flags
 
@@ -1019,10 +989,9 @@ All notable changes to the EidonCore platform.
 - Contacts tab upgraded with toggle actions for Billing, Active/Inactive, and badge indicators
 - Organization detail page shows Primary, Billing, Approver, and Inactive badges on contacts
 
----
+</Update>
 
-## v5.0.0 — Service Builder & Financial Intelligence
-**2025-08-12**
+<Update label="2025-08-12" description="v5.0.0 — Service Builder & Financial Intelligence" tags={["Billing", "Tasks", "Services"]}>
 
 > Multi-step service creation wizard with draft/publish lifecycle, flexible billing intervals (monthly/quarterly/yearly), normalized ARR/MRR dashboard reporting, and in-app changelog
 
@@ -1040,10 +1009,9 @@ All notable changes to the EidonCore platform.
 - Server-side publish validation — recurring services must specify billing interval, all services need pricing
 - Extended Prisma schema with BillingType, BillingInterval, ServiceStatus enums and 8 new Service fields
 
----
+</Update>
 
-## v4.0.0 — CRM Command Center
-**2025-08-09**
+<Update label="2025-08-09" description="v4.0.0 — CRM Command Center" tags={["Billing", "Projects", "CRM"]}>
 
 > Comprehensive client relationship management with financial intelligence, follow-ups, communication logs, document hub, contract tracking, health scoring, and lead pipeline
 
@@ -1072,10 +1040,9 @@ All notable changes to the EidonCore platform.
 - Populate changelog entries in notification panel
 - Team member profile 500 error — invalid ProjectStatus enum + unsynced schema
 
----
+</Update>
 
-## v3.10.0 — Team Management Hub
-**2025-08-02**
+<Update label="2025-08-02" description="v3.10.0 — Team Management Hub" tags={["Tasks", "Projects", "Team"]}>
 
 > Full operational team hub with member profiles, workload analytics, pending invites, and department management
 
@@ -1093,10 +1060,9 @@ All notable changes to the EidonCore platform.
 ### ✨ Improved
 - 11 backend procedures with server-computed metrics, audit logging, and overload detection
 
----
+</Update>
 
-## v3.9.0 — Team Page Revamp
-**2025-07-30**
+<Update label="2025-07-30" description="v3.9.0 — Team Page Revamp" tags={["Major Update", "Tasks", "Team"]}>
 
 > Complete team page rewrite with analytics, search, role management, member removal, and workload capacity bars
 
@@ -1110,10 +1076,9 @@ All notable changes to the EidonCore platform.
 ### ✨ Improved
 - Enhanced member cards with joined date, active/overdue counts, task pills with overdue warnings
 
----
+</Update>
 
-## v3.8.0 — Advanced Organization Branding System
-**2025-07-28**
+<Update label="2025-07-28" description="v3.8.0 — Advanced Organization Branding System" tags={["Billing", "CRM", "Automations"]}>
 
 > Centralized branding engine with 5-tabbed settings, email/invoice/portal identity, white label controls, and live preview
 
@@ -1128,10 +1093,9 @@ All notable changes to the EidonCore platform.
 - 5-tabbed branding settings UI with live color preview and unsaved changes warning
 - 40+ new Organization schema fields with full server-side validation (hex colors, email format, enum values)
 
----
+</Update>
 
-## v3.7.0 — Notifications System Enhancement
-**2025-07-26**
+<Update label="2025-07-26" description="v3.7.0 — Notifications System Enhancement" tags={["Billing", "Notifications", "Tasks"]}>
 
 > Role-aware defaults, critical event system, scoped preferences, notification history, Slack webhook integration, and digest improvements
 
@@ -1148,10 +1112,9 @@ All notable changes to the EidonCore platform.
 - Digest formatter groups notifications by project/entity, sorts critical-first
 - Expanded notification categories: invoice overdue, payment failed, project delayed, recurring generated, deadline approaching
 
----
+</Update>
 
-## v3.6.0 — Invoicing System Upgrade
-**2025-07-23**
+<Update label="2025-07-23" description="v3.6.0 — Invoicing System Upgrade" tags={["Security", "Billing", "Automations"]}>
 
 > Financial metric hardening and native recurring invoice creation with template-based MRR computation
 
@@ -1169,10 +1132,9 @@ All notable changes to the EidonCore platform.
 - Recurring badge on invoice detail page for invoices generated from templates
 - Forecast now includes SCHEDULED status invoices alongside unpaid
 
----
+</Update>
 
-## v3.5.0 — Settings Security Upgrade
-**2025-07-20**
+<Update label="2025-07-20" description="v3.5.0 — Settings Security Upgrade" tags={["Security", "CRM", "Settings"]}>
 
 > Comprehensive security hardening with re-auth gating, org policies, audit log, account deletion, and data export
 
@@ -1191,10 +1153,9 @@ All notable changes to the EidonCore platform.
 - Sign Out All Sessions — requires re-authentication, revokes all devices including current
 - Sessions now show created timestamp alongside last active
 
----
+</Update>
 
-## v3.4.0 — Task Management System Upgrade
-**2025-07-16**
+<Update label="2025-07-16" description="v3.4.0 — Task Management System Upgrade" tags={["Tasks", "Automations"]}>
 
 > Transformed the task board into an agency-grade operations engine with health intelligence, time tracking, workload view, and operational safeguards
 
@@ -1214,10 +1175,9 @@ All notable changes to the EidonCore platform.
 - Advanced task filters — health status, priority, project, date range, stale days, dependency presence
 - Operational safeguards — block DONE if deps incomplete, soft-delete tasks with time logs, prevent overlapping timers
 
----
+</Update>
 
-## v3.3.0 — Invoicing System Upgrade
-**2025-07-12**
+<Update label="2025-07-12" description="v3.3.0 — Invoicing System Upgrade" tags={["Billing", "Tasks", "CRM"]}>
 
 > Full finance control center with analytics, recurring invoices, credit notes, refunds, and activity timeline
 
@@ -1237,10 +1197,9 @@ All notable changes to the EidonCore platform.
 - Settings cards + mobile hamburger alignment + notification bell fix
 - Mobile notification dropdown now visible — removed conflicting CSS
 
----
+</Update>
 
-## v3.2.2 — Settings Cards + Mobile Hamburger Fix
-**2025-07-09**
+<Update label="2025-07-09" description="v3.2.2 — Settings Cards + Mobile Hamburger Fix" tags={["Performance", "Mobile", "Billing"]}>
 
 > Added missing Integrations & Billing cards to settings, fixed mobile hamburger to sit beside page title
 
@@ -1250,10 +1209,9 @@ All notable changes to the EidonCore platform.
 - Removed duplicate Settings title (layout provides it via page-header)
 - Notification bell on mobile now has proper 40x40 touch target and z-index for reliable taps
 
----
+</Update>
 
-## v3.2.1 — Inline Breadcrumbs + Settings Header
-**2025-07-08**
+<Update label="2025-07-08" description="v3.2.1 — Inline Breadcrumbs + Settings Header" tags={["Notifications", "Projects", "Settings"]}>
 
 > Breadcrumbs now sit inline with page titles, settings pages get a proper header with notification bell
 
@@ -1261,10 +1219,9 @@ All notable changes to the EidonCore platform.
 - Breadcrumb back links now display inline with page titles (← Projects / Project Name) instead of floating on a separate row
 - Settings layout now has a proper page-header with title, description, and notification bell
 
----
+</Update>
 
-## v3.2.0 — Project Workspace Header Upgrade
-**2025-07-07**
+<Update label="2025-07-07" description="v3.2.0 — Project Workspace Header Upgrade" tags={["Notifications", "Projects", "Services"]}>
 
 > Upgraded single project page header to match the polished service detail layout, added notification bell to detail pages
 
@@ -1277,10 +1234,9 @@ All notable changes to the EidonCore platform.
 - Notification deep links — clicks go to specific entity pages
 - Mobile UI polish — inline header, sidebar logo, responsive bell
 
----
+</Update>
 
-## v3.1.1 — Mobile UI Polish
-**2025-07-05**
+<Update label="2025-07-05" description="v3.1.1 — Mobile UI Polish" tags={["Performance", "Mobile", "Notifications"]}>
 
 > Fixed mobile header layout and sidebar logo overlap for a clean responsive experience
 
@@ -1293,10 +1249,9 @@ All notable changes to the EidonCore platform.
 - Sidebar logo no longer hidden by hamburger close button on mobile
 - Notification dropdown properly fills mobile width with correct z-index
 
----
+</Update>
 
-## v3.1.0 — Notification UX + Mobile Polish
-**2025-07-04**
+<Update label="2025-07-04" description="v3.1.0 — Notification UX + Mobile Polish" tags={["Mobile", "Billing", "Notifications"]}>
 
 > Fixed notification click navigation, full-width mobile dropdown, and responsive header layout across all pages
 
@@ -1315,10 +1270,9 @@ All notable changes to the EidonCore platform.
 - Notification dropdown now appears correctly on mobile — full-width with proper z-index
 - Projects page UI issues — header bg, search alignment, card styling
 
----
+</Update>
 
-## v3.0.0 — Projects → Agency Command Center
-**2025-07-01**
+<Update label="2025-07-01" description="v3.0.0 — Projects → Agency Command Center" tags={["Billing", "Tasks", "Projects"]}>
 
 > Transformed the All Projects page into an intelligent agency control center with financial visibility, automated health scoring, and rich project intelligence
 
@@ -1338,10 +1292,9 @@ All notable changes to the EidonCore platform.
 - Team avatars with member count badges on each card for ownership visibility
 - All enrichment data (financial, overdue, time, activity, health) computed server-side with batched queries — zero N+1 issues
 
----
+</Update>
 
-## v1.1.0 — Service Page UX + Categorization Upgrade
-**2025-06-27**
+<Update label="2025-06-27" description="v1.1.0 — Service Page UX + Categorization Upgrade" tags={["Major Update", "Projects", "Services"]}>
 
 > Redesigned the All Services page with structured categorization, visual card improvements, and enhanced filtering capabilities
 
@@ -1364,10 +1317,9 @@ All notable changes to the EidonCore platform.
 - Redesign sidebar collapse/expand button
 - Remove border from sidebar collapse button, match nav icon style
 
----
+</Update>
 
-## v1.0.0 — Executive Dashboard
-**2025-06-22**
+<Update label="2025-06-22" description="v1.0.0 — Executive Dashboard" tags={["Major Update", "Billing", "Notifications"]}>
 
 > Complete dashboard redesign — strategic executive control center with financial intelligence, project health, workload visibility, and smart alerts
 
@@ -1400,10 +1352,9 @@ All notable changes to the EidonCore platform.
 - Add Stripe env vars + speed up integrations page
 - Reports page responsiveness - mobile layout, KPI grid, donut charts
 
----
+</Update>
 
-## v0.4.1 — Icon Overhaul & UI Refinement
-**2025-06-14**
+<Update label="2025-06-14" description="v0.4.1 — Icon Overhaul & UI Refinement" tags={["Major Update", "Settings", "UI/UX"]}>
 
 > Replaced all emoji icons with minimalistic SVG vector icons and fixed collapsed sidebar
 
@@ -1415,10 +1366,9 @@ All notable changes to the EidonCore platform.
 ### 🐛 Fixed
 - Fixed logo peeking through when sidebar is collapsed (added overflow clipping)
 
----
+</Update>
 
-## v0.4.0 — Security & UI Polish
-**2025-06-13**
+<Update label="2025-06-13" description="v0.4.0 — Security & UI Polish" tags={["Security", "Settings", "UI/UX"]}>
 
 > Two-Factor Authentication, collapsible sidebar, and page consistency improvements
 
@@ -1432,10 +1382,9 @@ All notable changes to the EidonCore platform.
 - Reports page now uses the shared Page component for consistent header background, sticky header, and padding
 - Smooth CSS transitions on sidebar width and main content area when collapsing/expanding
 
----
+</Update>
 
-## v0.3.2 — Stripe Payment Flow
-**2025-06-11**
+<Update label="2025-06-11" description="v0.3.2 — Stripe Payment Flow" tags={["Billing", "CRM"]}>
 
 > End-to-end payment collection via Stripe Checkout
 
@@ -1449,10 +1398,9 @@ All notable changes to the EidonCore platform.
 ### ✨ Improved
 - Payment model extended with Stripe session and payment intent IDs for audit trail
 
----
+</Update>
 
-## v0.3.1 — Stripe Integration
-**2025-06-10**
+<Update label="2025-06-10" description="v0.3.1 — Stripe Integration" tags={["Major Update", "Billing", "Tasks"]}>
 
 > Connect your Stripe account to accept payments
 
@@ -1465,10 +1413,9 @@ All notable changes to the EidonCore platform.
 - Integrations page redesigned with Stripe card and upcoming integrations preview
 - Settings page now uses full width layout to match other pages
 
----
+</Update>
 
-## v0.3.0 — Project Management System
-**2025-06-09**
+<Update label="2025-06-09" description="v0.3.0 — Project Management System" tags={["Tasks", "Projects", "Team"]}>
 
 > Full project workspace, portfolio dashboard, and team management
 
@@ -1490,10 +1437,9 @@ All notable changes to the EidonCore platform.
 - Editable project header with inline status, health, dates, and PM controls
 - Full audit logging on all project mutations with old/new value tracking
 
----
+</Update>
 
-## v0.2.1 — What's New Popup
-**2025-06-04**
+<Update label="2025-06-04" description="v0.2.1 — What's New Popup" tags={["Mobile", "Major Update", "Billing"]}>
 
 > Stay in the loop with every update
 
@@ -1516,10 +1462,9 @@ All notable changes to the EidonCore platform.
 - Layout full-width, add Page wrapper, Tasks sidebar + /tasks route
 - Core platform bugs - client creation, optional project/client, task visibility, Add Task button
 
----
+</Update>
 
-## v0.2.0 — Major Platform Upgrade
-**2025-06-02**
+<Update label="2025-06-02" description="v0.2.0 — Major Platform Upgrade" tags={["Major Update", "Tasks", "Projects"]}>
 
 > Services catalog, Kanban tasks, and much more
 
@@ -1540,4 +1485,4 @@ All notable changes to the EidonCore platform.
 - Resolved build errors across all platform modules
 - Fixed tRPC router name collisions
 
----
+</Update>
