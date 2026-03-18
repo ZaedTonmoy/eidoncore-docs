@@ -93,9 +93,9 @@
                 "icon": "briefcase"
               },
               {
-                "title": "Tasks",
-                "path": "tasks",
+                "group": "Tasks",
                 "icon": "check-square",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Task Basics",
@@ -116,10 +116,9 @@
                 ]
               },
               {
-                "title": "Services",
-                "path": "services",
+                "group": "Services",
                 "icon": "box",
-                "badge": "Updated",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Overview",
@@ -157,9 +156,9 @@
             "expandable": true,
             "pages": [
               {
-                "title": "Clients",
-                "path": "clients",
+                "group": "Clients",
                 "icon": "building-2",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Client Management",
@@ -181,9 +180,9 @@
                 "icon": "users"
               },
               {
-                "title": "Client Portal",
-                "path": "client-portal",
+                "group": "Client Portal",
                 "icon": "globe",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Portal Overview",
@@ -223,9 +222,9 @@
                 "icon": "message-circle"
               },
               {
-                "title": "Notifications",
-                "path": "notifications",
+                "group": "Notifications",
                 "icon": "bell",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Notification Basics",
@@ -249,9 +248,9 @@
             "expandable": true,
             "pages": [
               {
-                "title": "Invoicing",
-                "path": "invoicing",
+                "group": "Invoicing",
                 "icon": "credit-card",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Invoice Basics",
@@ -272,9 +271,9 @@
                 ]
               },
               {
-                "title": "Settings",
-                "path": "settings",
+                "group": "Settings",
                 "icon": "sliders-horizontal",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Settings Overview",
@@ -295,9 +294,9 @@
                 ]
               },
               {
-                "title": "Security",
-                "path": "security",
+                "group": "Security",
                 "icon": "lock",
+                "expandable": true,
                 "pages": [
                   {
                     "title": "Security Basics",
