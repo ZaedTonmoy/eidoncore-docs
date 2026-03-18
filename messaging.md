@@ -158,8 +158,8 @@ Hover over any message to see the action bar with quick buttons:
 | Action | What It Does |
 |--------|-------------|
 | **React** | Add an emoji reaction |
-| ↩ **Reply** | Start a threaded reply |
-| ⋮ **More** | Edit (own, within 5 min), Delete |
+| **Reply** | Start a threaded reply |
+| **More** | Edit (own, within 5 min), Delete |
 
 On mobile, **swipe right** on a message to reply.
 
