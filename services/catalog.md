@@ -1,5 +1,6 @@
 ---
 title: "Client Catalog"
+description: "Public service catalog, service assignments, cart and checkout flow, and the end-to-end client purchase experience."
 ---
 
 Manage your public service catalog and the end-to-end client purchase experience.

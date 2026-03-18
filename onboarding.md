@@ -1,5 +1,6 @@
 ---
 title: "Onboarding Checklist"
+description: "Role-specific setup checklists that guide you through your first steps on the platform, with auto-detection and progress tracking."
 ---
 
 When you first log in, a personalized **setup checklist** appears at the top of your dashboard. It guides you through the most important first steps based on your role, helping you get the most out of the platform quickly.
@@ -8,12 +9,37 @@ When you first log in, a personalized **setup checklist** appears at the top of 
 
 ## How It Works
 
-1. After your first login, the checklist appears on your dashboard
-2. Each step links to the relevant page — click to get started
-3. Steps are **auto-detected** — when you complete an action (e.g., create your first project), the step is automatically checked off
-4. A **progress ring** shows your completion percentage
-5. When all steps are complete, a confetti animation plays and the checklist collapses
-6. You can also **skip** the checklist at any time — it won't come back
+<Steps>
+<Step title="Checklist appears" icon="layout">
+After your first login, the checklist appears on your dashboard
+</Step>
+<Step title="Follow the steps" icon="external-link">
+Each step links to the relevant page — click to get started
+</Step>
+<Step title="Progress auto-detected" icon="check-circle">
+When you complete an action (e.g., create your first project), the step is automatically checked off
+</Step>
+<Step title="Track your progress" icon="pie-chart">
+A **progress ring** shows your completion percentage
+</Step>
+<Step title="Celebrate completion" icon="party-popper">
+When all steps are complete, a confetti animation plays and the checklist collapses
+</Step>
+</Steps>
+<Callout kind="tip">
+You can **skip** the checklist at any time — it won't come back unless you re-show it from your profile settings.
+</Callout>
+
+```mermaid
+graph LR
+    A["First Login"] --> B["Checklist Appears"]
+    B --> C["Complete Steps"]
+    C --> D{"All Done?"}
+    D -->|Yes| E["🎉 Confetti!"]
+    D -->|No| C
+    B --> F["Skip"]
+    F --> G["Checklist Hidden"]
+```
 
 ---
 

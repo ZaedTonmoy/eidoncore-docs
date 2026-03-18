@@ -1,9 +1,10 @@
 ---
 title: "Services Overview"
+description: "Build a service catalog with project-based services and digital products, manage categories, templates, and access control."
 ---
 
 Build a service catalog for your agency, assign services to clients, and let clients purchase directly through an integrated cart and checkout experience. Eidoncore supports two types of offerings: **project-based services** (collaborative workspaces) and **digital products** (downloadable deliverables).
-<Columns cols={2}>
+<Columns cols="2">
 <Card title="Service Builder" icon="wrench" href="/services/builder">
 Create services with content, task templates, and intake forms
 </Card>

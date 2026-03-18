@@ -1,5 +1,6 @@
 ---
 title: "Intake Forms"
+description: "Build custom intake forms with drag-and-drop, multi-page support, conditional fields, and automatic submission to projects."
 ---
 
 Collect project requirements, preferences, and onboarding information from clients automatically after they purchase a service. Build custom forms with a drag-and-drop builder and assign them to any service in your catalog.

@@ -1,10 +1,11 @@
 ---
 title: "Dashboard"
+description: "Executive, team member, and client dashboards with revenue KPIs, project health, team workload, and real-time alerts."
 ---
 
 Your dashboard is the first thing you see when you log in. It provides an at-a-glance overview tailored to your role in the agency.
 
-### Onboarding Checklist
+## Onboarding Checklist
 
 The first time you log in, a **personalized setup checklist** appears at the top of your dashboard. It guides you through the most important first steps based on your role — with a progress ring and auto-detection of completed tasks. The checklist collapses once you complete all steps or dismiss it.
 

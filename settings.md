@@ -1,5 +1,6 @@
 ---
 title: "Settings & Customization"
+description: "Configure your account, brand your workspace, set up email delivery, connect Stripe and Slack, and manage your subscription plan."
 ---
 
 Configure your account, brand your workspace, set up email delivery, connect integrations, and manage your subscription plan.
@@ -140,6 +141,7 @@ Customize what clients see on the login, register, and portal pages:
 
 ### White Label
 
+<Callout kind="info" collapsed="true" title="White Label Settings">
 For agencies that want complete branding control:
 
 | Setting | What It Does |
@@ -150,6 +152,8 @@ For agencies that want complete branding control:
 | **Hide Platform Logo** | Remove default logo from sidebar |
 | **Hide Footer Credits** | Remove "Powered by" from invoices |
 | **Support Email / URL** | Custom support contact details |
+
+</Callout>
 
 ---
 
@@ -180,9 +184,17 @@ Add a custom domain to your workspace under **Settings → Agency → Domains**.
 
 ### Setup Steps
 
-1. Click **"Add Domain"** and enter your domain (e.g., `app.myagency.com`)
-2. Create a **CNAME record** in your DNS pointing to the provided target
-3. Click **"Verify"** — the platform checks your DNS and provisions SSL automatically
+<Steps>
+<Step title="Add your domain" icon="globe">
+Click **"Add Domain"** and enter your domain (e.g., `app.myagency.com`)
+</Step>
+<Step title="Configure DNS" icon="server">
+Create a **CNAME record** in your DNS pointing to the provided target
+</Step>
+<Step title="Verify" icon="check-circle">
+Click **"Verify"** — the platform checks your DNS and provisions SSL automatically
+</Step>
+</Steps>
 
 Once verified, users can access your workspace via your custom domain. Both the custom domain and your subdomain (`slug.eidoncore.com`) continue to work.
 
@@ -194,9 +206,17 @@ Once verified, users can access your workspace via your custom domain. Both the 
 
 Connect your Stripe account to accept payments from clients:
 
-1. Go to **Settings → Agency → Integrations → Stripe**
-2. Click **"Connect Stripe"** to start the Stripe onboarding flow
-3. Complete Stripe's onboarding to enable payouts
+<Steps>
+<Step title="Navigate to Stripe integration" icon="settings">
+Go to **Settings → Agency → Integrations → Stripe**
+</Step>
+<Step title="Start Stripe onboarding" icon="credit-card">
+Click **"Connect Stripe"** to start the Stripe onboarding flow
+</Step>
+<Step title="Complete setup" icon="check-circle">
+Complete Stripe's onboarding to enable payouts
+</Step>
+</Steps>
 
 Once connected, clients can pay invoices via Stripe, and service purchases use the checkout flow.
 

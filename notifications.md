@@ -1,5 +1,6 @@
 ---
 title: "Notifications"
+description: "Bell notifications, email alerts, digest summaries, priority levels, smart grouping, escalation rules, and Slack integration."
 ---
 
 Stay informed about what's happening in your workspace through bell notifications, email alerts, digest summaries, and Slack integration.
@@ -82,33 +83,63 @@ These events bypass all batching and quiet hours:
 
 Notifications are grouped into categories that you can manage individually:
 
+<ExpandableGroup>
+<Expandable title="Tasks & Comments">
+
 | Category | Example Events |
 |----------|---------------|
 | **Task Assigned** | Task assigned or reassigned to you |
 | **Task Status Changed** | Task completed, subtask done, checklist completed, file uploaded |
 | **Comments & Mentions** | New comment, reply, reaction, @mention |
+| **Deadline Approaching** | Task or project due soon |
+| **Time Tracking** | Time logged on your tasks by others |
+
+</Expandable>
+<Expandable title="Invoices & Payments">
+
+| Category | Example Events |
+|----------|---------------|
 | **Invoice Created** | Invoice sent or updated |
 | **Invoice Paid** | Payment recorded (partial or full) |
 | **Invoice Overdue** | Invoice past due |
 | **Invoice Viewed** | Client opened the invoice |
 | **Payment Failed** | Payment processing failure |
-| **Deadline Approaching** | Task or project due soon |
+| **Recurring Generated** | Recurring invoice auto-generated |
+
+</Expandable>
+<Expandable title="Projects">
+
+| Category | Example Events |
+|----------|---------------|
 | **Project Lifecycle** | Project completed, status changed, delayed |
 | **Milestone Completed** | Project milestone reached |
 | **Project Membership** | Added or removed from a project |
 | **Budget Alert** | Project budget at ≥80% utilization |
+| **Project Docs** | Documents created or updated |
+
+</Expandable>
+<Expandable title="Clients & Services">
+
+| Category | Example Events |
+|----------|---------------|
 | **Follow-Up Reminders** | CRM follow-up due or overdue |
 | **Contract Expiring** | Client contract approaching expiry |
 | **Client Health Changed** | Client health score changed significantly |
-| **Team Updates** | Role changed, member removed |
 | **Service Purchased** | Client purchased, reviewed, or activated a service. Hours/credits depleted |
 | **Service Cancelled** | Client cancelled a subscription |
-| **Recurring Generated** | Recurring invoice auto-generated |
+
+</Expandable>
+<Expandable title="Operations & Chat">
+
+| Category | Example Events |
+|----------|---------------|
+| **Team Updates** | Role changed, member removed |
 | **Automation Failed** | Automation rule execution failed |
-| **Time Tracking** | Time logged on your tasks by others |
-| **Project Docs** | Documents created or updated |
 | **Plan Updates** | Subscription plan changes (trial ending, payment issues) |
 | **Chat & Messaging** | @mentions in chat, replies to your messages, reactions to your messages |
+
+</Expandable>
+</ExpandableGroup>
 
 Not every role sees every category — only relevant categories appear in your settings.
 

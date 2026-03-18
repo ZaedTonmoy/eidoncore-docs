@@ -1,5 +1,6 @@
 ---
 title: "Team Management"
+description: "Invite team members, assign built-in or custom roles with granular permissions, and monitor workload across your agency."
 ---
 
 Invite colleagues to your agency workspace, assign roles with specific permissions, and monitor your team's workload.
@@ -12,11 +13,17 @@ Invite colleagues to your agency workspace, assign roles with specific permissio
 
 Navigate to **Team** in the sidebar and click **"Invite Member"**.
 
-1. Enter the team member's **email address** and **name**
-2. Select a **role** (Owner, Admin, Project Manager, Accountant, or Team Member — or a custom role)
-3. Click **Send Invite**
-
-The invited user receives a branded email with a link to set their password and join your workspace. Until they accept, they appear as a **Pending** member.
+<Steps>
+<Step title="Enter details" icon="user-plus">
+Enter the team member's **email address** and **name**
+</Step>
+<Step title="Select a role" icon="shield">
+Choose a **role** (Owner, Admin, Project Manager, Accountant, or Team Member — or a custom role)
+</Step>
+<Step title="Send the invite" icon="send">
+Click **Send Invite** — the invited user receives a branded email with a link to set their password and join your workspace
+</Step>
+</Steps>
 
 > If the invited user already has an account with another workspace, they can log in with their existing password.
 
@@ -83,24 +90,56 @@ Create custom roles tailored to your agency's needs:
 
 Permissions are organized by feature area:
 
+<ExpandableGroup>
+<Expandable title="Projects & Tasks">
+
 | Area | Permissions |
 |------|------------|
 | **Projects** | View, Create, Edit, Delete, Archive, Manage Members, Manage Docs |
 | **Tasks** | View, Create, Edit, Delete, Manage Labels |
+
+</Expandable>
+<Expandable title="Finance">
+
+| Area | Permissions |
+|------|------------|
 | **Invoices** | View, Create, Edit, Send, Void, Delete, Record Payment, Bad Debt, Refund |
+
+</Expandable>
+<Expandable title="People & Communication">
+
+| Area | Permissions |
+|------|------------|
 | **Team** | View, Manage |
 | **Clients** | View, Create, Edit, Delete |
+| **Messaging** | View, Send, Delete Any, Manage Channels, Browse All Channels |
+
+</Expandable>
+<Expandable title="Services & Automation">
+
+| Area | Permissions |
+|------|------------|
 | **Services** | View, Create, Edit, Delete, Manage Access, Manage Templates |
 | **Automations** | View, Create, Edit, Delete |
+
+</Expandable>
+<Expandable title="Settings & Data">
+
+| Area | Permissions |
+|------|------------|
 | **Reports** | View, Export |
 | **Settings** | Manage Organization Settings, Manage Branding, Manage Roles, Manage Domains, Manage Plan |
 | **Files** | Upload, Delete, Manage |
 | **Time Tracking** | Log Time, Manage All Entries |
-| **Messaging** | View, Send, Delete Any, Manage Channels, Browse All Channels |
+
+</Expandable>
+</ExpandableGroup>
 
 Custom roles cannot be deleted if any team members are currently assigned to them.
 
-> **Note:** The Comments permission includes a special **View Internal** sub-permission. Roles with this enabled can see internal comments on projects, tasks, clients, and invoices. Client roles (Organization Owner/Member) never have this permission.
+<Callout kind="info" collapsed="true" title="About Internal Comments">
+The Comments permission includes a special **View Internal** sub-permission. Roles with this enabled can see internal comments on projects, tasks, clients, and invoices. Client roles (Organization Owner/Member) never have this permission.
+</Callout>
 
 ---
 
@@ -157,7 +196,9 @@ Click on any team member to see their detailed profile:
 | **Active Projects** | Projects where the member is currently assigned |
 | **Recent Activity** | Last 20 actions taken by this member |
 
-> **Per-workspace profiles**: If a user belongs to multiple workspaces, they can set a different display name and avatar for each. This ensures data isolation between workspaces — e.g., a freelancer working with two agencies sees a separate identity in each.
+<Callout kind="info" collapsed="true" title="Per-Workspace Profiles">
+If a user belongs to multiple workspaces, they can set a different display name and avatar for each. This ensures data isolation between workspaces — e.g., a freelancer working with two agencies sees a separate identity in each.
+</Callout>
 
 ### Member Status Lifecycle
 

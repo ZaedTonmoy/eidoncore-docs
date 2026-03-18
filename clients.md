@@ -1,5 +1,6 @@
 ---
 title: "Clients (CRM)"
+description: "Built-in CRM for managing client organizations, contacts, health scoring, follow-ups, contracts, and the full client lifecycle."
 ---
 
 The Clients section is your built-in CRM for managing client organizations, contacts, and relationships. Track the full client lifecycle from lead to active account.

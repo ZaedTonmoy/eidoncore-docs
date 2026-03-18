@@ -1,5 +1,6 @@
 ---
 title: "Automations"
+description: "Automate workflows with event triggers, conditions, and actions for tasks, invoices, projects, and notifications — no coding required."
 ---
 
 Automate repetitive tasks and workflows in your agency. Set up rules that trigger automatically when specific events happen — no coding required.

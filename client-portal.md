@@ -1,5 +1,6 @@
 ---
 title: "Client Portal"
+description: "What your clients see and can do — projects, tasks, invoices, services, messaging, the service catalog, and account management."
 ---
 
 The client portal gives your clients a dedicated space to view their projects, tasks, invoices, services, and files — all branded with your agency's identity.
@@ -56,7 +57,9 @@ Clients see a simplified sidebar:
 | Reports | ✓ | ✗ |
 | Settings (Account) | ✓ | ✓ |
 
+<Callout kind="tip">
 You can further customize what clients see by **hiding nav items** in Settings → Agency → Branding → Portal.
+</Callout>
 
 ---
 
@@ -83,6 +86,10 @@ Clients can participate in real-time messaging:
 - **Direct Messages** — Private conversations with agency staff members
 
 Clients can see standard messages but **not internal messages** — agency staff can discuss work privately within shared channels.
+
+<Callout kind="info">
+Internal messages are never visible to client contacts. Use them for private team discussions within shared project channels.
+</Callout>
 
 > **See also:** [Messaging](./messaging) for full messaging features
 
@@ -195,6 +202,16 @@ Your service catalog is also accessible to **visitors who don't have an account*
 6. Visitor can log in immediately to access their new project
 
 Guest checkout creates the full client setup in one step — no pre-registration needed.
+
+```mermaid
+graph LR
+    A["Browse Catalog"] --> B["Purchase Service"]
+    B --> C["Enter Details"]
+    C --> D["Pay via Stripe"]
+    D --> E["Account Created"]
+    E --> F["Project Ready"]
+    F --> G["Login & Start"]
+```
 
 > **See also:** [Services](./services#cart--checkout-flow) for the full purchase flow from the agency perspective
 

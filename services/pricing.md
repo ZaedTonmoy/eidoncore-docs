@@ -1,5 +1,6 @@
 ---
 title: "Pricing & Quotas"
+description: "Five pricing models, hours and credits tracking, quota management, top-ups, and subscription lifecycle management."
 ---
 
 Configure pricing models for your services and manage hours/credits tracking with automatic quota management.

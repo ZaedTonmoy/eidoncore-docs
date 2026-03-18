@@ -1,5 +1,6 @@
 ---
 title: "Security"
+description: "Data encryption, two-factor authentication, session management, security policies, audit logging, and threat protection."
 ---
 
 Eidoncore is built with security at every layer. This guide covers the security features available to you and your team.
@@ -31,11 +32,32 @@ Add an extra layer of security to your account using an authenticator app.
 
 ### Setting Up 2FA
 
-1. Go to **Settings → Account → Security**
-2. Click **"Enable Two-Factor Authentication"**
-3. Scan the QR code with your authenticator app (Google Authenticator, Authy, 1Password, etc.)
-4. Enter the 6-digit verification code
-5. Save your **8 recovery codes** — store these somewhere safe
+<Steps>
+<Step title="Open security settings" icon="settings">
+Go to **Settings → Account → Security**
+</Step>
+<Step title="Enable 2FA" icon="shield">
+Click **"Enable Two-Factor Authentication"**
+</Step>
+<Step title="Scan the QR code" icon="smartphone">
+Scan the QR code with your authenticator app (Google Authenticator, Authy, 1Password, etc.)
+</Step>
+<Step title="Verify" icon="check-circle">
+Enter the 6-digit verification code
+</Step>
+<Step title="Save recovery codes" icon="key">
+Save your **8 recovery codes** — store these somewhere safe
+</Step>
+</Steps>
+
+```mermaid
+graph LR
+    A["Security Settings"] --> B["Enable 2FA"]
+    B --> C["Scan QR Code"]
+    C --> D["Enter 6-digit Code"]
+    D --> E["Save Recovery Codes"]
+    E --> F["✅ 2FA Active"]
+```
 
 ### Using 2FA
 
@@ -87,10 +109,14 @@ This is useful if you suspect unauthorized access or have logged in on a shared 
 
 Sessions automatically expire after **4 hours** of inactivity. Agency owners can configure additional policies:
 
+<Callout kind="info" collapsed="true" title="Configurable Timeout Policies">
+
 | Policy | Description |
 |--------|-------------|
 | **Idle Timeout** | Auto-logout after a period of inactivity (up to 24 hours) |
 | **Maximum Session Lifetime** | Force re-login after a maximum period (up to 30 days) |
+
+</Callout>
 
 ---
 
@@ -170,16 +196,34 @@ Each agency workspace is completely isolated:
 
 The platform includes built-in protection against:
 
+<ExpandableGroup>
+<Expandable title="Authentication Attacks">
+
 | Threat | Protection |
 |--------|-----------|
 | **Brute Force Attacks** | Rate limiting: 5 login attempts per minute per email, 3 password resets per 10 minutes |
-| **Cross-Site Scripting (XSS)** | Server-side HTML sanitization + Content Security Policy (CSP) headers |
-| **Cross-Site Request Forgery (CSRF)** | Origin header validation with fail-closed policy |
 | **Session Hijacking** | Secure, HTTP-only cookies with hostname scoping (no cross-subdomain leaking) |
 | **Man-in-the-Middle** | HSTS headers enforcing HTTPS (1-year max-age) |
+
+</Expandable>
+<Expandable title="Injection & Forgery">
+
+| Threat | Protection |
+|--------|-----------|
+| **Cross-Site Scripting (XSS)** | Server-side HTML sanitization + Content Security Policy (CSP) headers |
+| **Cross-Site Request Forgery (CSRF)** | Origin header validation with fail-closed policy |
+| **Content Injection** | All user-generated HTML sanitized at save-time |
+
+</Expandable>
+<Expandable title="Infrastructure">
+
+| Threat | Protection |
+|--------|-----------|
 | **DNS Spoofing** | DNS-over-HTTPS verification for custom domains |
 | **Clickjacking** | X-Frame-Options: DENY |
-| **Content Injection** | All user-generated HTML sanitized at save-time |
+
+</Expandable>
+</ExpandableGroup>
 
 ---
 

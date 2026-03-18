@@ -1,5 +1,6 @@
 ---
 title: "Getting Started"
+description: "Create your agency workspace, verify your email, complete onboarding, and navigate your first dashboard login."
 ---
 
 Get your agency workspace up and running in minutes. This guide walks you through account creation, your first login, and understanding your dashboard.
@@ -171,7 +172,7 @@ Eidoncore has two categories of users:
 ## Next Steps
 
 Now that you're set up, explore these key features:
-<Columns cols={2}>
+<Columns cols="2">
 <Card title="Customize your branding" icon="palette" href="/settings#agency-branding">
 Add your logo, colors, and fonts
 </Card>

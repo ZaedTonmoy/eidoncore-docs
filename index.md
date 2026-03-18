@@ -1,5 +1,6 @@
 ---
 title: "Eidoncore Platform — Documentation"
+description: "Complete guide to managing your agency, serving clients, and growing your business with the Eidoncore platform."
 ---
 
 Welcome to the Eidoncore platform documentation. This guide covers everything you need to manage your agency, serve your clients, and grow your business.
@@ -7,7 +8,7 @@ Welcome to the Eidoncore platform documentation. This guide covers everything yo
 ---
 
 ## Getting Started
-<Columns cols={3}>
+<Columns cols="3">
 <Card title="Getting Started" icon="rocket" href="/getting-started">
 Create your workspace, first login, and onboarding
 </Card>
@@ -22,7 +23,7 @@ Executive, team member, and client dashboards
 ---
 
 ## Core Features
-<Columns cols={3}>
+<Columns cols="3">
 <Card title="Projects" icon="briefcase" href="/projects">
 Create and manage projects, budgets, milestones
 </Card>
@@ -46,7 +47,7 @@ Real-time chat: channels, DMs, reactions, read receipts
 ---
 
 ## Team & Workflow
-<Columns cols={3}>
+<Columns cols="3">
 <Card title="Team Management" icon="users" href="/team">
 Invite members, assign roles, custom permissions
 </Card>
@@ -64,7 +65,7 @@ Bell alerts, email digests, Slack integration
 ---
 
 ## Configuration
-<Columns cols={3}>
+<Columns cols="3">
 <Card title="Settings" icon="settings" href="/settings">
 Branding, email, domains, integrations, plans & billing
 </Card>

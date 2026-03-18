@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+description: "Create and manage projects with budgets, milestones, documents, time tracking, health scoring, and team collaboration."
 ---
 
 Projects are the central way to organize work for your clients. Each project can contain tasks, milestones, documents, files, and time entries.

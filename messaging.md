@@ -1,5 +1,6 @@
 ---
 title: "Messaging"
+description: "Real-time chat with project channels, direct messages, file attachments, reactions, read receipts, and internal messaging."
 ---
 
 Real-time chat for your agency team and client contacts. Communicate within project channels, organization-wide channels, and direct messages — all built into your workspace.

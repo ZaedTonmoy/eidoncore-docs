@@ -1,5 +1,6 @@
 ---
 title: "Service Builder"
+description: "Create services with rich content, task templates, intake forms, reviews, and shareable catalog links."
 ---
 
 Create and manage services with rich content, task automation, and intake forms.

@@ -1,5 +1,6 @@
 ---
 title: "Reports & Dashboards"
+description: "Revenue analytics, client reports, project health, task completion trends, time tracking breakdowns, and client-facing report tabs."
 ---
 
 Monitor your agency's performance with real-time dashboards and detailed reports across revenue, clients, projects, tasks, and time tracking.
@@ -88,6 +89,10 @@ All reports support date range filtering:
 - Preset ranges: **7 days**, **30 days**, **90 days**, **12 months**, **All time** (default: 30 days)
 - Period-over-period comparisons
 
+<Callout kind="tip">
+Use period-over-period comparisons to quickly spot trends. For example, compare last 30 days vs. the previous 30 to see whether revenue is growing or shrinking.
+</Callout>
+
 ---
 
 ## Client Reports (Organization Owner)
@@ -131,7 +136,9 @@ Organization Owners see a separate set of 3 report tabs, automatically scoped to
 | Task Priority Distribution | Donut chart |
 | Agency Team Performance | Table — member, tasks, completed, in progress, overdue, completion % |
 
-> **Note:** Organization Members do not have access to Reports. Only Organization Owners can view the report tabs scoped to their organization.
+<Callout kind="info">
+Organization Members do not have access to Reports. Only Organization Owners can view the report tabs scoped to their organization.
+</Callout>
 
 ---
 

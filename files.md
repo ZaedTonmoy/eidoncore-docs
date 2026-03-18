@@ -1,5 +1,6 @@
 ---
 title: "File Management"
+description: "Upload, organize, and manage files across projects and tasks with drag-and-drop, filtering, and plan-based storage limits."
 ---
 
 Upload, organize, and manage files across your agency workspace. Files can be attached to projects, tasks, or stored in the agency-wide file browser.
@@ -32,7 +33,18 @@ File types are validated on upload — only safe, common file types are accepted
 - **Archives**: ZIP
 - **Media**: MP4, MP3, WAV, WebM
 
-Files that don't match an allowed MIME type are rejected.
+<Callout kind="alert">
+Files that don't match an allowed MIME type are rejected on upload. Rename or re-export the file in a supported format.
+</Callout>
+
+```mermaid
+graph LR
+    A["Upload File"] --> B{"Valid Type?"}
+    B -->|Yes| C{"Under Size Limit?"}
+    B -->|No| D["❌ Rejected"]
+    C -->|Yes| E["✅ Stored"]
+    C -->|No| D
+```
 
 ### Size Limits
 
@@ -130,6 +142,8 @@ Attach files directly to tasks via the task drawer:
 | **Pro** | 10 GB |
 | **Enterprise** | 100 GB |
 
+<Callout kind="info">
 When approaching your storage limit, consider archiving old files or upgrading your plan.
+</Callout>
 
 > **See also:** [Settings](./settings#plans--billing) for plan details and upgrading
