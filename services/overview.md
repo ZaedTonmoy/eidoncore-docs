@@ -3,17 +3,16 @@ title: "Services Overview"
 ---
 
 Build a service catalog for your agency, assign services to clients, and let clients purchase directly through an integrated cart and checkout experience. Eidoncore supports two types of offerings: **project-based services** (collaborative workspaces) and **digital products** (downloadable deliverables).
-
 <Columns cols={2}>
-  <Card title="Service Builder" icon="wrench" href="/services/builder">
-    Create services with content, task templates, and intake forms
-  </Card>
-  <Card title="Pricing & Quotas" icon="calculator" href="/services/pricing">
-    Pricing models, hours/credits tracking, and quota management
-  </Card>
-  <Card title="Client Catalog" icon="shopping-bag" href="/services/catalog">
-    Catalog, cart & checkout, and service assignments
-  </Card>
+<Card title="Service Builder" icon="wrench" href="/services/builder">
+Create services with content, task templates, and intake forms
+</Card>
+<Card title="Pricing & Quotas" icon="calculator" href="/services/pricing">
+Pricing models, hours/credits tracking, and quota management
+</Card>
+<Card title="Client Catalog" icon="shopping-bag" href="/services/catalog">
+Catalog, cart & checkout, and service assignments
+</Card>
 </Columns>
 
 ---
@@ -139,7 +138,6 @@ Control which agency staff members can view or manage each service:
 | **Can View** | See the service in listings |
 | **Can Edit** | Modify the service details |
 | **Can Assign** | Assign the service to clients |
-
 <Callout kind="tip">
 This is useful for large teams where certain services should only be visible to specific team members.
 </Callout>

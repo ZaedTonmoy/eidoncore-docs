@@ -43,36 +43,32 @@ For Hourly Block and Credit Pack services:
 ### Quota Top-Ups
 
 When a client's included hours or credits are running low, additional quota can be added:
-
 <Tabs>
-  <Tab title="Agency-Side" icon="building">
+<Tab title="Agency-Side" icon="building">
 
 **Immediate top-up** — On the project's quota section, click **"+ Add Quota"** to add hours, credits, or tasks directly.
 
 - Top-ups are added to a separate top-up balance that carries over indefinitely (regular renewals only reset the base balance)
 - Not available for Usage-Based services
-
-  </Tab>
-  <Tab title="Client-Side" icon="user">
+</Tab>
+<Tab title="Client-Side" icon="user">
 
 **Request & Approve Flow:**
-
 <Steps>
-  <Step title="Client requests" icon="plus-circle">
-    On their project page, clients click **"Request Top-Up"** and enter the desired amount
-  </Step>
-  <Step title="Agency reviews" icon="eye">
-    The request appears as **Pending** — the agency owner can **Approve** or **Reject** it
-  </Step>
-  <Step title="Client pays" icon="credit-card">
-    If approved, the client sees a **"Pay"** button that redirects to Stripe checkout
-  </Step>
-  <Step title="Balance updated" icon="check-circle">
-    After payment, the top-up balance is updated immediately
-  </Step>
+<Step title="Client requests" icon="plus-circle">
+On their project page, clients click **"Request Top-Up"** and enter the desired amount
+</Step>
+<Step title="Agency reviews" icon="eye">
+The request appears as **Pending** — the agency owner can **Approve** or **Reject** it
+</Step>
+<Step title="Client pays" icon="credit-card">
+If approved, the client sees a **"Pay"** button that redirects to Stripe checkout
+</Step>
+<Step title="Balance updated" icon="check-circle">
+After payment, the top-up balance is updated immediately
+</Step>
 </Steps>
-
-  </Tab>
+</Tab>
 </Tabs>
 
 Both agency and client can view the full **top-up history** on the project, showing each entry's amount, status (Pending, Approved, Paid, Rejected), and date.
@@ -127,7 +123,6 @@ When a project is linked to a service, the project page shows real-time quota in
 The progress bar shows remaining allocation (e.g., "15 / 20 hours remaining"). Top-up balances are displayed as a separate segment.
 
 ### Quota Exhaustion Guard
-
 <Callout kind="alert">
 When a service's quota is fully consumed, the **"+ New Task"** button on the project is **disabled**. A tooltip explains that the quota is exhausted. Agency owners can bypass this restriction.
 </Callout>
@@ -148,7 +143,6 @@ When time is logged against a service with included hours:
 - The hourly rate and overtime rate are **snapshotted** at the time of logging — changes to the service rate don't retroactively affect past entries
 - Once a time entry is **billed** (linked to an invoice), it becomes **immutable** and cannot be edited or deleted
 - **Written-off** entries (agency comp) are excluded from invoice totals
-
 <Callout kind="info">
 When a time entry is deleted (before being billed), the consumed balance is automatically restored.
 </Callout>
@@ -158,20 +152,19 @@ When a time entry is deleted (before being billed), the consumed balance is auto
 ## Cancelling a Subscription
 
 When a subscription is cancelled (by the client or agency):
-
 <Steps>
-  <Step title="Timers stopped" icon="clock">
-    Any **active timers** are automatically stopped
-  </Step>
-  <Step title="Closing invoice" icon="file-text">
-    All **unbilled time entries** are swept and added to a closing draft invoice
-  </Step>
-  <Step title="Status updated" icon="x-circle">
-    The subscription status changes to **Cancelled** with a reason recorded
-  </Step>
-  <Step title="Notifications sent" icon="bell">
-    The agency Owner and Admin are notified
-  </Step>
+<Step title="Timers stopped" icon="clock">
+Any **active timers** are automatically stopped
+</Step>
+<Step title="Closing invoice" icon="file-text">
+All **unbilled time entries** are swept and added to a closing draft invoice
+</Step>
+<Step title="Status updated" icon="x-circle">
+The subscription status changes to **Cancelled** with a reason recorded
+</Step>
+<Step title="Notifications sent" icon="bell">
+The agency Owner and Admin are notified
+</Step>
 </Steps>
 
 ### Auto-Renewal

@@ -9,20 +9,19 @@ Create and manage services with rich content, task automation, and intake forms.
 ## Creating a Service
 
 Navigate to **Services** in the sidebar and click **"New Service"**. The multi-step builder walks you through:
-
 <Steps>
-  <Step title="Basics" icon="edit">
-    Name, short summary, category, and cover image
-  </Step>
-  <Step title="Description" icon="file-text">
-    Full description, deliverables, FAQ, useful links, and gallery images
-  </Step>
-  <Step title="Pricing" icon="credit-card">
-    Choose a pricing model and configure billing
-  </Step>
-  <Step title="Review & Publish" icon="check-circle">
-    Preview, edit the URL slug, and publish
-  </Step>
+<Step title="Basics" icon="edit">
+Name, short summary, category, and cover image
+</Step>
+<Step title="Description" icon="file-text">
+Full description, deliverables, FAQ, useful links, and gallery images
+</Step>
+<Step title="Pricing" icon="credit-card">
+Choose a pricing model and configure billing
+</Step>
+<Step title="Review & Publish" icon="check-circle">
+Preview, edit the URL slug, and publish
+</Step>
 </Steps>
 
 ## Service Statuses
@@ -32,7 +31,6 @@ Navigate to **Services** in the sidebar and click **"New Service"**. The multi-s
 | **Draft** | Being prepared — not visible to clients, cannot be assigned |
 | **Published** | Live and available for assignment or purchase |
 | **Archived** | Soft-deleted — no longer active |
-
 <Callout kind="info">
 You can switch between Draft and Published at any time. To publish, a service must have a name and valid pricing.
 </Callout>
@@ -83,29 +81,27 @@ Services can have an optional **intake form** that clients fill out after purcha
 | **Archived** | Retired — no longer available for new submissions |
 
 ### How It Works
-
 <Steps>
-  <Step title="Create a form" icon="file-plus">
-    Go to the **Intake Forms** page (in the sidebar under Tools) and build a form with the drag-and-drop form builder
-  </Step>
-  <Step title="Add fields" icon="list">
-    Drag fields from the palette onto the canvas. Supported field types are listed below.
-  </Step>
-  <Step title="Configure fields" icon="settings">
-    Set required toggles, placeholders, help text, validation rules, and conditional visibility
-  </Step>
-  <Step title="Assign to services" icon="link">
-    Link one form to one or more services
-  </Step>
-  <Step title="Client fills it out" icon="user-check">
-    After purchasing a service, clients see the intake form on the confirmation page
-  </Step>
+<Step title="Create a form" icon="file-plus">
+Go to the **Intake Forms** page (in the sidebar under Tools) and build a form with the drag-and-drop form builder
+</Step>
+<Step title="Add fields" icon="list">
+Drag fields from the palette onto the canvas. Supported field types are listed below.
+</Step>
+<Step title="Configure fields" icon="settings">
+Set required toggles, placeholders, help text, validation rules, and conditional visibility
+</Step>
+<Step title="Assign to services" icon="link">
+Link one form to one or more services
+</Step>
+<Step title="Client fills it out" icon="user-check">
+After purchasing a service, clients see the intake form on the confirmation page
+</Step>
 </Steps>
 
 ### Supported Field Types
-
 <Tabs>
-  <Tab title="Text Fields" icon="type">
+<Tab title="Text Fields" icon="type">
 
 | Field Type | What It Collects |
 |-----------|-----------------|
@@ -117,9 +113,8 @@ Services can have an optional **intake form** that clients fill out after purcha
 | Number | Numeric input |
 | Address | Structured address input |
 | Currency | Formatted money input with $ prefix |
-
-  </Tab>
-  <Tab title="Selection" icon="check-square">
+</Tab>
+<Tab title="Selection" icon="check-square">
 
 | Field Type | What It Collects |
 |-----------|-----------------|
@@ -128,18 +123,16 @@ Services can have an optional **intake form** that clients fill out after purcha
 | Checkbox | Single yes/no toggle |
 | Radio | Radio button group |
 | Toggle | Yes/No pill buttons |
-
-  </Tab>
-  <Tab title="Date & Time" icon="calendar">
+</Tab>
+<Tab title="Date & Time" icon="calendar">
 
 | Field Type | What It Collects |
 |-----------|-----------------|
 | Date | Date picker |
 | Time | Time input |
 | DateTime | Combined date and time picker |
-
-  </Tab>
-  <Tab title="Rich Fields" icon="star">
+</Tab>
+<Tab title="Rich Fields" icon="star">
 
 | Field Type | What It Collects |
 |-----------|-----------------|
@@ -149,9 +142,8 @@ Services can have an optional **intake form** that clients fill out after purcha
 | Signature | Signature drawing canvas |
 | Color Picker | Color picker with hex input |
 | Slider | Range slider with configurable min/max |
-
-  </Tab>
-  <Tab title="Layout & Advanced" icon="layout">
+</Tab>
+<Tab title="Layout & Advanced" icon="layout">
 
 | Field Type | What It Collects |
 |-----------|-----------------|
@@ -160,8 +152,7 @@ Services can have an optional **intake form** that clients fill out after purcha
 | Divider | Visual separator |
 | Hidden | Pre-filled hidden field |
 | Repeater | Dynamic row group — add/remove rows with configurable sub-fields |
-
-  </Tab>
+</Tab>
 </Tabs>
 
 ### Field Configuration
@@ -172,7 +163,6 @@ Each field supports:
 - **Width** — Full or Half width for side-by-side layout
 - **Validation** rules — min/max length, pattern matching, file types, max file size, max rating
 - **Conditional visibility** — show/hide based on another field's value
-
 <Callout kind="tip">
 Use **multi-page forms** for longer forms. Clients see a step wizard with numbered progress indicators and per-page validation.
 </Callout>
@@ -202,7 +192,6 @@ Clients who are active subscribers can leave **reviews** on services:
   - Agency owners can **reject** (delete) reviews
 - Approved reviews appear on the catalog detail page with star ratings and comment cards
 - The best review quote (highest rated with a comment) is featured on the service hero section
-
 <Callout kind="info">
 The agency owner is notified when a review is submitted.
 </Callout>
