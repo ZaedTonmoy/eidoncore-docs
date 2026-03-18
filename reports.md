@@ -151,4 +151,4 @@ Organization Members do not have access to Reports. Only Organization Owners can
 
 Available to: Owner, Admin, Project Manager, and Accountant by default. Team Members have limited access.
 
-> **See also:** [Invoicing](./invoicing#finance-analytics-dashboard) for the detailed finance dashboard · [Projects](./projects#project-health) for health scoring · [Clients](./clients#client-health-scoring) for client health analytics
+> **See also:** [Invoicing](./invoicing/analytics#finance-analytics-dashboard) for the detailed finance dashboard · [Projects](./projects#project-health) for health scoring · [Clients](./clients/crm#client-health-scoring) for client health analytics

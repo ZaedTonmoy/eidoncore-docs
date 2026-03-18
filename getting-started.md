@@ -62,7 +62,7 @@ All steps include a "Prefer not to say" option. Your answers help us tailor the 
 Every new workspace starts with a **14-day free trial** of the Pro plan. You'll get full access to Pro features — no credit card required. When the trial ends, your workspace downgrades to the Free plan unless you subscribe.
 </Callout>
 
-> **See also:** [Settings](./settings#plans--billing) for plan details and pricing
+> **See also:** [Settings](./settings/billing#plans--billing) for plan details and pricing
 
 ---
 
@@ -165,7 +165,7 @@ Eidoncore has two categories of users:
 </Tab>
 </Tabs>
 
-> **See also:** [Team Management](./team) for inviting staff · [Clients](./clients) for setting up client portal access · [Client Portal](./client-portal) for what clients see
+> **See also:** [Team Management](./team) for inviting staff · [Clients](./clients/overview) for setting up client portal access · [Client Portal](./client-portal/overview) for what clients see
 
 ---
 

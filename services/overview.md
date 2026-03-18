@@ -143,4 +143,4 @@ Control which agency staff members can view or manage each service:
 This is useful for large teams where certain services should only be visible to specific team members.
 </Callout>
 
-> **See also:** [Team](./team) for role-based permissions · [Projects](./projects) for auto-created project details · [Invoicing](./invoicing) for service-linked billing
+> **See also:** [Team](../team) for role-based permissions · [Projects](../projects) for auto-created project details · [Invoicing](../invoicing/overview) for service-linked billing

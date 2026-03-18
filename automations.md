@@ -162,7 +162,7 @@ Automation counts are governed by your subscription plan:
 When a **Create Task** action fires, the system also checks your task quota. If your plan's task limit has been reached, the action will fail and the execution log will record the reason.
 </Callout>
 
-> **See also:** [Settings](./settings#plans--billing) for plan limits
+> **See also:** [Settings](./settings/billing#plans--billing) for plan limits
 
 ---
 
@@ -197,4 +197,4 @@ When an automation fails:
 
 Available to: Owner, Admin, and Project Manager by default.
 
-> **See also:** [Tasks](./tasks) for task events that trigger automations · [Notifications](./notifications) for notification delivery · [Projects](./projects) for project events
+> **See also:** [Tasks](./tasks/overview) for task events that trigger automations · [Notifications](./notifications/overview) for notification delivery · [Projects](./projects) for project events

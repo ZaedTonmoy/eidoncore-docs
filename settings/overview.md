@@ -56,7 +56,7 @@ Accessible to all users under **Settings → Account**.
 | **Scope** | All, Only Mine, or My Projects |
 | **Per-Category Toggles** | Enable/disable email for each notification category |
 
-> **See also:** [Notifications](./notifications) for how notifications work
+> **See also:** [Notifications](../notifications/overview) for how notifications work
 
 ### Account Deletion
 

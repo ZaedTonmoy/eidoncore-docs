@@ -50,7 +50,7 @@ All notification emails are branded with your agency's logo, colors, signature, 
 - A "View in Dashboard" button linking directly to the item
 - A one-click **unsubscribe** link at the bottom (CAN-SPAM compliant)
 
-> Email notifications require SMTP to be configured. See [Settings](./settings#email-smtp-setup).
+> Email notifications require SMTP to be configured. See [Settings](../settings/branding#email-smtp-setup).
 
 ---
 

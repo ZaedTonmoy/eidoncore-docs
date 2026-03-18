@@ -31,7 +31,7 @@ Send notifications to a Slack channel:
 2. Enter your Slack **Incoming Webhook URL**
 3. Choose which notification categories to send to Slack
 
-> **See also:** [Notifications](./notifications#slack-integration) for more on Slack notifications
+> **See also:** [Notifications](../notifications/integrations#slack-integration) for more on Slack notifications
 
 ---
 
@@ -44,7 +44,7 @@ Manage roles under **Settings → Agency → Roles & Permissions**.
 - Edit permissions for existing custom roles
 - See how many team members are assigned to each role
 
-> **See also:** [Team](./team) for detailed role descriptions and permissions
+> **See also:** [Team](../team) for detailed role descriptions and permissions
 
 ---
 
@@ -60,7 +60,7 @@ Agency-wide security settings under **Settings → Agency → Security**:
 | **Re-Authentication for Sensitive Actions** | Require password re-entry for account deletion, MFA changes |
 | **Email Domain Allowlist** | Restrict team invites to specific email domains |
 
-> **See also:** [Security](./security) for full security details
+> **See also:** [Security](../security/overview) for full security details
 
 ---
 

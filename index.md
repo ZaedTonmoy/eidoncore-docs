@@ -91,11 +91,11 @@ Custom forms for collecting client requirements
 |-------------|-------|
 | Set up my workspace for the first time | [Getting Started](./getting-started) |
 | Complete my onboarding checklist | [Onboarding](./onboarding) |
-| Customize my branding & colors | [Settings](./settings#agency-branding) |
+| Customize my branding & colors | [Settings](./settings/branding#agency-branding) |
 | Create my first project | [Projects](./projects#creating-a-project) |
 | Invite my team | [Team Management](./team#inviting-team-members) |
-| Add a client and give them portal access | [Clients](./clients#portal-access) |
+| Add a client and give them portal access | [Clients](./clients/overview#portal-access) |
 | Send a message to my team | [Messaging](./messaging) |
 | Set up automated workflows | [Automations](./automations) |
-| Understand what my clients see | [Client Portal](./client-portal) |
-| Choose the right plan for my agency | [Settings — Plans & Billing](./settings#plans--billing) |
+| Understand what my clients see | [Client Portal](./client-portal/overview) |
+| Choose the right plan for my agency | [Settings — Plans & Billing](./settings/billing#plans--billing) |

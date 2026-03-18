@@ -222,4 +222,4 @@ If a user belongs to multiple workspaces, they can set a different display name 
 | Role changed | Affected user |
 | Member removed | Removed user + agency owners |
 
-> **See also:** [Settings](./settings) for notification preferences · [Projects](./projects#project-team-members) for project-level team management
+> **See also:** [Settings](./settings/overview) for notification preferences · [Projects](./projects#project-team-members) for project-level team management

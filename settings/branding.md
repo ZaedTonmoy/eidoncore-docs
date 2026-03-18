@@ -43,7 +43,7 @@ Customize the look and feel of your entire workspace under **Settings → Agency
 | **Signature Image** | Authorized signature on invoices |
 | **Print Settings** | Paper size, show/hide logo, payments, bank details, notes in print |
 
-> **See also:** [Invoicing](./invoicing#invoice-branding) for invoice branding details
+> **See also:** [Invoicing](../invoicing/analytics#invoice-branding) for invoice branding details
 
 ### Portal Branding
 

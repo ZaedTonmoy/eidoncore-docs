@@ -80,5 +80,5 @@ Behind the scenes:
 - The **agency owner** receives a "Service Purchased" notification
 - The **client contacts** receive a "Service Activated" notification with a link to their new project
 <Callout kind="info">
-See also: [Client Portal](/client-portal) for the full client experience
+See also: [Client Portal](/client-portal/overview) for the full client experience
 </Callout>

@@ -31,7 +31,7 @@ Clients can see standard messages but **not internal messages** — agency staff
 Internal messages are never visible to client contacts. Use them for private team discussions within shared project channels.
 </Callout>
 
-> **See also:** [Messaging](./messaging) for full messaging features
+> **See also:** [Messaging](../messaging) for full messaging features
 
 ### Tasks
 
@@ -79,7 +79,7 @@ Clicking a product opens a detail panel where clients can:
 - **Cancel a recurring subscription** with a cancellation reason
 - View purchase timeline and cancellation details
 
-> **See also:** [Services](./services#digital-products) for the full digital products feature
+> **See also:** [Services](../services/overview#digital-products) for the full digital products feature
 
 ### My Account
 
@@ -153,6 +153,6 @@ graph LR
     F --> G["Login & Start"]
 ```
 
-> **See also:** [Services](./services#cart--checkout-flow) for the full purchase flow from the agency perspective
+> **See also:** [Services](../services/catalog#cart--checkout-flow) for the full purchase flow from the agency perspective
 
 ---

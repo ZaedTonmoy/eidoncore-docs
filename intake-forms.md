@@ -176,7 +176,7 @@ Each intake form can be assigned to **one or more services**:
 - Removing a form from a service doesn't delete the form — it just unlinks them
 - Forms work with both project-based services and digital products
 
-> **See also:** [Services](./services#intake-forms) for how intake forms fit into the service workflow
+> **See also:** [Services](./services/overview#intake-forms) for how intake forms fit into the service workflow
 
 ---
 
@@ -251,4 +251,4 @@ Intake Forms is a **Pro plan** feature. On the Free plan, the sidebar item shows
 |-------|-------------------|
 | Intake form submitted | Agency owner |
 
-> **See also:** [Services](./services#intake-forms) for service integration · [Projects](./projects#project-documents) for where submissions are saved · [Settings](./settings#plans--billing) for plan features
+> **See also:** [Services](./services/overview#intake-forms) for service integration · [Projects](./projects#project-documents) for where submissions are saved · [Settings](./settings/billing#plans--billing) for plan features

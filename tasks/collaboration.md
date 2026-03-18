@@ -15,7 +15,7 @@ Log time manually by entering the duration, description, and optionally marking 
 
 Time logged on a task by someone other than the assignee triggers a notification to the assignee.
 
-> **See also:** [Projects](./projects#time-tracking) for project-level time tracking · [Services](./services#hours--credits-tracking) for service hour deductions · [Reports](./reports) for time reports
+> **See also:** [Projects](../projects#time-tracking) for project-level time tracking · [Services](../services/pricing#hours--credits-tracking) for service hour deductions · [Reports](../reports) for time reports
 
 ---
 
@@ -42,7 +42,7 @@ React to comments with emojis for quick feedback — 👍, ❤️, 😂, 🎉, �
 
 The comment author is notified when someone reacts to their comment.
 
-> **See also:** [Notifications](./notifications) for comment and mention notifications
+> **See also:** [Notifications](../notifications/overview) for comment and mention notifications
 
 ---
 

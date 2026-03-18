@@ -82,7 +82,7 @@ Client health is automatically calculated based on:
 Health changes from At Risk → Churn Risk trigger **critical notifications** to agency owners.
 </Callout>
 
-> **See also:** [Reports](./reports) for client analytics · [Notifications](./notifications) for health change alerts
+> **See also:** [Reports](../reports) for client analytics · [Notifications](../notifications/overview) for health change alerts
 
 ---
 

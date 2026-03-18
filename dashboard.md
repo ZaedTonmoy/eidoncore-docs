@@ -144,4 +144,4 @@ If your agency has configured a **welcome message** in portal branding, it appea
 | Organization Owner | Client | Org-scoped projects, tasks, invoices, services |
 | Organization Member | Client | Same as Org Owner |
 
-> **See also:** [Reports](./reports) for in-depth analytics · [Notifications](./notifications) for alert notifications · [Getting Started](./getting-started) for first login · [Onboarding](./onboarding) for the setup checklist
+> **See also:** [Reports](./reports) for in-depth analytics · [Notifications](./notifications/overview) for alert notifications · [Getting Started](./getting-started) for first login · [Onboarding](./onboarding) for the setup checklist

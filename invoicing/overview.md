@@ -136,4 +136,4 @@ Once an invoice is **fully paid**, it becomes read-only — you cannot edit invo
 | **Mark Bad Debt** | Mark invoices as uncollectable |
 | **Issue Refunds** | Issue refunds and create credit notes |
 
-> **See also:** [Team](./team) for configuring role permissions
+> **See also:** [Team](../team) for configuring role permissions

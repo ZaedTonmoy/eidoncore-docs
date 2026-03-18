@@ -93,7 +93,7 @@ Portal users are assigned one of two roles:
 | **Organization Owner** | View projects, tasks, invoices, services. Can comment, create tasks, and update task statuses. Can view reports |
 | **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
-> **See also:** [Client Portal](./client-portal) for a detailed guide on what clients see and can do
+> **See also:** [Client Portal](../client-portal/overview) for a detailed guide on what clients see and can do
 
 ---
 
@@ -142,4 +142,4 @@ Sort by name, status, revenue, unpaid amount, health, last activity, creation da
 | Contract expiring within 30 days | Agency owners |
 | Client health state changed | Agency owners |
 
-> **See also:** [Settings](./settings) for notification preferences
+> **See also:** [Settings](../settings/overview) for notification preferences

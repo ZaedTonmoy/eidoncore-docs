@@ -49,4 +49,4 @@ You'll receive automatic notifications for key task events:
 | Sub-task completed | Parent task assignee + creator |
 | All checklist items completed | Task assignee + creator |
 
-> **See also:** [Notifications](./notifications) for setting up preferences and digest frequency · [Automations](./automations) for automating task actions
+> **See also:** [Notifications](../notifications/overview) for setting up preferences and digest frequency · [Automations](../automations) for automating task actions

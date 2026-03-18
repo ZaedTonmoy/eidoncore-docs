@@ -26,6 +26,6 @@ View and manage services assigned to each client under the **Services** tab. Thi
 - Remaining hours and credits
 - Billing period tracking
 
-> **See also:** [Services](./services) for managing your service catalog · [Invoicing](./invoicing) for billing clients
+> **See also:** [Services](../services/overview) for managing your service catalog · [Invoicing](../invoicing/overview) for billing clients
 
 ---

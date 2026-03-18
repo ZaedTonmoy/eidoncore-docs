@@ -25,7 +25,7 @@ Invoices are automatically branded with your agency's settings:
 | **Show Notes** | Yes / No |
 | **Paper Size** | A4 or Letter |
 
-> **See also:** [Settings](./settings#agency-branding) for configuring invoice branding
+> **See also:** [Settings](../settings/branding#agency-branding) for configuring invoice branding
 
 ---
 
@@ -77,6 +77,6 @@ The invoice analytics view provides a comprehensive financial overview:
 | **Revenue Forecast** | Expected revenue for next 30/60/90 days |
 | **Status Counts** | Breakdown by invoice status |
 
-> **See also:** [Reports](./reports) for additional revenue and client reports · [Clients](./clients) for per-client financial tracking
+> **See also:** [Reports](../reports) for additional revenue and client reports · [Clients](../clients/overview) for per-client financial tracking
 
 ---

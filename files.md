@@ -52,7 +52,7 @@ graph LR
 - **Branding images** (logos, favicons): Up to **5 MB**
 - **Message attachments**: Varies by plan (see [Messaging](./messaging#file-attachments))
 
-> Total storage is limited by your plan. See [Settings](./settings#plans--billing) for storage limits per plan.
+> Total storage is limited by your plan. See [Settings](./settings/billing#plans--billing) for storage limits per plan.
 
 ---
 
@@ -146,4 +146,4 @@ Attach files directly to tasks via the task drawer:
 When approaching your storage limit, consider archiving old files or upgrading your plan.
 </Callout>
 
-> **See also:** [Settings](./settings#plans--billing) for plan details and upgrading
+> **See also:** [Settings](./settings/billing#plans--billing) for plan details and upgrading

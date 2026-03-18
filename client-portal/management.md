@@ -61,4 +61,4 @@ Default notification delivery:
 - **Organization Owner** — Instant delivery
 - **Organization Member** — Daily digest
 
-> **See also:** [Notifications](./notifications) for full notification details · [Settings](./settings#notification-preferences) for preference management
+> **See also:** [Notifications](../notifications/overview) for full notification details · [Settings](../settings/overview#notification-preferences) for preference management

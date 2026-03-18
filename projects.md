@@ -120,7 +120,7 @@ Milestones mark key deliverables or checkpoints within a project. You can:
 
 When a milestone is completed, all project members are notified.
 
-> **See also:** [Notifications](./notifications) for milestone and project notifications
+> **See also:** [Notifications](./notifications/overview) for milestone and project notifications
 
 ---
 
@@ -182,7 +182,7 @@ You can start a live timer directly from the project page header using the **Sta
 
 When time is logged on a task by someone other than the assignee, the assignee is notified.
 
-> **See also:** [Tasks](./tasks) for the task-level timer · [Services](./services#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports) for time tracking reports
+> **See also:** [Tasks](./tasks/overview) for the task-level timer · [Services](./services/pricing#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports) for time tracking reports
 
 ---
 
@@ -224,4 +224,4 @@ Projects can be automatically created when a client purchases a service through 
 - Are linked to the client's service assignment
 - Show a source badge indicating they were created from a service purchase
 
-> **See also:** [Services](./services#cart--checkout-flow) for the purchase flow · [Client Portal](./client-portal) for what clients see after purchasing
+> **See also:** [Services](./services/catalog#cart--checkout-flow) for the purchase flow · [Client Portal](./client-portal/overview) for what clients see after purchasing

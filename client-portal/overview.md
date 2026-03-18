@@ -13,7 +13,7 @@ When you grant a client contact **portal access**, they can log in to your agenc
 
 Clients access the portal via your workspace URL (`yourslug.eidoncore.com`) or your custom domain (`app.youragency.com`).
 
-> **See also:** [Clients](./clients#portal-access) for how to grant portal access to contacts
+> **See also:** [Clients](../clients/overview#portal-access) for how to grant portal access to contacts
 
 ---
 
