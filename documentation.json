@@ -95,7 +95,25 @@
               {
                 "title": "Tasks",
                 "path": "tasks",
-                "icon": "check-square"
+                "icon": "check-square",
+                "pages": [
+                  {
+                    "title": "Task Basics",
+                    "path": "tasks/overview"
+                  },
+                  {
+                    "title": "Task Features",
+                    "path": "tasks/features"
+                  },
+                  {
+                    "title": "Collaboration & Time",
+                    "path": "tasks/collaboration"
+                  },
+                  {
+                    "title": "Visibility & Permissions",
+                    "path": "tasks/permissions"
+                  }
+                ]
               },
               {
                 "title": "Services",
@@ -141,7 +159,21 @@
               {
                 "title": "Clients",
                 "path": "clients",
-                "icon": "building-2"
+                "icon": "building-2",
+                "pages": [
+                  {
+                    "title": "Client Management",
+                    "path": "clients/overview"
+                  },
+                  {
+                    "title": "CRM & Intelligence",
+                    "path": "clients/crm"
+                  },
+                  {
+                    "title": "Contracts & Services",
+                    "path": "clients/contracts"
+                  }
+                ]
               },
               {
                 "title": "Team",
@@ -151,7 +183,21 @@
               {
                 "title": "Client Portal",
                 "path": "client-portal",
-                "icon": "globe"
+                "icon": "globe",
+                "pages": [
+                  {
+                    "title": "Portal Overview",
+                    "path": "client-portal/overview"
+                  },
+                  {
+                    "title": "Portal Features",
+                    "path": "client-portal/features"
+                  },
+                  {
+                    "title": "Account & Notifications",
+                    "path": "client-portal/management"
+                  }
+                ]
               },
               {
                 "title": "Intake Forms",
@@ -179,7 +225,21 @@
               {
                 "title": "Notifications",
                 "path": "notifications",
-                "icon": "bell"
+                "icon": "bell",
+                "pages": [
+                  {
+                    "title": "Notification Basics",
+                    "path": "notifications/overview"
+                  },
+                  {
+                    "title": "Configuration",
+                    "path": "notifications/config"
+                  },
+                  {
+                    "title": "Integrations & Extras",
+                    "path": "notifications/integrations"
+                  }
+                ]
               }
             ]
           },
@@ -191,17 +251,67 @@
               {
                 "title": "Invoicing",
                 "path": "invoicing",
-                "icon": "credit-card"
+                "icon": "credit-card",
+                "pages": [
+                  {
+                    "title": "Invoice Basics",
+                    "path": "invoicing/overview"
+                  },
+                  {
+                    "title": "Payments & Credits",
+                    "path": "invoicing/payments"
+                  },
+                  {
+                    "title": "Recurring Invoices",
+                    "path": "invoicing/recurring"
+                  },
+                  {
+                    "title": "Analytics & Branding",
+                    "path": "invoicing/analytics"
+                  }
+                ]
               },
               {
                 "title": "Settings",
                 "path": "settings",
-                "icon": "sliders-horizontal"
+                "icon": "sliders-horizontal",
+                "pages": [
+                  {
+                    "title": "Settings Overview",
+                    "path": "settings/overview"
+                  },
+                  {
+                    "title": "Branding & Email",
+                    "path": "settings/branding"
+                  },
+                  {
+                    "title": "Roles & Security",
+                    "path": "settings/roles"
+                  },
+                  {
+                    "title": "Plans & Billing",
+                    "path": "settings/billing"
+                  }
+                ]
               },
               {
                 "title": "Security",
                 "path": "security",
-                "icon": "lock"
+                "icon": "lock",
+                "pages": [
+                  {
+                    "title": "Security Basics",
+                    "path": "security/overview"
+                  },
+                  {
+                    "title": "Policies & Auditing",
+                    "path": "security/policies"
+                  },
+                  {
+                    "title": "Advanced Security",
+                    "path": "security/advanced"
+                  }
+                ]
               }
             ]
           }
