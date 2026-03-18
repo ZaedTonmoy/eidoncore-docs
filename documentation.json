@@ -58,11 +58,12 @@
           {
             "group": "Overview",
             "icon": "home",
+            "expandable": false,
             "pages": [
               {
                 "title": "Introduction",
                 "path": "index",
-                "icon": "home"
+                "icon": "star"
               },
               {
                 "title": "Getting Started",
@@ -84,6 +85,7 @@
           {
             "group": "Work Management",
             "icon": "check-circle",
+            "expandable": true,
             "pages": [
               {
                 "title": "Projects",
@@ -99,6 +101,7 @@
                 "title": "Services",
                 "path": "services",
                 "icon": "box",
+                "badge": "Updated",
                 "pages": [
                   {
                     "title": "Overview",
@@ -132,12 +135,13 @@
           },
           {
             "group": "People & Clients",
-            "icon": "users",
+            "icon": "user-round",
+            "expandable": true,
             "pages": [
               {
                 "title": "Clients",
                 "path": "clients",
-                "icon": "users"
+                "icon": "building-2"
               },
               {
                 "title": "Team",
@@ -152,13 +156,15 @@
               {
                 "title": "Intake Forms",
                 "path": "intake-forms",
-                "icon": "edit"
+                "icon": "edit",
+                "badge": "New"
               }
             ]
           },
           {
             "group": "Collaboration & Files",
-            "icon": "folder",
+            "icon": "hard-drive",
+            "expandable": true,
             "pages": [
               {
                 "title": "Files",
@@ -179,7 +185,8 @@
           },
           {
             "group": "Account & Security",
-            "icon": "settings",
+            "icon": "shield",
+            "expandable": true,
             "pages": [
               {
                 "title": "Invoicing",
@@ -189,7 +196,7 @@
               {
                 "title": "Settings",
                 "path": "settings",
-                "icon": "settings"
+                "icon": "sliders-horizontal"
               },
               {
                 "title": "Security",
@@ -206,7 +213,8 @@
           {
             "title": "Changelog",
             "path": "changelog",
-            "icon": "list"
+            "icon": "list",
+            "content-width": "wide"
           }
         ],
         "icon": "activity-square"
