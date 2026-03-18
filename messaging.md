@@ -119,7 +119,7 @@ Supported file types include images, documents, PDFs, spreadsheets, archives, an
 Maximum attachment size depends on your plan:
 
 | Plan | Max Attachment Size |
-|------|:------------------:|
+|------|--------------------|
 | **Free** | 5 MB |
 | **Pro** | 10 MB |
 | **Enterprise** | 25 MB |
@@ -170,7 +170,7 @@ On mobile, **swipe right** on a message to reply.
 Messaging features scale with your subscription plan:
 
 | Resource | Free | Pro | Enterprise |
-|----------|:----:|:---:|:----------:|
+|----------|------|-----|------------|
 | Channels | 10 | 50 | Unlimited |
 | Members per channel | 10 | 30 | Unlimited |
 | Message retention | 30 days | 90 days | Unlimited |
