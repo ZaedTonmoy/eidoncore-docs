@@ -38,8 +38,17 @@ Navigate to **Clients** in the sidebar and click **"New Client"**.
 
 Clients move through a lifecycle pipeline:
 
-```
-Lead → Contacted → Proposal Sent → Active → Paused → Churned / Lost / Archived
+```mermaid
+stateDiagram-v2
+    [*] --> Lead
+    Lead --> Contacted
+    Contacted --> Proposal_Sent
+    Proposal_Sent --> Active
+    Active --> Paused
+    Active --> Churned
+    Active --> Archived
+    Paused --> Active
+    Paused --> Lost
 ```
 
 When a client purchases a service through the catalog, their status is automatically upgraded to **Active** if they were previously a Lead, Contacted, or Proposal Sent.
@@ -67,8 +76,14 @@ Contacts can be granted **portal access** to your agency's platform, allowing th
 
 Two ways to grant access:
 
-1. **When adding a contact** — Set a password during contact creation
-2. **Send Invite** — Click the " Send Invite" button on any contact without an account. They'll receive a branded invitation email and can set their own password via the "Forgot Password" flow
+<Tabs>
+<Tab title="During contact creation" icon="user-plus">
+Set a password when adding the contact. They can log in immediately.
+</Tab>
+<Tab title="Send an invite" icon="mail">
+Click the **"Send Invite"** button on any contact without an account. They'll receive a branded invitation email and can set their own password via the "Forgot Password" flow.
+</Tab>
+</Tabs>
 
 Portal users are assigned one of two roles:
 
@@ -174,7 +189,9 @@ Client health is automatically calculated based on:
 | ● **At Risk** | Some warning signs (late payments, inactivity) |
 | ● **Churn Risk** | Significant issues — requires immediate attention |
 
+<Callout kind="danger">
 Health changes from At Risk → Churn Risk trigger **critical notifications** to agency owners.
+</Callout>
 
 > **See also:** [Reports](./reports) for client analytics · [Notifications](./notifications) for health change alerts
 

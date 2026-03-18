@@ -12,6 +12,15 @@ Each automation follows a simple pattern:
 
 **When** something happens (trigger) → **If** conditions are met → **Then** do something (action)
 
+```mermaid
+graph LR
+    A[Event Occurs] --> B{Conditions Met?}
+    B -->|Yes| C[Execute Actions]
+    B -->|No| D[Skip]
+    C --> E[Log Result]
+    D --> E
+```
+
 For example:
 > *When a task status changes to "Done" → If the project is "Website Redesign" → Then send a notification to the project lead.*
 
@@ -23,10 +32,20 @@ Navigate to **Automations** in the sidebar and click **"New Automation"**.
 
 The visual builder lets you configure:
 
-1. **Name** — Give your automation a descriptive name
-2. **Trigger** — What event starts it
-3. **Conditions** (optional) — Narrow down when it runs
-4. **Actions** — What happens when it fires
+<Steps>
+<Step title="Name your automation" icon="tag">
+Give your automation a descriptive name
+</Step>
+<Step title="Choose a trigger" icon="zap">
+Select what event starts it
+</Step>
+<Step title="Set conditions" icon="filter">
+Optionally narrow down when it runs
+</Step>
+<Step title="Define actions" icon="play">
+Configure what happens when it fires
+</Step>
+</Steps>
 
 ### Automation Status
 
@@ -138,7 +157,9 @@ Automation counts are governed by your subscription plan:
 | **Pro** | 20 |
 | **Enterprise** | Unlimited |
 
+<Callout kind="info">
 When a **Create Task** action fires, the system also checks your task quota. If your plan's task limit has been reached, the action will fail and the execution log will record the reason.
+</Callout>
 
 > **See also:** [Settings](./settings#plans--billing) for plan limits
 

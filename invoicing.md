@@ -58,13 +58,21 @@ When an invoice is sent, the client's billing details (name, email, company, add
 
 Invoices flow through the following lifecycle:
 
-```
-Draft → Scheduled → Sent → Viewed → Partially Paid → Paid
- │ ↑
- └─→ Overdue ──→ Bad Debt │
- │
- Refunded ←────────────────┘
- └─→ Void
+```mermaid
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Scheduled
+    Draft --> Sent
+    Scheduled --> Sent
+    Sent --> Viewed
+    Viewed --> Partially_Paid
+    Partially_Paid --> Paid
+    Sent --> Overdue
+    Viewed --> Overdue
+    Overdue --> Bad_Debt
+    Paid --> Refunded
+    Refunded --> Void
+    Paid --> [*]
 ```
 
 | Status | Meaning |
@@ -166,10 +174,20 @@ Issue credit notes against invoices when refunds or adjustments are needed:
 
 Issue refunds against specific payments or entire invoices:
 
-1. The refund amount is validated against the paid amount
-2. The invoice's paid amount is decreased
-3. If fully refunded, the invoice status changes to **Refunded**
-4. Stripe refunds are processed automatically for online payments
+<Steps>
+<Step title="Validate refund amount" icon="shield-check">
+The refund amount is validated against the paid amount
+</Step>
+<Step title="Decrease paid amount" icon="minus-circle">
+The invoice's paid amount is decreased
+</Step>
+<Step title="Update invoice status" icon="refresh-cw">
+If fully refunded, the invoice status changes to **Refunded**
+</Step>
+<Step title="Process Stripe refund" icon="credit-card">
+Stripe refunds are processed automatically for online payments
+</Step>
+</Steps>
 
 Refund statuses: Pending → Processed / Failed.
 
@@ -233,7 +251,9 @@ Rates are **snapshotted** when time is logged — the invoice reflects the exact
 
 ## Edit Lock
 
+<Callout kind="alert">
 Once an invoice is **fully paid**, it becomes read-only — you cannot edit invoice details or line items. Internal notes can still be updated. To modify a paid invoice, issue a credit note or refund instead.
+</Callout>
 
 ---
 

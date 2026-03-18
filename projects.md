@@ -27,12 +27,17 @@ To create a project, navigate to **Projects** in the sidebar and click **"New Pr
 
 Projects follow a standard lifecycle:
 
-```
-Not Started → In Progress → In Review → Completed
- ↓ ↑
- On Hold ─────────────────────┘
- ↓
- Cancelled
+```mermaid
+stateDiagram-v2
+    [*] --> Not_Started
+    Not_Started --> In_Progress
+    In_Progress --> In_Review
+    In_Review --> Completed
+    In_Progress --> On_Hold
+    On_Hold --> In_Progress
+    In_Progress --> Cancelled
+    On_Hold --> Cancelled
+    Completed --> [*]
 ```
 
 ---
@@ -47,17 +52,28 @@ Each project can have a budget to track spending:
 | **Hourly** | Budget based on total hours × rate |
 | **Retainer** | Recurring budget arrangement |
 
+<Callout kind="info">
 When budget utilization reaches **80% or more**, the agency Owner is automatically notified.
+</Callout>
 
 ### Generate Invoice from Time Entries
 
 On the **Budget & Time** tab of any project, agency staff with invoicing permissions can manually generate an invoice from unbilled time entries:
 
-1. Click **\"Generate Invoice\"** to open the invoice generation modal
-2. Select a **date range** to filter time entries
-3. Choose a **grouping style** (by task, by team member, or flat list) and set the hourly rate
-4. Review the line items and total
-5. Click **Generate** to create a **draft invoice** and be redirected to the invoice detail page
+<Steps>
+<Step title="Open invoice generation" icon="file-plus">
+Click **"Generate Invoice"** to open the invoice generation modal
+</Step>
+<Step title="Select date range" icon="calendar">
+Select a **date range** to filter time entries
+</Step>
+<Step title="Configure grouping" icon="layers">
+Choose a **grouping style** (by task, by team member, or flat list) and set the hourly rate
+</Step>
+<Step title="Review and generate" icon="check-circle">
+Review the line items and total, then click **Generate** to create a **draft invoice** and be redirected to the invoice detail page
+</Step>
+</Steps>
 
 Only billable, completed time entries that haven't already been invoiced are included. Written-off entries are excluded.
 

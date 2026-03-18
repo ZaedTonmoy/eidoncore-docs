@@ -162,6 +162,14 @@ Certain events escalate in severity over time:
 - Day 7 overdue → Upgraded to **Critical**
 - Day 30 overdue → Critical with optional Slack alert
 
+```mermaid
+graph LR
+    A["Due in 3 days"] -->|Risk| B["Day 1 Overdue"]
+    B -->|Risk| C["Day 7 Overdue"]
+    C -->|Critical| D["Day 30 Overdue"]
+    D -->|Critical + Slack| E[Final Alert]
+```
+
 ### Project Delay Escalation
 - Days 1-6 past deadline → Risk notification
 - Day 7+ past deadline → Upgraded to **Critical**

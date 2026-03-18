@@ -158,6 +158,16 @@ When a client's included hours or credits are running low, additional quota can 
 4. If approved, the client sees a **"Pay"** button that redirects to Stripe checkout
 5. After payment, the top-up balance is updated immediately
 
+```mermaid
+graph TD
+    A[Client Requests Top-Up] --> B[Pending]
+    B --> C{Agency Decision}
+    C -->|Approve| D[Pay Button Shown]
+    C -->|Reject| E[Rejected]
+    D --> F[Stripe Checkout]
+    F --> G[Balance Updated]
+```
+
 Both agency and client can view the full **top-up history** on the project, showing each entry's amount, status (Pending, Approved, Paid, Rejected), and date.
 
 ---
@@ -255,12 +265,35 @@ Clients can browse and purchase services directly through a self-service checkou
 
 ### How It Works (Client Experience)
 
-1. **Browse Catalog** (`/catalog/services`) — Clients see available services with pricing, organized by category with search and filtering
-2. **View Details** — Full service page with description, deliverables, FAQ, gallery, reviews, and pricing sidebar
-3. **Add to Cart** — Click "Add to Cart" on the service detail page
-4. **Review Cart** (`/cart`) — See line items, prices, and order total
-5. **Checkout** (`/cart/checkout`) — Pay with card, Apple Pay, or Google Pay via the embedded Stripe payment form
-6. **Confirmation** (`/cart/success`) — See project cards for each purchased service, account manager info, next steps, and optionally fill out an intake form
+<Steps>
+<Step title="Browse Catalog" icon="shopping-bag">
+Clients see available services at `/catalog/services` with pricing, organized by category with search and filtering
+</Step>
+<Step title="View Details" icon="eye">
+Full service page with description, deliverables, FAQ, gallery, reviews, and pricing sidebar
+</Step>
+<Step title="Add to Cart" icon="shopping-cart">
+Click "Add to Cart" on the service detail page
+</Step>
+<Step title="Review Cart" icon="list">
+See line items, prices, and order total at `/cart`
+</Step>
+<Step title="Checkout" icon="credit-card">
+Pay with card, Apple Pay, or Google Pay via the embedded Stripe payment form at `/cart/checkout`
+</Step>
+<Step title="Confirmation" icon="check-circle">
+See project cards for each purchased service, account manager info, next steps, and optionally fill out an intake form at `/cart/success`
+</Step>
+</Steps>
+
+```mermaid
+graph LR
+    A[Browse Catalog] --> B[View Details]
+    B --> C[Add to Cart]
+    C --> D[Review Cart]
+    D --> E[Checkout via Stripe]
+    E --> F[Confirmation + Intake Form]
+```
 
 ### What Happens After Purchase
 
@@ -345,7 +378,9 @@ The progress bar shows remaining allocation (e.g., "15 / 20 hours remaining"). T
 
 ### Quota Exhaustion Guard
 
+<Callout kind="alert">
 When a service's quota is fully consumed, the **"+ New Task"** button on the project is **disabled**. A tooltip explains that the quota is exhausted. Agency owners can bypass this restriction.
+</Callout>
 
 ### Complete & Invoice (One-Time Projects)
 

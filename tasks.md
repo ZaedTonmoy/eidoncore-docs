@@ -106,6 +106,21 @@ Each task is automatically assessed for health based on its due date, dependenci
 
 Health is evaluated in order of severity: Completed → Overdue → Blocked → At Risk → Stale → On Track.
 
+```mermaid
+graph TD
+    A[Evaluate Task] --> B{Completed?}
+    B -->|Yes| C["✓ Completed"]
+    B -->|No| D{Overdue?}
+    D -->|Yes| E["● Overdue"]
+    D -->|No| F{Blocked?}
+    F -->|Yes| G["● Blocked"]
+    F -->|No| H{At Risk?}
+    H -->|Yes| I["● At Risk"]
+    H -->|No| J{Stale?}
+    J -->|Yes| K["○ Stale"]
+    J -->|No| L["● On Track"]
+```
+
 Health indicators appear on the task card and in the task drawer.
 
 ---
@@ -143,7 +158,9 @@ Link related tasks with dependencies to define the order of work:
 
 Dependencies help visualize the flow of work and identify bottlenecks.
 
-> **Note:** A task cannot be marked as Done if it has unfinished dependencies. Complete the blocking tasks first.
+<Callout kind="alert">
+A task cannot be marked as Done if it has unfinished dependencies. Complete the blocking tasks first.
+</Callout>
 
 ---
 
