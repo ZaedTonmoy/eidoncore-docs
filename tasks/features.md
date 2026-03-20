@@ -75,3 +75,42 @@ A task cannot be marked as Done if it has unfinished dependencies. Complete the 
 </Callout>
 
 ---
+
+## File Attachments
+
+Attach files to tasks via the **📎 paperclip button** in the rich text editor toolbar (available in task descriptions and comments).
+
+### Upload Process
+
+<Steps>
+<Step title="Select files" icon="paperclip">
+Click the paperclip button or drag and drop files into the editor
+</Step>
+<Step title="Upload & scan" icon="upload">
+Files are uploaded and automatically scanned for security threats
+</Step>
+<Step title="Inserted" icon="check-circle">
+Images appear inline; other files appear as downloadable links
+</Step>
+</Steps>
+
+### Upload Limits
+
+| Limit | Value |
+|-------|-------|
+| **Maximum file size** | 10 MB per file |
+| **Allowed types** | Images (JPG, PNG, GIF, SVG, WebP), Documents (PDF, DOC, DOCX, TXT), Spreadsheets (XLS, XLSX, CSV), Media (MP4, MP3, WAV, WebM) |
+
+### Progressive Upload Feedback
+
+While uploading, a placeholder in the editor shows real-time progress:
+
+| Phase | Message |
+|-------|---------|
+| **Uploading** | "Uploading {filename}..." |
+| **Scanning** | "Scanning {filename} for security..." |
+| **Long scan** | "Still scanning {filename}... almost done" |
+
+All uploaded files are accessible in the **Attachments tab** of the task drawer. Project members can view and download all task attachments.
+
+---

@@ -33,6 +33,17 @@ Accessible to all users under **Settings → Account**.
 | **Timezone** | Your local timezone for timestamps and scheduling |
 | **Locale** | Language and formatting preferences |
 
+### Display Preferences
+
+Customize how the interface looks for you. These settings apply globally across the platform.
+
+| Setting | Options | Default | Description |
+|---------|---------|---------|-------------|
+| **Font Size** | Small, Medium, Large | Medium | Adjusts all text sizes across the interface |
+| **UI Density** | Comfortable, Compact | Comfortable | Controls spacing and padding — Compact fits more content on screen |
+
+Changes apply instantly and persist across sessions. Your display preferences do not affect what other users see.
+
 ### Password & Security
 
 - **Change Password** — Requires your current password. New password must meet strength requirements (minimum 8 characters, including uppercase, lowercase, and digit)

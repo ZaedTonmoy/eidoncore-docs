@@ -17,7 +17,16 @@ Tasks can be viewed in multiple ways:
 | **List View** | Detailed table with sorting, filtering, and drag-and-drop between status groups |
 | **Workload View** | See task distribution, capacity levels, and overdue counts per team member |
 
-Switch between views using the view toggle at the top of the tasks page.
+Switch between views using the view toggle at the top of the tasks page. Your selected view persists via the URL — refreshing the page keeps you on the same view.
+
+### Column Settings (List View)
+
+In List view, click the **⚙ Columns** button to choose which columns are visible. Toggle columns on or off to customize your view:
+
+- Title (always visible)
+- Priority, Health, Assignee, Due Date, Created, Updated, Project
+
+Your column preferences are saved per browser and shared across the global Tasks page and project task lists.
 
 ### Task Analytics Strip
 
@@ -54,6 +63,10 @@ Above the task list, a quick-reference analytics strip shows:
 | **Tags** | Free-form text tags for flexible categorization beyond labels |
 | **Complexity** | Optional complexity score for estimation and prioritization |
 | **Billable** | Whether time logged on this task counts as billable (default: yes) |
+
+### Deferred Task Creation
+
+When you click **"+ New Task"**, a title input appears first — the task is only created in the database after you provide a real title and press `Enter`. Press `Escape` to cancel without creating anything.
 
 ### Task Drawer
 
@@ -99,5 +112,7 @@ Create color-coded **labels** to categorize tasks across projects:
 - Labels are shared across your workspace
 - Assign multiple labels to a single task
 - Filter tasks by label in both list and Kanban views
+
+> **See also:** [Keyboard Shortcuts](../keyboard-shortcuts#tasks-page) for task keyboard shortcuts
 
 ---

@@ -13,7 +13,15 @@ Start a timer directly from the task drawer. The timer runs until you stop it, a
 
 Log time manually by entering the duration, description, and optionally marking it as billable.
 
+For **usage-based** service projects, an **"⏱ Overtime"** checkbox lets you explicitly mark entries as overtime hours.
+
 Time logged on a task by someone other than the assignee triggers a notification to the assignee.
+
+### Billed Entry Protection
+
+Once a time entry is linked to an invoice (billed), it becomes **immutable** — it cannot be edited or deleted. Billed entries display a 🔒 lock icon.
+
+Unbilled entries can be deleted, which automatically restores the consumed quota balance.
 
 > **See also:** [Projects](../projects#time-tracking) for project-level time tracking · [Services](../services/pricing#hours--credits-tracking) for service hour deductions · [Reports](../reports) for time reports
 
@@ -51,5 +59,7 @@ The comment author is notified when someone reacts to their comment.
 Share a task externally using a **public share link** — anyone with the link can view the task details without logging in.
 
 Toggle the share link on or off from the task drawer.
+
+> **See also:** [Keyboard Shortcuts](../keyboard-shortcuts#task-drawer) for task keyboard shortcuts
 
 ---

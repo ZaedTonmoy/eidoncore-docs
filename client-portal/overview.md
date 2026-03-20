@@ -22,6 +22,7 @@ Clients access the portal via your workspace URL (`yourslug.eidoncore.com`) or y
 | Role | Display Name | What They Can Do |
 |------|-------------|-----------------|
 | **Organization Owner** | Client admin | View projects, tasks, invoices, and services. Can comment on tasks, create tasks, and change task statuses. Can view reports |
+| **Organization Admin** | Client manager | Same views and capabilities as Organization Owner. Can view reports |
 | **Organization Member** | Client viewer | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
 
 ---

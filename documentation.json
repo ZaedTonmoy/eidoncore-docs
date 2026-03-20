@@ -222,6 +222,12 @@
                 "icon": "message-circle"
               },
               {
+                "title": "Keyboard Shortcuts",
+                "path": "keyboard-shortcuts",
+                "icon": "command",
+                "badge": "New"
+              },
+              {
                 "group": "Notifications",
                 "icon": "bell",
                 "expandable": true,

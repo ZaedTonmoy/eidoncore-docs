@@ -5,9 +5,9 @@ description: "Configure team roles and permissions, enforce security policies, a
 
 ## Integrations
 
-### Stripe Connect
+Manage your connected services under **Settings → Agency → Integrations**. The integrations hub shows cards for each available integration with a live connection status indicator.
 
-Connect your Stripe account to accept payments from clients:
+### Stripe Connect
 
 <Steps>
 <Step title="Navigate to Stripe integration" icon="settings">
@@ -66,10 +66,12 @@ Agency-wide security settings under **Settings → Agency → Security**:
 
 ## Audit Log
 
-View a complete log of all actions in your workspace under **Settings → Agency → Audit Log**.
+View a log of actions in your workspace under **Settings → Agency → Audit Log**.
 
 - Filter by action type, actor, or date range
 - See what changed (field-level diff), who made the change, and when
 - Paginated results (25 entries per page)
+
+**Role-based scoping**: Agency Owners and Admins see all audit log entries. Other roles (Project Managers, Team Members, Accountants, and client users) only see their own entries.
 
 ---

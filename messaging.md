@@ -129,6 +129,10 @@ Maximum attachment size depends on your plan:
 
 ## Channel Management
 
+### Member Panel
+
+In project and organization channels, click the **member count** in the channel header to reveal a slide-down member list showing all participants in the channel.
+
 ### Muting Channels
 
 Mute channels to pause notifications without leaving the conversation:
@@ -211,4 +215,4 @@ If you've been away for more than 10 minutes, an **hourly chat digest email** su
 | **Manage Channels** | Create and configure channels | Owner, Admin |
 | **Browse All Channels** | See all channels in the workspace | Owner, Admin |
 
-> **See also:** [Team](./team) for configuring role permissions · [Projects](./projects) for project channel membership · [Client Portal](./client-portal/overview) for client messaging access
+> **See also:** [Team](./team) for configuring role permissions · [Projects](./projects) for project channel membership · [Client Portal](./client-portal/overview) for client messaging access · [Keyboard Shortcuts](./keyboard-shortcuts#messaging) for messaging keyboard shortcuts
