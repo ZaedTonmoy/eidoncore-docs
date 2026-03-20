@@ -19,7 +19,9 @@ Time logged on a task by someone other than the assignee triggers a notification
 
 ### Billed Entry Protection
 
+<Callout kind="alert">
 Once a time entry is linked to an invoice (billed), it becomes **immutable** — it cannot be edited or deleted. Billed entries display a 🔒 lock icon.
+</Callout>
 
 Unbilled entries can be deleted, which automatically restores the consumed quota balance.
 

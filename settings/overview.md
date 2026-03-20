@@ -42,7 +42,9 @@ Customize how the interface looks for you. These settings apply globally across 
 | **Font Size** | Small, Medium, Large | Medium | Adjusts all text sizes across the interface |
 | **UI Density** | Comfortable, Compact | Comfortable | Controls spacing and padding — Compact fits more content on screen |
 
+<Callout kind="info">
 Changes apply instantly and persist across sessions. Your display preferences do not affect what other users see.
+</Callout>
 
 ### Password & Security
 

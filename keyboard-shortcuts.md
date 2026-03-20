@@ -16,19 +16,17 @@ Speed up your workflow with keyboard shortcuts available throughout the platform
 | `⌘⇧P` | Create new project |
 | `?` | Open keyboard shortcuts help overlay |
 
-### Command Palette
+<Callout kind="info">
+Navigation commands in the Command Palette are **role-filtered** — client users only see pages they can access. When focused inside the rich text editor, `⌘K` opens the insert link dialog instead.
+</Callout>
 
-The Command Palette (`⌘K`) provides universal search across all your data and instant navigation to any page.
+### Command Palette
 
 | Shortcut | Action |
 |----------|--------|
 | `↑` / `↓` | Navigate results |
 | `Enter` | Select highlighted result |
 | `Escape` | Close palette |
-
-<Callout kind="info">
-Navigation commands are **role-filtered** — client users only see pages they can access. When focused inside the rich text editor, `⌘K` opens the insert link dialog instead.
-</Callout>
 
 ### Go To Navigation
 
@@ -45,9 +43,12 @@ Press `G`, then a second key within 800ms to jump directly to a page:
 
 ---
 
-## Tasks Page
+## Context-Specific Shortcuts
 
-Shortcuts available on the Tasks page. These are ignored when focus is inside a text input.
+<Tabs>
+<Tab title="Tasks Page" icon="check-square">
+
+Shortcuts available on the Tasks page. Ignored when focus is inside a text input.
 
 | Shortcut | Action |
 |----------|--------|
@@ -59,8 +60,6 @@ Shortcuts available on the Tasks page. These are ignored when focus is inside a 
 | `3` | Switch to Workload view |
 
 ### List View Navigation
-
-Navigate and interact with tasks using your keyboard in the List view:
 
 | Shortcut | Action |
 |----------|--------|
@@ -74,11 +73,10 @@ Navigate and interact with tasks using your keyboard in the List view:
 Focused rows show a highlighted accent border and auto-scroll into view. When inline editing (`E`), press `Enter` to save or `Escape` to cancel.
 </Callout>
 
----
+</Tab>
+<Tab title="Task Drawer" icon="sidebar">
 
-## Task Drawer
-
-The Task Drawer supports **Tab-prefix shortcuts** — press `Tab`, then a follow-up key within 600ms. These are ignored when focus is inside a text input or editor.
+The Task Drawer supports **Tab-prefix shortcuts** — press `Tab`, then a follow-up key within 600ms. Ignored when focus is inside a text input or editor.
 
 | Shortcut | Action |
 |----------|--------|
@@ -93,13 +91,10 @@ The Task Drawer supports **Tab-prefix shortcuts** — press `Tab`, then a follow
 | `⌘D` / `Ctrl+D` | Duplicate task |
 | `Tab` → `Delete` | Delete task (with confirmation) |
 
----
-
-## Rich Text Editor
+</Tab>
+<Tab title="Rich Text Editor" icon="type">
 
 Available in task descriptions, comments, and any rich text field.
-
-### Text Formatting
 
 | Shortcut | Action |
 |----------|--------|
@@ -118,21 +113,24 @@ Available in task descriptions, comments, and any rich text field.
 | `Enter` / `Tab` | Accept selected mention |
 | `Escape` | Dismiss mention dropdown |
 
----
-
-## Messaging
+</Tab>
+<Tab title="Messaging" icon="message-circle">
 
 | Shortcut | Action |
 |----------|--------|
 | `Enter` | Send message |
 | `Shift+Enter` | Insert newline (without sending) |
-| `↑` / `↓` | Navigate @mention suggestions |
-| `Enter` / `Tab` | Accept selected @mention |
-| `Escape` | Dismiss @mention dropdown |
 
----
+### @Mention Autocomplete
 
-## Image Lightbox
+| Shortcut | Action |
+|----------|--------|
+| `↑` / `↓` | Navigate mention suggestions |
+| `Enter` / `Tab` | Accept selected mention |
+| `Escape` | Dismiss mention dropdown |
+
+</Tab>
+<Tab title="Image Viewer" icon="image">
 
 | Shortcut | Action |
 |----------|--------|
@@ -140,6 +138,9 @@ Available in task descriptions, comments, and any rich text field.
 | `+` / `=` | Zoom in |
 | `-` | Zoom out |
 | `0` | Reset zoom |
+
+</Tab>
+</Tabs>
 
 ---
 

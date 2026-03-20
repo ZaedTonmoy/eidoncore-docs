@@ -26,7 +26,9 @@ In List view, click the **⚙ Columns** button to choose which columns are visib
 - Title (always visible)
 - Priority, Health, Assignee, Due Date, Created, Updated, Project
 
+<Callout kind="tip">
 Your column preferences are saved per browser and shared across the global Tasks page and project task lists.
+</Callout>
 
 ### Task Analytics Strip
 
