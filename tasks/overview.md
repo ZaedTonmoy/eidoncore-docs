@@ -107,6 +107,65 @@ New projects are automatically seeded with the four default statuses. Custom sta
 
 ---
 
+## Sections & Lists
+
+Organize tasks within a project using a **Section → List** hierarchy. Sections act as folders, and each list contains its own group of tasks with an independent status pipeline.
+
+```
+Project
+├── Section (folder)
+│   ├── List
+│   │   ├── Task
+│   │   └── Task
+│   └── List
+├── List (top-level, no section)
+└── Tasks (project root — no list)
+```
+
+### Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **Sections** | Folders that group related lists. Strictly flat — no nested sections. Deleting a section moves its lists to the top level. |
+| **Lists** | Each list has its own tasks and an independent status pipeline. Deleting a list moves its tasks to the project root. |
+| **Project Root** | Tasks with no list assignment appear in the "All Tasks" view. |
+
+### List-Specific Status Pipelines
+
+Each list gets its own set of task statuses, copied from the project's statuses when the list is created. This means different lists can have completely different workflows:
+
+- **Design List** → Concept → Wireframe → Review → Approved
+- **Development List** → Backlog → In Progress → Testing → Done
+
+### Cross-List Task Moves
+
+When you move a task between lists, if its current status doesn't exist in the destination list, it's automatically **remapped to the default status** of the new list.
+
+### Sidebar Navigation
+
+The project sidebar shows a collapsible tree of Sections → Lists:
+
+- **Create** sections and lists inline from the sidebar
+- **Rename or delete** via right-click context menu
+- **Reorder** sections and lists with drag-and-drop
+- **Move lists between sections** by dragging a list onto a different section header
+- **Collapsed mode** — icon-only sidebar rail (56px) with tooltips for compact navigation
+- **Mobile** — slide-over sheet on small screens
+
+### URL Deep Linking
+
+Selecting a list sets `?list={listId}` in the URL. Links are bookmarkable and shareable — opening the link auto-switches to the Tasks tab with the correct list selected.
+
+### Grouping Options
+
+In the "All Tasks" view (no specific list selected), you can toggle **Group by: Status or List** in the filter bar. This groups your tasks by their parent list instead of status, giving you a cross-list overview.
+
+<Callout kind="info">
+Lists are gated by your plan. Each plan defines a maximum number of lists per project (default: 3). Existing projects without lists continue to work unchanged.
+</Callout>
+
+---
+
 ## Labels
 
 Create color-coded **labels** to categorize tasks across projects:

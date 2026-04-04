@@ -116,7 +116,7 @@
                 ]
               },
               {
-                "group": "Services",
+                "group": "Offerings",
                 "icon": "box",
                 "expandable": true,
                 "pages": [
@@ -139,10 +139,24 @@
                 ]
               },
               {
-                "title": "Proposals",
-                "path": "proposals",
+                "group": "Proposals",
                 "icon": "file-text",
-                "badge": "New"
+                "expandable": true,
+                "badge": "New",
+                "pages": [
+                  {
+                    "title": "Proposal Basics",
+                    "path": "proposals/overview"
+                  },
+                  {
+                    "title": "Delivery & Tracking",
+                    "path": "proposals/delivery"
+                  },
+                  {
+                    "title": "Conversion & Billing",
+                    "path": "proposals/conversion"
+                  }
+                ]
               },
               {
                 "title": "Automations",
