@@ -164,9 +164,116 @@ Hover over any message to see the action bar with quick buttons:
 |--------|-------------|
 | **React** | Add an emoji reaction |
 | **Reply** | Start a threaded reply |
-| **More** | Edit (own, within 5 min), Delete |
+| **More** | Edit (own, within 5 min), Delete, Forward, Pin/Unpin |
 
 On mobile, **swipe right** on a message to reply.
+
+---
+
+## Message Forwarding
+
+Forward any message to another channel you're a member of:
+
+<Steps>
+<Step title="Open the forward dialog" icon="share">
+Click **"⋮ More"** on any message, then select **"Forward"**
+</Step>
+<Step title="Choose a destination" icon="search">
+Search or browse your channels to select where to send the message
+</Step>
+<Step title="Send" icon="send">
+Click the target channel to forward — the message appears with the original sender's attribution
+</Step>
+</Steps>
+
+Forwarded messages show the **original sender's name and timestamp**, so recipients always know where the message came from. If the original message was marked internal, the forwarded message is also sent as internal.
+
+---
+
+## Pinned Messages
+
+Pin important messages so they're easy to find later. Any channel member can pin or unpin messages.
+
+- Click **"⋮ More"** on a message, then **"📌 Pin"**
+- Pinned messages show a **"📌 Pinned"** indicator in the message list
+- View all pinned messages in the **Channel Info Drawer** (click the ⓘ button)
+- Click a pinned message in the drawer to **scroll to it** in the conversation
+
+Each channel can have up to **50 pinned messages**. Deleted messages are automatically excluded from the pinned list.
+
+---
+
+## Link Previews
+
+When you share a URL in a message, a **rich preview card** is automatically generated showing:
+
+- **Page title and description** from the linked page
+- **Thumbnail image** (when available)
+- **Site favicon and name**
+
+For **YouTube** and **Vimeo** links, the preview includes a **click-to-play video thumbnail** that opens an embedded player right in the chat.
+
+Link previews appear for the first URL in each message. They are fetched from the server and cached for performance.
+
+---
+
+## Slash Commands — Entity Mentions
+
+Type `/` in the message editor to **search and mention** platform entities directly in your messages:
+
+| Entity | Icon | What Happens When Clicked |
+|--------|------|--------------------------|
+| **Tasks** | 📋 | Opens the task drawer inline |
+| **Projects** | 📁 | Navigates to the project page |
+| **Clients** | 🏢 | Navigates to the client page |
+| **Proposals** | 📄 | Navigates to the proposal page |
+
+Entity mentions appear as **color-coded clickable chips** in the message, making it easy to reference and jump to related work items during conversations.
+
+<Callout kind="info">
+Entity mentions respect your role permissions — you'll only see entities you have access to in the search results.
+</Callout>
+
+---
+
+## Channel Info Drawer
+
+Click the **ⓘ** button in the chat header to open the Channel Info Drawer — a side panel with channel details and tools:
+
+| Section | What It Contains |
+|---------|-----------------|
+| **Search** | Search messages within the channel — click a result to jump to it with a highlight animation |
+| **Pinned Messages** | All pinned messages with click-to-scroll |
+| **Members** | Collapsible list of all channel members |
+| **Personal Notes** | Private notes visible only to you (see below) |
+| **Mute/Unmute** | Toggle channel mute from the header |
+
+---
+
+## Personal Notes
+
+Keep private, per-channel notes that only you can see. Perfect for tracking context, to-dos, or reminders about a conversation.
+
+- Open the **Channel Info Drawer** and expand the **Personal Notes** section
+- Write notes using the rich text editor
+- Notes **auto-save** as you type (800ms debounce)
+- Click **"Clear"** to delete your notes (with confirmation)
+
+Personal notes are stored per-channel and per-user — no one else can see them.
+
+---
+
+## Floating Chat Widget
+
+A **Messenger-style floating chat bubble** appears in the bottom-right corner of every page (except the Messages page), giving you quick access to messaging without navigating away from your current work.
+
+| Feature | Detail |
+|---------|--------|
+| **Unread badge** | Shows real-time unread message count |
+| **Channel list** | Search and browse your channels |
+| **Mini chat view** | Send and receive messages in a compact panel |
+| **Notification sound** | Plays for new messages (respects channel mute) |
+| **Mobile** | Takes full width on small screens |
 
 ---
 

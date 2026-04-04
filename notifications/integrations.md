@@ -33,15 +33,75 @@ graph LR
 
 ## Slack Integration
 
-Send notifications to a Slack channel via webhook:
+Send notifications to Slack channels via incoming webhooks. Slack notifications are delivered in addition to bell and email notifications — keeping your team informed without leaving Slack.
 
-1. Go to **Settings → Agency → Integrations → Slack**
-2. Enter your Slack **webhook URL**
-3. Choose which notification categories to send to Slack
+### Basic Setup
 
-Slack notifications are delivered in addition to bell and email notifications.
+<Steps>
+<Step title="Get a webhook URL" icon="link">
+Create an incoming webhook in your Slack workspace (via Slack's app directory)
+</Step>
+<Step title="Configure in settings" icon="settings">
+Go to **Settings → Agency → Integrations → Slack** and paste your webhook URL
+</Step>
+<Step title="Choose categories" icon="toggle-left">
+Enable which notification categories should be sent to Slack
+</Step>
+<Step title="Test" icon="zap">
+Click **"Send Test"** to verify your webhook is working
+</Step>
+</Steps>
 
-> **See also:** [Settings](../settings/roles#integrations) for Slack setup
+### Notification Format
+
+Slack notifications use **Block Kit** formatting with:
+
+- **Priority-colored sidebar** — Red (critical), Orange (important), Blue (standard), Grey (info)
+- **Emoji prefix** — 🚨 Critical, ⚠️ Important, 🔔 Standard, 📋 Info
+- **Deep link button** — "View in EidonCore" links directly to the relevant page
+
+### Multi-Channel Routing (Pro+)
+
+Route different notification categories to different Slack channels. For example:
+
+- Invoice notifications → `#finance` channel
+- Task assignments → `#dev-team` channel
+- Client messages → `#client-comms` channel
+
+Categories without a specific channel mapping fall back to your default webhook.
+
+### Available Categories (27)
+
+| Area | Categories |
+|------|------------|
+| **Tasks** | Task assigned, status changed, comment mention, time tracking |
+| **Projects** | Lifecycle, milestone completed, membership, delays, deadlines, budget alerts, docs |
+| **Invoices** | Created, paid, overdue, viewed, payment failed, recurring generated |
+| **CRM** | Client message, health changed, follow-up reminder, contract expiring |
+| **Team** | Team updates |
+| **Automations** | Failed, service purchased, service cancelled |
+| **Platform** | Plan updates, bug report updates |
+
+### Executive Digests (Pro+)
+
+Receive automated summary reports in Slack:
+
+| Digest | Frequency | What It Includes |
+|--------|-----------|-----------------|
+| **Daily** | Every morning | Revenue today, outstanding amount, overdue invoices, active projects (off-track count), overdue tasks, team load |
+| **Weekly KPI** | Monday morning | Weekly revenue, collection rate, task completion %, overdue invoices, off-track projects |
+
+Configure digests in **Settings → Agency → Integrations → Slack** under the Digests section.
+
+### Automation Action
+
+The automation engine supports **Send Slack Message** as an action type. When an automation trigger fires, it can send a custom Slack message to your configured channel — with support for variable substitution in the title and message body.
+
+<Callout kind="info">
+**Plan availability:** Basic Slack webhook integration is available on all plans. Multi-channel routing and executive digests require a **Pro** plan or higher.
+</Callout>
+
+> **See also:** [Automations](../automations) for automation triggers and actions · [Settings](../settings/roles#integrations) for Slack setup
 
 ---
 

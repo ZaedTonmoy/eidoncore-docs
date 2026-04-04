@@ -215,6 +215,40 @@ Project detail pages are organized into tabs for quick navigation:
 
 ---
 
+## Project Templates
+
+Save time on repetitive project setups with **project templates**. A template captures the structure of a project — milestones, tasks, and checklists — so you can reuse it when creating new projects.
+
+### Creating Templates
+
+Go to **Settings → Agency → Templates** to manage your project templates.
+
+| Method | How |
+|--------|-----|
+| **From scratch** | Define milestones, tasks, and checklists manually |
+| **From existing project** | Click **"Save as Template"** on any project to capture its current structure |
+
+### Template Structure
+
+Each template can include:
+
+- **Milestones** — key project phases
+- **Tasks** — pre-configured with title, description, priority, and sort order
+- **Checklist items** — per-task checklists for detailed work breakdowns
+- **Default settings** — priority, budget type, and budget amount
+
+### Using Templates
+
+When creating a new project, select a template from the **Template** dropdown. The project is automatically populated with the template's milestones, tasks, and checklists.
+
+<Callout kind="info">
+Project Templates is a **Pro plan** feature. Free plan users can browse templates but cannot create new ones.
+</Callout>
+
+> **See also:** [Services](./services/overview#service-templates) for service-level project scaffolding
+
+---
+
 ## Auto-Created Projects
 
 Projects can be automatically created when a client purchases a service through the catalog checkout. These projects:

@@ -139,6 +139,12 @@
                 ]
               },
               {
+                "title": "Proposals",
+                "path": "proposals",
+                "icon": "file-text",
+                "badge": "New"
+              },
+              {
                 "title": "Automations",
                 "path": "automations",
                 "icon": "refresh-cw"
@@ -201,8 +207,7 @@
               {
                 "title": "Intake Forms",
                 "path": "intake-forms",
-                "icon": "edit",
-                "badge": "New"
+                "icon": "edit"
               }
             ]
           },
@@ -224,8 +229,7 @@
               {
                 "title": "Keyboard Shortcuts",
                 "path": "keyboard-shortcuts",
-                "icon": "command",
-                "badge": "New"
+                "icon": "command"
               },
               {
                 "group": "Notifications",
