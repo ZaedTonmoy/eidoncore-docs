@@ -159,6 +159,26 @@
                 ]
               },
               {
+                "group": "Tickets",
+                "icon": "ticket",
+                "expandable": true,
+                "badge": "New",
+                "pages": [
+                  {
+                    "title": "Ticket Basics",
+                    "path": "tickets/overview"
+                  },
+                  {
+                    "title": "Advanced Features",
+                    "path": "tickets/features"
+                  },
+                  {
+                    "title": "Portal & Client Access",
+                    "path": "tickets/portal"
+                  }
+                ]
+              },
+              {
                 "title": "Automations",
                 "path": "automations",
                 "icon": "refresh-cw"
