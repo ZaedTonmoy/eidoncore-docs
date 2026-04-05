@@ -61,7 +61,7 @@ Tickets can be created from multiple sources:
 
 ## Ticket numbering
 
-Every ticket receives a sequential, human-readable number formatted as **TKT-{N}** (e.g., TKT-001, TKT-104). Numbers are sequential per agency and generated using atomic database operations to prevent race conditions.
+Every ticket receives a sequential, human-readable number formatted as **`TKT-{N}`** (e.g., TKT-001, TKT-104). Numbers are sequential per agency and generated using atomic database operations to prevent race conditions.
 
 <Callout kind="info">
   The `TKT-{N}` format is for display only. Internal database relations use the ticket's unique ID (cuid).

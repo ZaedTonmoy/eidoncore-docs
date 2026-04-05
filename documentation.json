@@ -160,7 +160,7 @@
               },
               {
                 "group": "Tickets",
-                "icon": "ticket",
+                "icon": "life-buoy",
                 "expandable": true,
                 "badge": "New",
                 "pages": [
