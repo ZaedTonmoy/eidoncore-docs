@@ -25,7 +25,7 @@ Once a time entry is linked to an invoice (billed), it becomes **immutable** —
 
 Unbilled entries can be deleted, which automatically restores the consumed quota balance.
 
-> **See also:** [Projects](../projects#time-tracking) for project-level time tracking · [Services](../services/pricing#hours--credits-tracking) for service hour deductions · [Reports](../reports) for time reports
+> **See also:** [Projects](../projects#time-tracking) for project-level time tracking · [Tickets](../tickets/features#time-tracking--billing) for ticket-level time tracking · [Services](../services/pricing#hours--credits-tracking) for service hour deductions · [Clients](../clients/contracts#time--billing) for organization-level time billing · [Reports](../reports) for time reports
 
 ---
 

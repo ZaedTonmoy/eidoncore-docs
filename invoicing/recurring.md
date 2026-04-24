@@ -81,4 +81,6 @@ For invoices linked to hourly or usage-based services, the invoice detail page s
 
 Rates are **snapshotted** when time is logged — the invoice reflects the exact rate that applied at that moment, not the current service rate. Written-off entries (agency comp) are excluded from the breakdown.
 
+> **See also:** [Services](../services/pricing) for pricing models and quota management · [Projects](../projects#generate-invoice-from-time-entries) for project-level invoice generation · [Clients](../clients/contracts#time--billing) for organization-level time billing · [Reports](../reports) for revenue and time tracking reports
+
 ---

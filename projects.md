@@ -182,7 +182,7 @@ You can start a live timer directly from the project page header using the **Sta
 
 When time is logged on a task by someone other than the assignee, the assignee is notified.
 
-> **See also:** [Tasks](./tasks/overview) for the task-level timer · [Services](./services/pricing#hours--credits-tracking) for prepaid hour deductions · [Reports](./reports) for time tracking reports
+> **See also:** [Tasks](./tasks/overview) for the task-level timer · [Tickets](./tickets/features#time-tracking--billing) for ticket-level time tracking · [Services](./services/pricing#hours--credits-tracking) for prepaid hour deductions · [Clients](./clients/contracts#time--billing) for organization-level time billing · [Reports](./reports) for time tracking reports
 
 ---
 
