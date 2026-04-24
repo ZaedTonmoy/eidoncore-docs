@@ -160,8 +160,9 @@ Eidoncore has two categories of users:
 
 | Role | What They Can Do |
 |------|-----------------|
-| **Organization Owner** | Views their projects, tasks, invoices, and services. Can comment, create tasks, and update task statuses. Can view reports |
-| **Organization Member** | Same views. Can create, edit, and assign tasks. Can add comments. Cannot view reports |
+| **Organization Owner** | Full client portal access — projects, tasks, invoices, services, reports, and member management |
+| **Organization Admin** | Projects, tasks, invoices, and documents — no member management |
+| **Organization Member** | Project work only — tasks, comments, and statuses. No financial access |
 </Tab>
 </Tabs>
 

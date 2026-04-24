@@ -11,13 +11,19 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 
 | Feature | Free | Pro ($29/mo) | Enterprise ($79/mo) |
 |---------|:----:|:---:|:----------:|
+| **Resource Limits** | | | |
 | Team Members | 2 | 15 | Unlimited |
+| Portal Members | 10 | 50 | Unlimited |
 | Client Organizations | 3 | 50 | Unlimited |
 | Active Projects | 5 | 100 | Unlimited |
 | Services | 3 | 30 | Unlimited |
+| Digital Products | 100 | 1,000 | Unlimited |
 | Automations | 0 | 20 | Unlimited |
 | Recurring Invoices | 0 | 20 | Unlimited |
 | Intake Forms | 1 | 10 | Unlimited |
+| Project Templates | 0 | 3 | Unlimited |
+| Lists per Project | 3 | 10 | Unlimited |
+| Open Tickets | 100 | 500 | Unlimited |
 | Custom Roles | 0 | 5 | Unlimited |
 | File Storage | 500 MB | 10 GB | 100 GB |
 | **Communication** | | | |
@@ -25,20 +31,48 @@ Manage your subscription under **Settings → Plan & Billing** (Owner only).
 | Members per Channel | 10 | 30 | Unlimited |
 | Message Retention | 30 days | 90 days | Unlimited |
 | Max Attachment Size | 5 MB | 10 MB | 25 MB |
-| **Features** | | | |
-| Invoice Reminders (in-app) | ✓ | ✓ | ✓ |
+| **Core (All Plans)** | | | |
+| Projects & Tasks | ✓ | ✓ | ✓ |
+| Invoicing | ✓ | ✓ | ✓ |
+| CRM & Client Management | ✓ | ✓ | ✓ |
+| Dashboard | ✓ | ✓ | ✓ |
 | Messaging | ✓ | ✓ | ✓ |
-| Invoice Reminders (email) | ✗ | ✓ | ✓ |
+| Invoice Reminders (in-app) | ✓ | ✓ | ✓ |
+| Basic Ticketing | ✓ | ✓ | ✓ |
+| Slack Integration (single channel) | ✓ | ✓ | ✓ |
+| **Pro Features** | | | |
 | Recurring Invoices | ✗ | ✓ | ✓ |
+| Credit Notes | ✗ | ✓ | ✓ |
 | Automations | ✗ | ✓ | ✓ |
+| Advanced Reports | ✗ | ✓ | ✓ |
+| Service Catalog & Cart | ✗ | ✓ | ✓ |
+| Service Templates | ✗ | ✓ | ✓ |
+| Digital Products & Sales Tracker | ✗ | ✓ | ✓ |
+| Proposals | ✗ | ✓ | ✓ |
+| Project Templates | ✗ | ✓ | ✓ |
 | Branded Emails | ✗ | ✓ | ✓ |
 | Full Branding & Portal Customization | ✗ | ✓ | ✓ |
 | Audit Log | ✗ | ✓ | ✓ |
 | Health Scoring | ✗ | ✓ | ✓ |
+| Advanced CRM (pipeline, saved views, bulk actions) | ✗ | ✓ | ✓ |
+| Client Reports | ✗ | ✓ | ✓ |
+| AI Connector (Claude, Cursor, Windsurf) | ✗ | ✓ | ✓ |
+| Slack Multi-Channel Routing | ✗ | ✓ | ✓ |
+| Slack Executive Digests | ✗ | ✓ | ✓ |
+| Ticket SLA & CSAT | ✗ | ✓ | ✓ |
+| Ticket Templates & Forms | ✗ | ✓ | ✓ |
+| Ticket Merge | ✗ | ✓ | ✓ |
+| Custom Ticket Statuses | ✗ | ✓ | ✓ |
+| Ticket → Proposal Conversion | ✗ | ✓ | ✓ |
+| Intake Forms | ✗ | ✓ | ✓ |
+| **Enterprise Only** | | | |
 | Custom SMTP | ✗ | ✗ | ✓ |
 | Custom Domains | ✗ | ✗ | ✓ |
 | White Label | ✗ | ✗ | ✓ |
 | Security Policies | ✗ | ✗ | ✓ |
+| Impersonation (View As) | ✗ | ✗ | ✓ |
+| Ticket Auto-Assignment | ✗ | ✗ | ✓ |
+| Email-to-Ticket Inbound | ✗ | ✗ | ✓ |
 
 > Annual billing discounts available: Pro at $23/mo, Enterprise at $63/mo.
 

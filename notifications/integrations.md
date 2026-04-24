@@ -127,6 +127,31 @@ These are direct emails and don't appear in the notification panel.
 
 If you've been away from the platform for more than 10 minutes, an **hourly chat digest** email summarizes any unread messages across your channels. This runs in addition to your regular notification digest settings.
 
+---
+
+## Push Notifications
+
+Enable browser push notifications to receive real-time alerts even when the platform tab is in the background:
+
+1. Click the **bell icon** in the top navigation
+2. Allow browser push notification permissions when prompted
+3. Push notifications will appear as native system notifications
+
+Push notifications work alongside in-app bell notifications — they're not a replacement. Both can be enabled simultaneously.
+
+### PWA Install
+
+The platform can be installed as a **Progressive Web App (PWA)** on desktop and mobile for a native app experience:
+
+- **Desktop** — Use your browser's "Install App" option (appears in the address bar)
+- **Mobile** — Use "Add to Home Screen" from your browser's menu
+
+The installed PWA supports:
+- Offline caching for recently viewed pages
+- Background sync for pending actions
+- Push notifications (when enabled)
+- Full-screen mode without browser chrome
+
 > **See also:** [Messaging](../messaging) for full messaging and notification details
 
 > **See also:** [Settings](../settings/overview#notification-preferences) for configuring your notification preferences

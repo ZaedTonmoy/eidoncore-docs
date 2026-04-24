@@ -10,7 +10,7 @@ Record payments on any sent invoice:
 | Field | Description |
 |-------|-------------|
 | **Amount** | Payment amount |
-| **Method** | Manual, Bank Transfer, Stripe, PayPal, Cash, Check, or Other |
+| **Method** | Manual, Bank Transfer, Stripe, PayPal, Cash, Wise, or Other |
 | **Reference** | External reference (check number, wire reference, etc.) |
 | **Date** | When the payment was received |
 | **Notes** | Payment notes |
@@ -20,6 +20,10 @@ When a payment is recorded:
 - If partial payment → status changes to **Partially Paid**
 - Client contacts are notified automatically
 
+### Stripe Payments
+
+Clients can pay invoices online via Stripe through the invoice's public share link or from their portal. For invoices linked to proposals with recurring services, the payment method is saved automatically for future auto-renewal.
+
 ---
 
 ## Invoice Reminders
@@ -27,7 +31,7 @@ When a payment is recorded:
 Set up automated payment reminders:
 
 | Reminder Type | When It Sends |
-|--------------|--------------|
+|--------------|--------------| 
 | **Before Due** | X days before the due date |
 | **On Due Date** | The day payment is due |
 | **After Due** | X days after the due date (for overdue invoices) |
@@ -46,6 +50,18 @@ Issue credit notes against invoices when refunds or adjustments are needed:
 - Each credit note tracks a **remaining balance**
 - Apply credit notes as payment to any invoice — the credit's balance is reduced and the invoice's paid amount is increased
 - Credits can be applied in full or partially
+
+### Issuing a Credit Note
+
+On the invoice detail page, click **"Credit Note"** to issue a credit against the invoice. Enter the credit amount and an optional reason.
+
+### Applying a Credit
+
+Click **"Apply Credit"** on any invoice with an outstanding balance to apply an existing credit note's balance as payment.
+
+<Callout kind="info">
+Credit notes are available on **Pro** plans and above.
+</Callout>
 
 ---
 
@@ -69,5 +85,27 @@ Stripe refunds are processed automatically for online payments
 </Steps>
 
 Refund statuses: Pending → Processed / Failed.
+
+---
+
+## Action Bar
+
+The invoice detail page shows action buttons based on your role and the invoice's current status:
+
+| Action | When Available | Required Permission |
+|--------|---------------|:-------------------:|
+| **Edit** | Not Void or Bad Debt | Edit Invoices |
+| **Send** | Draft or Scheduled | Send Invoices |
+| **Record Payment** | Unpaid invoices | Record Payments |
+| **Refund** | Paid or Partially Paid | Issue Refunds |
+| **Credit Note** | Non-terminal statuses | Issue Refunds or Record Payments |
+| **Apply Credit** | When balance is due | Record Payments |
+| **Bad Debt** | Non-terminal, unpaid | Mark Bad Debt |
+| **Void** | Non-terminal, not paid | Void Invoices |
+| **Delete** | Draft only | Delete Invoices |
+
+<Callout kind="info">
+Buttons that you don't have permission for are hidden — you'll never see a button that would fail when clicked.
+</Callout>
 
 ---

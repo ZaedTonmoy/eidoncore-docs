@@ -334,6 +334,11 @@
                   {
                     "title": "Plans & Billing",
                     "path": "settings/billing"
+                  },
+                  {
+                    "title": "AI Connector",
+                    "path": "settings/ai-connector",
+                    "badge": "New"
                   }
                 ]
               },

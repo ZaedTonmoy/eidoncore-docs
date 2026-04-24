@@ -44,7 +44,23 @@ Manage roles under **Settings → Agency → Roles & Permissions**.
 - Edit permissions for existing custom roles
 - See how many team members are assigned to each role
 
-> **See also:** [Team](../team) for detailed role descriptions and permissions
+### Agency Roles
+
+Built-in agency roles: **Owner**, **Admin**, **Project Manager**, **Team Member**, and **Accountant**. Custom roles can be created on Pro plans and above.
+
+### Client Portal Roles
+
+Client contacts with portal access are assigned one of three roles:
+
+| Role | Access Level |
+|------|-------------|
+| **Organization Owner** | Full client portal access — projects, tasks, invoices, services, reports, and member management |
+| **Organization Admin** | Projects, tasks, invoices, documents — no member management |
+| **Organization Member** | Project work only — tasks, comments, statuses. No financial access |
+
+Agency staff assign portal roles when adding contacts or via the role dropdown on the Contacts tab.
+
+> **See also:** [Team](../team) for detailed role descriptions and permissions · [Clients](../clients/overview#portal-access) for portal access setup
 
 ---
 
